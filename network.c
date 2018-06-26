@@ -103,6 +103,7 @@ void loopNetwork(void)
 	unsigned int d, f, port;
 	int cnt, bt, tmp;
 	char *buff;
+	u_long timeout2 = 300;  // timeout получения DATA
 	
     haveConnectTelnet = 0;
      while (1) 
