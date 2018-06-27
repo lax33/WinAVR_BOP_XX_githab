@@ -129,7 +129,7 @@ void loopNetwork(void)
 		while (haveConnectTelnet) 
 		{
 		
-			u_long timeoutrsv1 = 200; // значение   timeout приема команды
+			u_long timeoutrsv1 = 5000; // значение   timeout приема команды
 			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
 			
 			if ((cnt = fread(buff, 1, ETH_BUFFERSIZE_TELNET, ethTelnetFile)) <= 0)  // fread - ожидание получения данных или закрытия соединения 
@@ -444,7 +444,7 @@ void loopNetwork(void)
 					tmp = cnt - strlen(CMD_INI_WR);
 //					printf("--- CMD_INI_WR, cnt = %d\r\n", tmp);
 					uint32_t tcard;
-					//NutTcpGetSockOpt(sockTelnet, SO_RCVTIMEO, &tcard, sizeof(tcard));  //// !
+					//NutTcpGetSockOpt(sockTelnet, SO_RCVTIMEO, &tcard, sizeof(tcard));  //// ! hag
 //					printf("--- SO_RCVTIMEO = %lu\r\n", tcard);
 					tcard = 5000;
 					NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &tcard, sizeof(tcard));
