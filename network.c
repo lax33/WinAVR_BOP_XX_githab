@@ -115,11 +115,38 @@ void loopNetwork(void)
 		// ожидаем коннекта на 23 порту
         NutTcpAccept(sockTelnet, TELNET_PORT);
       	printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
-			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
+		inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
 
 		// открываем файл сокета
 		ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
         haveConnectTelnet = 1;
+
+		int in = -1; 
+		while (in != 0)
+		{
+			// создаём сокет
+			sockTelnet = NutTcpCreateSocket();
+
+			u_long timeoutrsv1 = 5000; // значение   timeout приема команды
+			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
+			
+			in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
+			if (in == 0) break;
+			
+			// закрываем сокет
+			NutTcpCloseSocket(sockTelnet);			
+			
+		}	
+			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
+			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
+			
+			
+			// открываем файл сокета
+			ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+			haveConnectTelnet = 1;
+		
+
+
 
         /*
          * Call RS232 transmit routine. On return we will be
