@@ -110,16 +110,16 @@ void loopNetwork(void)
      while (1) 
 	{
 		// создаём сокет
-        sockTelnet = NutTcpCreateSocket();
+        //sockTelnet = NutTcpCreateSocket();
 
 		// ожидаем коннекта на 23 порту
-        NutTcpAccept(sockTelnet, TELNET_PORT);
-      	printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
-		inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
+        //NutTcpAccept(sockTelnet, TELNET_PORT);
+      	//printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
+		//inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
 
 		// открываем файл сокета
-		ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
-        haveConnectTelnet = 1;
+		//ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+        //haveConnectTelnet = 1;
 
 		int in = -1; 
 		while (in != 0)
@@ -127,7 +127,7 @@ void loopNetwork(void)
 			// создаём сокет
 			sockTelnet = NutTcpCreateSocket();
 
-			u_long timeoutrsv1 = 5000; // значение   timeout приема команды
+			u_long timeoutrsv1 = 50; // значение   timeout приема команды
 			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
 			
 			in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	

@@ -796,7 +796,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0xc68a
+.text           0x00000000     0xc6c6
  *(.vectors)
  .vectors       0x00000000       0x8c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
                 0x00000000                __vectors
@@ -901,871 +901,871 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
                 0x000009da      0x500 network.o
                 0x000009da                ReflectThread
  .text.loopNetwork
-                0x00000eda      0xb74 network.o
+                0x00000eda      0xbb0 network.o
                 0x00000eda                loopNetwork
  .text.defaultNet
-                0x00001a4e       0x92 network.o
-                0x00001a4e                defaultNet
+                0x00001a8a       0x92 network.o
+                0x00001a8a                defaultNet
  .text.initNetwork
-                0x00001ae0       0x12 network.o
-                0x00001ae0                initNetwork
+                0x00001b1c       0x12 network.o
+                0x00001b1c                initNetwork
  .text.init_key
-                0x00001af2       0x18 services.o
-                0x00001af2                init_key
+                0x00001b2e       0x18 services.o
+                0x00001b2e                init_key
  .text.enable_int_key
-                0x00001b0a        0x8 services.o
-                0x00001b0a                enable_int_key
+                0x00001b46        0x8 services.o
+                0x00001b46                enable_int_key
  .text.disable_int_key
-                0x00001b12        0x8 services.o
-                0x00001b12                disable_int_key
+                0x00001b4e        0x8 services.o
+                0x00001b4e                disable_int_key
  .text.init_power_pc
-                0x00001b1a       0x1c services.o
-                0x00001b1a                init_power_pc
+                0x00001b56       0x1c services.o
+                0x00001b56                init_power_pc
  .text.reset_ext
-                0x00001b36       0x5e services.o
-                0x00001b36                reset_ext
+                0x00001b72       0x5e services.o
+                0x00001b72                reset_ext
  .text.set_start_time_min
-                0x00001b94        0x2 services.o
-                0x00001b94                set_start_time_min
+                0x00001bd0        0x2 services.o
+                0x00001bd0                set_start_time_min
  .text.set_start_time_sec
-                0x00001b96        0x2 services.o
-                0x00001b96                set_start_time_sec
+                0x00001bd2        0x2 services.o
+                0x00001bd2                set_start_time_sec
  .text.ac_ii_init
-                0x00001b98        0xa services.o
-                0x00001b98                ac_ii_init
+                0x00001bd4        0xa services.o
+                0x00001bd4                ac_ii_init
  .text.set_power_ac
-                0x00001ba2       0x18 services.o
-                0x00001ba2                set_power_ac
+                0x00001bde       0x18 services.o
+                0x00001bde                set_power_ac
  .text.set_power_ii
-                0x00001bba       0x18 services.o
-                0x00001bba                set_power_ii
+                0x00001bf6       0x18 services.o
+                0x00001bf6                set_power_ii
  .text.otau_get_count_channels
-                0x00001bd2        0x6 services.o
-                0x00001bd2                otau_get_count_channels
+                0x00001c0e        0x6 services.o
+                0x00001c0e                otau_get_count_channels
  .text.otdr_reset
-                0x00001bd8       0x20 services.o
-                0x00001bd8                otdr_reset
+                0x00001c14       0x20 services.o
+                0x00001c14                otdr_reset
  .text.init_timer1
-                0x00001bf8       0x14 services.o
-                0x00001bf8                init_timer1
+                0x00001c34       0x14 services.o
+                0x00001c34                init_timer1
  .text.enable_timer1
-                0x00001c0c        0x8 services.o
-                0x00001c0c                enable_timer1
+                0x00001c48        0x8 services.o
+                0x00001c48                enable_timer1
  .text.disable_timer1
-                0x00001c14        0x6 services.o
-                0x00001c14                disable_timer1
+                0x00001c50        0x6 services.o
+                0x00001c50                disable_timer1
  .text.stop_timer1
-                0x00001c1a        0xa services.o
-                0x00001c1a                stop_timer1
+                0x00001c56        0xa services.o
+                0x00001c56                stop_timer1
  .text.charon_reset
-                0x00001c24       0x14 services.o
-                0x00001c24                charon_reset
+                0x00001c60       0x14 services.o
+                0x00001c60                charon_reset
  .text.__vector_5
-                0x00001c38       0x5e services.o
-                0x00001c38                __vector_5
+                0x00001c74       0x5e services.o
+                0x00001c74                __vector_5
  .text.__vector_2
-                0x00001c96       0x64 services.o
-                0x00001c96                __vector_2
+                0x00001cd2       0x64 services.o
+                0x00001cd2                __vector_2
  .text.otdr_init
-                0x00001cfa        0xe services.o
-                0x00001cfa                otdr_init
+                0x00001d36        0xe services.o
+                0x00001d36                otdr_init
  .text.otau_reset
-                0x00001d08       0x1c services.o
-                0x00001d08                otau_reset
+                0x00001d44       0x1c services.o
+                0x00001d44                otau_reset
  .text.otau_get_channel
-                0x00001d24      0x146 services.o
-                0x00001d24                otau_get_channel
+                0x00001d60      0x146 services.o
+                0x00001d60                otau_get_channel
  .text.otau_check_alive
-                0x00001e6a        0xa services.o
-                0x00001e6a                otau_check_alive
+                0x00001ea6        0xa services.o
+                0x00001ea6                otau_check_alive
  .text.otau_init
-                0x00001e74      0x184 services.o
-                0x00001e74                otau_init
+                0x00001eb0      0x184 services.o
+                0x00001eb0                otau_init
  .text.otau_set_channel
-                0x00001ff8       0xba services.o
-                0x00001ff8                otau_set_channel
+                0x00002034       0xba services.o
+                0x00002034                otau_set_channel
  .text.write_ini
-                0x000020b2        0xe services.o
-                0x000020b2                write_ini
+                0x000020ee        0xe services.o
+                0x000020ee                write_ini
  .text.read_ini
-                0x000020c0        0xe services.o
-                0x000020c0                read_ini
+                0x000020fc        0xe services.o
+                0x000020fc                read_ini
  .text.set_power_sw
-                0x000020ce        0xc services.o
-                0x000020ce                set_power_sw
+                0x0000210a        0xc services.o
+                0x0000210a                set_power_sw
  .text.Power_Led_Thread
-                0x000020da       0x70 services.o
-                0x000020da                Power_Led_Thread
+                0x00002116       0x70 services.o
+                0x00002116                Power_Led_Thread
  .text.Power_Sw_Thread
-                0x0000214a       0x92 services.o
-                0x0000214a                Power_Sw_Thread
+                0x00002186       0x92 services.o
+                0x00002186                Power_Sw_Thread
  .text.set_rtu_number
-                0x000021dc       0x26 services.o
-                0x000021dc                set_rtu_number
+                0x00002218       0x26 services.o
+                0x00002218                set_rtu_number
  .text.get_rtu_number
-                0x00002202       0x14 services.o
-                0x00002202                get_rtu_number
+                0x0000223e       0x14 services.o
+                0x0000223e                get_rtu_number
  .text.WIN_Load_Thread
-                0x00002216      0x10a services.o
-                0x00002216                WIN_Load_Thread
+                0x00002252      0x10a services.o
+                0x00002252                WIN_Load_Thread
  .text.OTAU_Thread
-                0x00002320       0xe4 services.o
-                0x00002320                OTAU_Thread
+                0x0000235c       0xe4 services.o
+                0x0000235c                OTAU_Thread
  .text.__vector_14
-                0x00002404       0x92 services.o
-                0x00002404                __vector_14
+                0x00002440       0x92 services.o
+                0x00002440                __vector_14
  .text.ds_reset
-                0x00002496       0x3e dallas.o
-                0x00002496                ds_reset
+                0x000024d2       0x3e dallas.o
+                0x000024d2                ds_reset
  .text.ds_shout
-                0x000024d4       0x44 dallas.o
-                0x000024d4                ds_shout
- .text.ds_shin  0x00002518       0x32 dallas.o
-                0x00002518                ds_shin
+                0x00002510       0x44 dallas.o
+                0x00002510                ds_shout
+ .text.ds_shin  0x00002554       0x32 dallas.o
+                0x00002554                ds_shin
  .text.ds_convert_temperature_command
-                0x0000254a       0x12 dallas.o
-                0x0000254a                ds_convert_temperature_command
+                0x00002586       0x12 dallas.o
+                0x00002586                ds_convert_temperature_command
  .text.ds_read_temperature_command
-                0x0000255c       0xd0 dallas.o
-                0x0000255c                ds_read_temperature_command
+                0x00002598       0xd0 dallas.o
+                0x00002598                ds_read_temperature_command
  .text.ds_set_resolution
-                0x0000262c       0x34 dallas.o
-                0x0000262c                ds_set_resolution
+                0x00002668       0x34 dallas.o
+                0x00002668                ds_set_resolution
  .text.SPI_init
-                0x00002660       0x18 spi.o
-                0x00002660                SPI_init
+                0x0000269c       0x18 spi.o
+                0x0000269c                SPI_init
  .text.SPI_have_data
-                0x00002678        0x8 spi.o
-                0x00002678                SPI_have_data
+                0x000026b4        0x8 spi.o
+                0x000026b4                SPI_have_data
  .text.SPI_write_byte
-                0x00002680       0x10 spi.o
-                0x00002680                SPI_write_byte
+                0x000026bc       0x10 spi.o
+                0x000026bc                SPI_write_byte
  .text.SPI_read_byte
-                0x00002690        0xa spi.o
-                0x00002690                SPI_read_byte
+                0x000026cc        0xa spi.o
+                0x000026cc                SPI_read_byte
  .text.SPI_read_buffer
-                0x0000269a       0x4a spi.o
-                0x0000269a                SPI_read_buffer
+                0x000026d6       0x4a spi.o
+                0x000026d6                SPI_read_buffer
  .text.SPI_write_buffer
-                0x000026e4       0x2c spi.o
-                0x000026e4                SPI_write_buffer
+                0x00002720       0x2c spi.o
+                0x00002720                SPI_write_buffer
  .text.SPI_Receiver
-                0x00002710       0x42 spi.o
-                0x00002710                SPI_Receiver
+                0x0000274c       0x42 spi.o
+                0x0000274c                SPI_Receiver
  .text.display_set_channel
-                0x00002752        0x2 text_lcd_BOP_24_Rus.o
-                0x00002752                display_set_channel
+                0x0000278e        0x2 text_lcd_BOP_24_Rus.o
+                0x0000278e                display_set_channel
  .text.display_write_byte
-                0x00002754      0x130 text_lcd_BOP_24_Rus.o
-                0x00002754                display_write_byte
+                0x00002790      0x130 text_lcd_BOP_24_Rus.o
+                0x00002790                display_write_byte
  .text.display_set_cursor_pos
-                0x00002884       0x1e text_lcd_BOP_24_Rus.o
-                0x00002884                display_set_cursor_pos
+                0x000028c0       0x1e text_lcd_BOP_24_Rus.o
+                0x000028c0                display_set_cursor_pos
  .text.display_clear_screen
-                0x000028a2        0xa text_lcd_BOP_24_Rus.o
-                0x000028a2                display_clear_screen
+                0x000028de        0xa text_lcd_BOP_24_Rus.o
+                0x000028de                display_clear_screen
  .text.display_show_string_BOP
-                0x000028ac       0x2c text_lcd_BOP_24_Rus.o
-                0x000028ac                display_show_string_BOP
+                0x000028e8       0x2c text_lcd_BOP_24_Rus.o
+                0x000028e8                display_show_string_BOP
  .text.display_set_font
-                0x000028d8       0x2c text_lcd_BOP_24_Rus.o
-                0x000028d8                display_set_font
+                0x00002914       0x2c text_lcd_BOP_24_Rus.o
+                0x00002914                display_set_font
  .text.display_init
-                0x00002904       0xca text_lcd_BOP_24_Rus.o
-                0x00002904                display_init
+                0x00002940       0xca text_lcd_BOP_24_Rus.o
+                0x00002940                display_init
  .text.display_show_string
-                0x000029ce       0x20 text_lcd_BOP_24_Rus.o
-                0x000029ce                display_show_string
+                0x00002a0a       0x20 text_lcd_BOP_24_Rus.o
+                0x00002a0a                display_show_string
  .text.display_show
-                0x000029ee      0x280 text_lcd_BOP_24_Rus.o
-                0x000029ee                display_show
- .text.NutIdle  0x00002c6e       0x52 C:/ethernut-5.1/nutinit.o
-                0x00002c6e                NutIdle
+                0x00002a2a      0x280 text_lcd_BOP_24_Rus.o
+                0x00002a2a                display_show
+ .text.NutIdle  0x00002caa       0x52 C:/ethernut-5.1/nutinit.o
+                0x00002caa                NutIdle
  .text.NutTcpFindSocket
-                0x00002cc0       0x80 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00002cc0                NutTcpFindSocket
+                0x00002cfc       0x80 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00002cfc                NutTcpFindSocket
  .text.NutTcpError
-                0x00002d40       0x18 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00002d40                NutTcpError
+                0x00002d7c       0x18 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00002d7c                NutTcpError
  .text.NutTcpDeviceIOCtl
-                0x00002d58       0x66 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00002d58                NutTcpDeviceIOCtl
+                0x00002d94       0x66 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00002d94                NutTcpDeviceIOCtl
  .text.NutTcpDiscardBuffers
-                0x00002dbe       0x6c C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00002dbe                NutTcpDiscardBuffers
+                0x00002dfa       0x6c C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00002dfa                NutTcpDiscardBuffers
  .text.NutTcpReceive
-                0x00002e2a      0x254 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00002e2a                NutTcpReceive
+                0x00002e66      0x254 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00002e66                NutTcpReceive
  .text.NutTcpDeviceRead
-                0x0000307e        0x6 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x0000307e                NutTcpDeviceRead
+                0x000030ba        0x6 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000030ba                NutTcpDeviceRead
  .text.NutTcpSend
-                0x00003084       0xfe C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00003084                NutTcpSend
+                0x000030c0       0xfe C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000030c0                NutTcpSend
  .text.SendBuffer
-                0x00003182       0x58 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000031be       0x58 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
  .text.NutTcpDeviceWrite
-                0x000031da      0x20a C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x000031da                NutTcpDeviceWrite
+                0x00003216      0x20a C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00003216                NutTcpDeviceWrite
  .text.NutTcpDeviceWrite_P
-                0x000033e4       0x6c C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x000033e4                NutTcpDeviceWrite_P
+                0x00003420       0x6c C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x00003420                NutTcpDeviceWrite_P
  .text.NutTcpCloseSocket
-                0x00003450       0x1e C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00003450                NutTcpCloseSocket
+                0x0000348c       0x1e C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x0000348c                NutTcpCloseSocket
  .text.NutTcpSetSockOpt
-                0x0000346e      0x118 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x0000346e                NutTcpSetSockOpt
+                0x000034aa      0x118 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000034aa                NutTcpSetSockOpt
  .text.NutTcpAccept
-                0x00003586       0x12 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00003586                NutTcpAccept
+                0x000035c2       0x12 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000035c2                NutTcpAccept
  .text.NutTcpCreateSocket
-                0x00003598       0xea C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00003598                NutTcpCreateSocket
+                0x000035d4       0xea C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000035d4                NutTcpCreateSocket
  .text.NutTcpDestroySocket
-                0x00003682       0x64 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
-                0x00003682                NutTcpDestroySocket
+                0x000036be       0x64 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
+                0x000036be                NutTcpDestroySocket
  .text.NutUdpFindSocket
-                0x000036e6       0x2c C:/ethernut-5.1\libnutnet.a(udpsock.o)
-                0x000036e6                NutUdpFindSocket
+                0x00003722       0x2c C:/ethernut-5.1\libnutnet.a(udpsock.o)
+                0x00003722                NutUdpFindSocket
  .text.NutUdpReceiveFrom
-                0x00003712       0xd6 C:/ethernut-5.1\libnutnet.a(udpsock.o)
-                0x00003712                NutUdpReceiveFrom
+                0x0000374e       0xd6 C:/ethernut-5.1\libnutnet.a(udpsock.o)
+                0x0000374e                NutUdpReceiveFrom
  .text.NutUdpSendTo
-                0x000037e8       0x8c C:/ethernut-5.1\libnutnet.a(udpsock.o)
-                0x000037e8                NutUdpSendTo
+                0x00003824       0x8c C:/ethernut-5.1\libnutnet.a(udpsock.o)
+                0x00003824                NutUdpSendTo
  .text.NutUdpCreateSocket
-                0x00003874       0xce C:/ethernut-5.1\libnutnet.a(udpsock.o)
-                0x00003874                NutUdpCreateSocket
+                0x000038b0       0xce C:/ethernut-5.1\libnutnet.a(udpsock.o)
+                0x000038b0                NutUdpCreateSocket
  .text.NutIpDemux
-                0x00003942       0x66 C:/ethernut-5.1\libnutnet.a(ipdemux.o)
+                0x0000397e       0x66 C:/ethernut-5.1\libnutnet.a(ipdemux.o)
  .text.NutRegisterIpHandler
-                0x000039a8       0x8c C:/ethernut-5.1\libnutnet.a(ipdemux.o)
-                0x000039a8                NutRegisterIpHandler
+                0x000039e4       0x8c C:/ethernut-5.1\libnutnet.a(ipdemux.o)
+                0x000039e4                NutRegisterIpHandler
  .text.NutIpRouteQuery
-                0x00003a34       0xf6 C:/ethernut-5.1\libnutnet.a(route.o)
-                0x00003a34                NutIpRouteQuery
+                0x00003a70       0xf6 C:/ethernut-5.1\libnutnet.a(route.o)
+                0x00003a70                NutIpRouteQuery
  .text.NutIpRouteAdd
-                0x00003b2a       0xcc C:/ethernut-5.1\libnutnet.a(route.o)
-                0x00003b2a                NutIpRouteAdd
+                0x00003b66       0xcc C:/ethernut-5.1\libnutnet.a(route.o)
+                0x00003b66                NutIpRouteAdd
  .text.inet_addr
-                0x00003bf6       0xa4 C:/ethernut-5.1\libnutnet.a(inet.o)
-                0x00003bf6                inet_addr
+                0x00003c32       0xa4 C:/ethernut-5.1\libnutnet.a(inet.o)
+                0x00003c32                inet_addr
  .text.inet_ntoa
-                0x00003c9a       0xd2 C:/ethernut-5.1\libnutnet.a(inet.o)
-                0x00003c9a                inet_ntoa
+                0x00003cd6       0xd2 C:/ethernut-5.1\libnutnet.a(inet.o)
+                0x00003cd6                inet_ntoa
  .text.NutNetIfSetup
-                0x00003d6c      0x208 C:/ethernut-5.1\libnutnet.a(ifconfig.o)
-                0x00003d6c                NutNetIfSetup
+                0x00003da8      0x208 C:/ethernut-5.1\libnutnet.a(ifconfig.o)
+                0x00003da8                NutNetIfSetup
  .text.NutNetIfConfig2
-                0x00003f74      0x1e0 C:/ethernut-5.1\libnutnet.a(ifconfig.o)
-                0x00003f74                NutNetIfConfig2
+                0x00003fb0      0x1e0 C:/ethernut-5.1\libnutnet.a(ifconfig.o)
+                0x00003fb0                NutNetIfConfig2
  .text.NutNetIfConfig
-                0x00004154       0x2c C:/ethernut-5.1\libnutnet.a(ifconfig.o)
-                0x00004154                NutNetIfConfig
+                0x00004190       0x2c C:/ethernut-5.1\libnutnet.a(ifconfig.o)
+                0x00004190                NutNetIfConfig
  .text.NutNetSaveConfig
-                0x00004180       0x28 C:/ethernut-5.1\libnutnet.a(confnet.o)
-                0x00004180                NutNetSaveConfig
+                0x000041bc       0x28 C:/ethernut-5.1\libnutnet.a(confnet.o)
+                0x000041bc                NutNetSaveConfig
  .text.NutNetLoadConfig
-                0x000041a8       0x60 C:/ethernut-5.1\libnutnet.a(confnet.o)
-                0x000041a8                NutNetLoadConfig
+                0x000041e4       0x60 C:/ethernut-5.1\libnutnet.a(confnet.o)
+                0x000041e4                NutNetLoadConfig
  .text.NutTcpInput
-                0x00004208       0x70 C:/ethernut-5.1\libnutnet.a(tcpin.o)
-                0x00004208                NutTcpInput
+                0x00004244       0x70 C:/ethernut-5.1\libnutnet.a(tcpin.o)
+                0x00004244                NutTcpInput
  .text.NutTcpReject
-                0x00004278      0x124 C:/ethernut-5.1\libnutnet.a(tcpout.o)
-                0x00004278                NutTcpReject
+                0x000042b4      0x124 C:/ethernut-5.1\libnutnet.a(tcpout.o)
+                0x000042b4                NutTcpReject
  .text.NutTcpOutput
-                0x0000439c      0x3c2 C:/ethernut-5.1\libnutnet.a(tcpout.o)
-                0x0000439c                NutTcpOutput
+                0x000043d8      0x3c2 C:/ethernut-5.1\libnutnet.a(tcpout.o)
+                0x000043d8                NutTcpOutput
  .text.NutTcpInputOptions
-                0x0000475e       0x82 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x0000479a       0x82 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
  .text.NutTcpAbortSocket
-                0x000047e0       0x5e C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x000047e0                NutTcpAbortSocket
+                0x0000481c       0x5e C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x0000481c                NutTcpAbortSocket
  .text.NutTcpInitStateMachine
-                0x0000483e       0x3a C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x0000483e                NutTcpInitStateMachine
+                0x0000487a       0x3a C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x0000487a                NutTcpInitStateMachine
  .text.NutTcpStateMachine
-                0x00004878       0xc2 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x00004878                NutTcpStateMachine
+                0x000048b4       0xc2 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x000048b4                NutTcpStateMachine
  .text.NutTcpStateWindowEvent
-                0x0000493a       0x28 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x0000493a                NutTcpStateWindowEvent
+                0x00004976       0x28 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00004976                NutTcpStateWindowEvent
  .text.NutTcpProcessAppData
-                0x00004962      0x12c C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x0000499e      0x12c C:/ethernut-5.1\libnutnet.a(tcpsm.o)
  .text.NutTcpStateChange
-                0x00004a8e      0x16a C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00004aca      0x16a C:/ethernut-5.1\libnutnet.a(tcpsm.o)
  .text.NutTcpProcessSyn
-                0x00004bf8       0xec C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00004c34       0xec C:/ethernut-5.1\libnutnet.a(tcpsm.o)
  .text.NutTcpStateRetranTimeout
-                0x00004ce4       0x94 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x00004ce4                NutTcpStateRetranTimeout
+                0x00004d20       0x94 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00004d20                NutTcpStateRetranTimeout
  .text.NutTcpProcessAck
-                0x00004d78      0x236 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00004db4      0x236 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
  .text.NutTcpStateProcess
-                0x00004fae      0x8d0 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00004fea      0x8d0 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
  .text.NutTcpStatePassiveOpenEvent
-                0x0000587e       0xf4 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x0000587e                NutTcpStatePassiveOpenEvent
+                0x000058ba       0xf4 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x000058ba                NutTcpStatePassiveOpenEvent
  .text.NutTcpSm
-                0x00005972      0x270 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x00005972                NutTcpSm
+                0x000059ae      0x270 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x000059ae                NutTcpSm
  .text.NutTcpStateCloseEvent
-                0x00005be2       0x60 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
-                0x00005be2                NutTcpStateCloseEvent
+                0x00005c1e       0x60 C:/ethernut-5.1\libnutnet.a(tcpsm.o)
+                0x00005c1e                NutTcpStateCloseEvent
  .text.NutTcpCalcRtt
-                0x00005c42       0x70 C:/ethernut-5.1\libnutnet.a(tcputil.o)
-                0x00005c42                NutTcpCalcRtt
+                0x00005c7e       0x70 C:/ethernut-5.1\libnutnet.a(tcputil.o)
+                0x00005c7e                NutTcpCalcRtt
  .text.NutUdpInput
-                0x00005cb2      0x114 C:/ethernut-5.1\libnutnet.a(udpin.o)
-                0x00005cb2                NutUdpInput
+                0x00005cee      0x114 C:/ethernut-5.1\libnutnet.a(udpin.o)
+                0x00005cee                NutUdpInput
  .text.NutUdpOutput
-                0x00005dc6      0x12a C:/ethernut-5.1\libnutnet.a(udpout.o)
-                0x00005dc6                NutUdpOutput
+                0x00005e02      0x12a C:/ethernut-5.1\libnutnet.a(udpout.o)
+                0x00005e02                NutUdpOutput
  .text.NutIpChkSumPartial
-                0x00005ef0       0x6c C:/ethernut-5.1\libnutnet.a(ipcsum.o)
-                0x00005ef0                NutIpChkSumPartial
+                0x00005f2c       0x6c C:/ethernut-5.1\libnutnet.a(ipcsum.o)
+                0x00005f2c                NutIpChkSumPartial
  .text.NutIpChkSum
-                0x00005f5c        0xe C:/ethernut-5.1\libnutnet.a(ipcsum.o)
-                0x00005f5c                NutIpChkSum
+                0x00005f98        0xe C:/ethernut-5.1\libnutnet.a(ipcsum.o)
+                0x00005f98                NutIpChkSum
  .text.NutIpPseudoChkSumPartial
-                0x00005f6a       0x62 C:/ethernut-5.1\libnutnet.a(ipcsum.o)
-                0x00005f6a                NutIpPseudoChkSumPartial
+                0x00005fa6       0x62 C:/ethernut-5.1\libnutnet.a(ipcsum.o)
+                0x00005fa6                NutIpPseudoChkSumPartial
  .text.NutIpInput
-                0x00005fcc      0x1f4 C:/ethernut-5.1\libnutnet.a(ipin.o)
-                0x00005fcc                NutIpInput
+                0x00006008      0x1f4 C:/ethernut-5.1\libnutnet.a(ipin.o)
+                0x00006008                NutIpInput
  .text.NutIpForward
-                0x000061c0        0x6 C:/ethernut-5.1\libnutnet.a(ipout.o)
-                0x000061c0                NutIpForward
+                0x000061fc        0x6 C:/ethernut-5.1\libnutnet.a(ipout.o)
+                0x000061fc                NutIpForward
  .text.NutIpOutput
-                0x000061c6      0x39e C:/ethernut-5.1\libnutnet.a(ipout.o)
-                0x000061c6                NutIpOutput
+                0x00006202      0x39e C:/ethernut-5.1\libnutnet.a(ipout.o)
+                0x00006202                NutIpOutput
  .text.NutIcmpInput
-                0x00006564      0x124 C:/ethernut-5.1\libnutnet.a(icmpin.o)
-                0x00006564                NutIcmpInput
+                0x000065a0      0x124 C:/ethernut-5.1\libnutnet.a(icmpin.o)
+                0x000065a0                NutIcmpInput
  .text.NutIcmpOutput
-                0x00006688       0x68 C:/ethernut-5.1\libnutnet.a(icmpout.o)
-                0x00006688                NutIcmpOutput
+                0x000066c4       0x68 C:/ethernut-5.1\libnutnet.a(icmpout.o)
+                0x000066c4                NutIcmpOutput
  .text.NutIcmpReply
-                0x000066f0       0x74 C:/ethernut-5.1\libnutnet.a(icmpout.o)
-                0x000066f0                NutIcmpReply
+                0x0000672c       0x74 C:/ethernut-5.1\libnutnet.a(icmpout.o)
+                0x0000672c                NutIcmpReply
  .text.NutIcmpResponse
-                0x00006764       0xa8 C:/ethernut-5.1\libnutnet.a(icmpout.o)
-                0x00006764                NutIcmpResponse
+                0x000067a0       0xa8 C:/ethernut-5.1\libnutnet.a(icmpout.o)
+                0x000067a0                NutIcmpResponse
  .text.SendIgmpMessage
-                0x0000680c       0x84 C:/ethernut-5.1\libnutnet.a(igmp.o)
+                0x00006848       0x84 C:/ethernut-5.1\libnutnet.a(igmp.o)
  .text.NutIgmpJoinGroup
-                0x00006890        0xc C:/ethernut-5.1\libnutnet.a(igmp.o)
-                0x00006890                NutIgmpJoinGroup
+                0x000068cc        0xc C:/ethernut-5.1\libnutnet.a(igmp.o)
+                0x000068cc                NutIgmpJoinGroup
  .text.NutIgmpInput
-                0x0000689c       0x80 C:/ethernut-5.1\libnutnet.a(igmpin.o)
-                0x0000689c                NutIgmpInput
+                0x000068d8       0x80 C:/ethernut-5.1\libnutnet.a(igmpin.o)
+                0x000068d8                NutIgmpInput
  .text.ArpCacheFlush
-                0x0000691c       0x52 C:/ethernut-5.1\libnutnet.a(arpcache.o)
+                0x00006958       0x52 C:/ethernut-5.1\libnutnet.a(arpcache.o)
  .text.ArpCacheAging
-                0x0000696e       0xa6 C:/ethernut-5.1\libnutnet.a(arpcache.o)
+                0x000069aa       0xa6 C:/ethernut-5.1\libnutnet.a(arpcache.o)
  .text.ArpCacheNew
-                0x00006a14       0x88 C:/ethernut-5.1\libnutnet.a(arpcache.o)
+                0x00006a50       0x88 C:/ethernut-5.1\libnutnet.a(arpcache.o)
  .text.NutArpCacheQuery
-                0x00006a9c      0x210 C:/ethernut-5.1\libnutnet.a(arpcache.o)
-                0x00006a9c                NutArpCacheQuery
+                0x00006ad8      0x210 C:/ethernut-5.1\libnutnet.a(arpcache.o)
+                0x00006ad8                NutArpCacheQuery
  .text.NutArpCacheUpdate
-                0x00006cac       0x62 C:/ethernut-5.1\libnutnet.a(arpcache.o)
-                0x00006cac                NutArpCacheUpdate
+                0x00006ce8       0x62 C:/ethernut-5.1\libnutnet.a(arpcache.o)
+                0x00006ce8                NutArpCacheUpdate
  .text.NutArpOutput
-                0x00006d0e       0x6c C:/ethernut-5.1\libnutnet.a(arpout.o)
-                0x00006d0e                NutArpOutput
+                0x00006d4a       0x6c C:/ethernut-5.1\libnutnet.a(arpout.o)
+                0x00006d4a                NutArpOutput
  .text.NutArpAllocNetBuf
-                0x00006d7a       0xb8 C:/ethernut-5.1\libnutnet.a(arpout.o)
-                0x00006d7a                NutArpAllocNetBuf
+                0x00006db6       0xb8 C:/ethernut-5.1\libnutnet.a(arpout.o)
+                0x00006db6                NutArpAllocNetBuf
  .text.NutVersion
-                0x00006e32        0xa C:/ethernut-5.1\libnutos.a(version.o)
-                0x00006e32                NutVersion
+                0x00006e6e        0xa C:/ethernut-5.1\libnutos.a(version.o)
+                0x00006e6e                NutVersion
  .text.NutHeapRootAlloc
-                0x00006e3c       0xb0 C:/ethernut-5.1\libnutos.a(heap.o)
-                0x00006e3c                NutHeapRootAlloc
+                0x00006e78       0xb0 C:/ethernut-5.1\libnutos.a(heap.o)
+                0x00006e78                NutHeapRootAlloc
  .text.NutHeapRootFree
-                0x00006eec       0xd8 C:/ethernut-5.1\libnutos.a(heap.o)
-                0x00006eec                NutHeapRootFree
+                0x00006f28       0xd8 C:/ethernut-5.1\libnutos.a(heap.o)
+                0x00006f28                NutHeapRootFree
  .text.NutHeapRootAdd
-                0x00006fc4       0x22 C:/ethernut-5.1\libnutos.a(heap.o)
-                0x00006fc4                NutHeapRootAdd
+                0x00007000       0x22 C:/ethernut-5.1\libnutos.a(heap.o)
+                0x00007000                NutHeapRootAdd
  .text.NutHeapRootAvailable
-                0x00006fe6       0x26 C:/ethernut-5.1\libnutos.a(heap.o)
-                0x00006fe6                NutHeapRootAvailable
+                0x00007022       0x26 C:/ethernut-5.1\libnutos.a(heap.o)
+                0x00007022                NutHeapRootAvailable
  .text.NutHeapRootAllocClear
-                0x0000700c       0x2e C:/ethernut-5.1\libnutos.a(heap.o)
-                0x0000700c                NutHeapRootAllocClear
+                0x00007048       0x2e C:/ethernut-5.1\libnutos.a(heap.o)
+                0x00007048                NutHeapRootAllocClear
  .text.NutThreadAddPriQueue
-                0x0000703a       0xb2 C:/ethernut-5.1\libnutos.a(thread.o)
-                0x0000703a                NutThreadAddPriQueue
+                0x00007076       0xb2 C:/ethernut-5.1\libnutos.a(thread.o)
+                0x00007076                NutThreadAddPriQueue
  .text.NutThreadRemoveQueue
-                0x000070ec       0x8e C:/ethernut-5.1\libnutos.a(thread.o)
-                0x000070ec                NutThreadRemoveQueue
+                0x00007128       0x8e C:/ethernut-5.1\libnutos.a(thread.o)
+                0x00007128                NutThreadRemoveQueue
  .text.NutThreadWake
-                0x0000717a       0x16 C:/ethernut-5.1\libnutos.a(thread.o)
-                0x0000717a                NutThreadWake
+                0x000071b6       0x16 C:/ethernut-5.1\libnutos.a(thread.o)
+                0x000071b6                NutThreadWake
  .text.NutThreadDestroy
-                0x00007190       0x22 C:/ethernut-5.1\libnutos.a(thread.o)
-                0x00007190                NutThreadDestroy
+                0x000071cc       0x22 C:/ethernut-5.1\libnutos.a(thread.o)
+                0x000071cc                NutThreadDestroy
  .text.NutThreadKill
-                0x000071b2       0x4e C:/ethernut-5.1\libnutos.a(thread.o)
-                0x000071b2                NutThreadKill
+                0x000071ee       0x4e C:/ethernut-5.1\libnutos.a(thread.o)
+                0x000071ee                NutThreadKill
  .text.NutThreadSetPriority
-                0x00007200       0x6e C:/ethernut-5.1\libnutos.a(thread.o)
-                0x00007200                NutThreadSetPriority
+                0x0000723c       0x6e C:/ethernut-5.1\libnutos.a(thread.o)
+                0x0000723c                NutThreadSetPriority
  .text.NutThreadResume
-                0x0000726e       0x8a C:/ethernut-5.1\libnutos.a(thread.o)
-                0x0000726e                NutThreadResume
+                0x000072aa       0x8a C:/ethernut-5.1\libnutos.a(thread.o)
+                0x000072aa                NutThreadResume
  .text.NutThreadYield
-                0x000072f8       0x30 C:/ethernut-5.1\libnutos.a(thread.o)
-                0x000072f8                NutThreadYield
+                0x00007334       0x30 C:/ethernut-5.1\libnutos.a(thread.o)
+                0x00007334                NutThreadYield
  .text.NutTimerIntr
-                0x00007328       0x28 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x00007328                NutTimerIntr
+                0x00007364       0x28 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007364                NutTimerIntr
  .text.NutTimerInsert
-                0x00007350       0x86 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x00007350                NutTimerInsert
+                0x0000738c       0x86 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x0000738c                NutTimerInsert
  .text.NutTimerStop
-                0x000073d6       0x80 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000073d6                NutTimerStop
+                0x00007412       0x80 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007412                NutTimerStop
  .text.NutGetTickCount
-                0x00007456       0x20 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x00007456                NutGetTickCount
+                0x00007492       0x20 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007492                NutGetTickCount
  .text.NutGetCpuClock
-                0x00007476       0x40 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x00007476                NutGetCpuClock
+                0x000074b2       0x40 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x000074b2                NutGetCpuClock
  .text.NutMicroDelay
-                0x000074b6       0x40 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000074b6                NutMicroDelay
+                0x000074f2       0x40 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x000074f2                NutMicroDelay
  .text.NutDelay
-                0x000074f6       0x1c C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000074f6                NutDelay
+                0x00007532       0x1c C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007532                NutDelay
  .text.NutGetMillis
-                0x00007512       0xd8 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x00007512                NutGetMillis
+                0x0000754e       0xd8 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x0000754e                NutGetMillis
  .text.NutGetSeconds
-                0x000075ea       0x40 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000075ea                NutGetSeconds
+                0x00007626       0x40 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007626                NutGetSeconds
  .text.NutTimerCreate
-                0x0000762a       0xa2 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x0000762a                NutTimerCreate
+                0x00007666       0xa2 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007666                NutTimerCreate
  .text.NutTimerStartTicks
-                0x000076cc       0x1e C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000076cc                NutTimerStartTicks
+                0x00007708       0x1e C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007708                NutTimerStartTicks
  .text.NutTimerStart
-                0x000076ea       0x26 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000076ea                NutTimerStart
+                0x00007726       0x26 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007726                NutTimerStart
  .text.NutSleep
-                0x00007710       0x9e C:/ethernut-5.1\libnutos.a(timer.o)
-                0x00007710                NutSleep
+                0x0000774c       0x9e C:/ethernut-5.1\libnutos.a(timer.o)
+                0x0000774c                NutSleep
  .text.NutTimerProcessElapsed
-                0x000077ae      0x11c C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000077ae                NutTimerProcessElapsed
+                0x000077ea      0x11c C:/ethernut-5.1\libnutos.a(timer.o)
+                0x000077ea                NutTimerProcessElapsed
  .text.NutTimerInit
-                0x000078ca       0x10 C:/ethernut-5.1\libnutos.a(timer.o)
-                0x000078ca                NutTimerInit
+                0x00007906       0x10 C:/ethernut-5.1\libnutos.a(timer.o)
+                0x00007906                NutTimerInit
  .text.NutEventPostAsync
-                0x000078da       0xa0 C:/ethernut-5.1\libnutos.a(event.o)
-                0x000078da                NutEventPostAsync
+                0x00007916       0xa0 C:/ethernut-5.1\libnutos.a(event.o)
+                0x00007916                NutEventPostAsync
  .text.NutEventBroadcastAsync
-                0x0000797a       0x70 C:/ethernut-5.1\libnutos.a(event.o)
-                0x0000797a                NutEventBroadcastAsync
+                0x000079b6       0x70 C:/ethernut-5.1\libnutos.a(event.o)
+                0x000079b6                NutEventBroadcastAsync
  .text.NutEventBroadcast
-                0x000079ea       0x1a C:/ethernut-5.1\libnutos.a(event.o)
-                0x000079ea                NutEventBroadcast
+                0x00007a26       0x1a C:/ethernut-5.1\libnutos.a(event.o)
+                0x00007a26                NutEventBroadcast
  .text.NutEventPost
-                0x00007a04       0x1a C:/ethernut-5.1\libnutos.a(event.o)
-                0x00007a04                NutEventPost
+                0x00007a40       0x1a C:/ethernut-5.1\libnutos.a(event.o)
+                0x00007a40                NutEventPost
  .text.NutEventTimeout
-                0x00007a1e       0x90 C:/ethernut-5.1\libnutos.a(event.o)
-                0x00007a1e                NutEventTimeout
+                0x00007a5a       0x90 C:/ethernut-5.1\libnutos.a(event.o)
+                0x00007a5a                NutEventTimeout
  .text.NutEventWait
-                0x00007aae       0xc8 C:/ethernut-5.1\libnutos.a(event.o)
-                0x00007aae                NutEventWait
+                0x00007aea       0xc8 C:/ethernut-5.1\libnutos.a(event.o)
+                0x00007aea                NutEventWait
  .text.NutEventWaitNext
-                0x00007b76       0x22 C:/ethernut-5.1\libnutos.a(event.o)
-                0x00007b76                NutEventWaitNext
+                0x00007bb2       0x22 C:/ethernut-5.1\libnutos.a(event.o)
+                0x00007bb2                NutEventWaitNext
  .text.NutDeviceLookup
-                0x00007b98       0x38 C:/ethernut-5.1\libnutos.a(devreg.o)
-                0x00007b98                NutDeviceLookup
+                0x00007bd4       0x38 C:/ethernut-5.1\libnutos.a(devreg.o)
+                0x00007bd4                NutDeviceLookup
  .text.NutRegisterDevice
-                0x00007bd0       0x56 C:/ethernut-5.1\libnutos.a(devreg.o)
-                0x00007bd0                NutRegisterDevice
+                0x00007c0c       0x56 C:/ethernut-5.1\libnutos.a(devreg.o)
+                0x00007c0c                NutRegisterDevice
  .text.NutLoadConfig
-                0x00007c26       0x4a C:/ethernut-5.1\libnutos.a(confos.o)
-                0x00007c26                NutLoadConfig
+                0x00007c62       0x4a C:/ethernut-5.1\libnutos.a(confos.o)
+                0x00007c62                NutLoadConfig
  .text.NutThreadEntry
-                0x00007c70       0x10 C:/ethernut-5.1\libnutarch.a(context_gcc.o)
+                0x00007cac       0x10 C:/ethernut-5.1\libnutarch.a(context_gcc.o)
  .text.NutThreadSwitch
-                0x00007c80       0x76 C:/ethernut-5.1\libnutarch.a(context_gcc.o)
-                0x00007cb4                thread_start
-                0x00007c80                NutThreadSwitch
+                0x00007cbc       0x76 C:/ethernut-5.1\libnutarch.a(context_gcc.o)
+                0x00007cf0                thread_start
+                0x00007cbc                NutThreadSwitch
  .text.NutThreadCreate
-                0x00007cf6      0x140 C:/ethernut-5.1\libnutarch.a(context_gcc.o)
-                0x00007cf6                NutThreadCreate
+                0x00007d32      0x140 C:/ethernut-5.1\libnutarch.a(context_gcc.o)
+                0x00007d32                NutThreadCreate
  .text.NutArchClockGet
-                0x00007e36       0x12 C:/ethernut-5.1\libnutarch.a(ostimer.o)
-                0x00007e36                NutArchClockGet
+                0x00007e72       0x12 C:/ethernut-5.1\libnutarch.a(ostimer.o)
+                0x00007e72                NutArchClockGet
  .text.NutGetTickClock
-                0x00007e48        0xa C:/ethernut-5.1\libnutarch.a(ostimer.o)
-                0x00007e48                NutGetTickClock
+                0x00007e84        0xa C:/ethernut-5.1\libnutarch.a(ostimer.o)
+                0x00007e84                NutGetTickClock
  .text.NutTimerMillisToTicks
-                0x00007e52       0x5c C:/ethernut-5.1\libnutarch.a(ostimer.o)
-                0x00007e52                NutTimerMillisToTicks
+                0x00007e8e       0x5c C:/ethernut-5.1\libnutarch.a(ostimer.o)
+                0x00007e8e                NutTimerMillisToTicks
  .text.NutRegisterTimer
-                0x00007eae       0xa0 C:/ethernut-5.1\libnutarch.a(ostimer.o)
-                0x00007eae                NutRegisterTimer
+                0x00007eea       0xa0 C:/ethernut-5.1\libnutarch.a(ostimer.o)
+                0x00007eea                NutRegisterTimer
  .text.AvrTimer0CompIrqCtl
-                0x00007f4e       0x90 C:/ethernut-5.1\libnutarch.a(ih_timer0_comp.o)
+                0x00007f8a       0x90 C:/ethernut-5.1\libnutarch.a(ih_timer0_comp.o)
  .text.__vector_15
-                0x00007fde       0x54 C:/ethernut-5.1\libnutarch.a(ih_timer0_comp.o)
-                0x00007fde                __vector_15
+                0x0000801a       0x54 C:/ethernut-5.1\libnutarch.a(ih_timer0_comp.o)
+                0x0000801a                __vector_15
  .text.AvrUsartTxEmpty
-                0x00008032       0xe0 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000806e       0xe0 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartRxComplete
-                0x00008112       0xf4 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000814e       0xf4 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetDataBits
-                0x00008206       0x30 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008242       0x30 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetParity
-                0x00008236       0x1c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008272       0x1c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetStopBits
-                0x00008252       0x10 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000828e       0x10 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetStatus
-                0x00008262       0x70 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000829e       0x70 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetStatus
-                0x000082d2       0xba C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000830e       0xba C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetClockMode
-                0x0000838c       0x2c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x000083c8       0x2c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetFlowControl
-                0x000083b8       0x20 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x000083f4       0x20 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetFlowControl
-                0x000083d8       0x72 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008414       0x72 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartTxStart
-                0x0000844a        0x4 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008486        0x4 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartRxStart
-                0x0000844e       0x34 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000848a       0x34 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartDisable
-                0x00008482       0x1c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x000084be       0x1c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetClockMode
-                0x0000849e       0x7c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x000084da       0x7c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetStopBits
-                0x0000851a       0x52 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008556       0x52 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetParity
-                0x0000856c       0x6a C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x000085a8       0x6a C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetDataBits
-                0x000085d6       0x7a C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008612       0x7a C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartGetSpeed
-                0x00008650       0x96 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000868c       0x96 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartSetSpeed
-                0x000086e6       0x7c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x00008722       0x7c C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartDeinit
-                0x00008762       0x26 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x0000879e       0x26 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartInit
-                0x00008788       0x46 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
+                0x000087c4       0x46 C:/ethernut-5.1\libnutarch.a(usart0avr.o)
  .text.AvrUsartTxEmpty
-                0x000087ce      0x102 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x0000880a      0x102 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartRxComplete
-                0x000088d0      0x10e C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x0000890c      0x10e C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetDataBits
-                0x000089de       0x34 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008a1a       0x34 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetParity
-                0x00008a12       0x1c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008a4e       0x1c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetStopBits
-                0x00008a2e       0x10 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008a6a       0x10 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetStatus
-                0x00008a3e       0x64 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008a7a       0x64 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetStatus
-                0x00008aa2       0xce C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008ade       0xce C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetClockMode
-                0x00008b70       0x30 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008bac       0x30 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetFlowControl
-                0x00008ba0       0x20 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008bdc       0x20 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetFlowControl
-                0x00008bc0       0x72 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008bfc       0x72 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartTxStart
-                0x00008c32        0xc C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008c6e        0xc C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartRxStart
-                0x00008c3e       0x3a C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008c7a       0x3a C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartDisable
-                0x00008c78       0x40 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008cb4       0x40 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetClockMode
-                0x00008cb8       0x92 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008cf4       0x92 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetStopBits
-                0x00008d4a       0x54 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008d86       0x54 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetParity
-                0x00008d9e       0x6c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008dda       0x6c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetDataBits
-                0x00008e0a       0x8c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008e46       0x8c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartGetSpeed
-                0x00008e96       0x9c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008ed2       0x9c C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartSetSpeed
-                0x00008f32       0x84 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008f6e       0x84 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartDeinit
-                0x00008fb6       0x26 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00008ff2       0x26 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUsartInit
-                0x00008fdc       0x46 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
+                0x00009018       0x46 C:/ethernut-5.1\libnutarch.a(usart1avr.o)
  .text.AvrUart0RxIrqCtl
-                0x00009022       0x7e C:/ethernut-5.1\libnutarch.a(ih_usart0_rx.o)
+                0x0000905e       0x7e C:/ethernut-5.1\libnutarch.a(ih_usart0_rx.o)
  .text.__vector_18
-                0x000090a0       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart0_rx.o)
-                0x000090a0                __vector_18
+                0x000090dc       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart0_rx.o)
+                0x000090dc                __vector_18
  .text.AvrUart0TxDataIrqCtl
-                0x000090f4       0x70 C:/ethernut-5.1\libnutarch.a(ih_usart0_udre.o)
+                0x00009130       0x70 C:/ethernut-5.1\libnutarch.a(ih_usart0_udre.o)
  .text.__vector_19
-                0x00009164       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart0_udre.o)
-                0x00009164                __vector_19
+                0x000091a0       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart0_udre.o)
+                0x000091a0                __vector_19
  .text.AvrUart1RxIrqCtl
-                0x000091b8       0xa0 C:/ethernut-5.1\libnutarch.a(ih_usart1_rx.o)
+                0x000091f4       0xa0 C:/ethernut-5.1\libnutarch.a(ih_usart1_rx.o)
  .text.__vector_30
-                0x00009258       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart1_rx.o)
-                0x00009258                __vector_30
+                0x00009294       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart1_rx.o)
+                0x00009294                __vector_30
  .text.AvrUart1TxDataIrqCtl
-                0x000092ac       0x8e C:/ethernut-5.1\libnutarch.a(ih_usart1_udre.o)
+                0x000092e8       0x8e C:/ethernut-5.1\libnutarch.a(ih_usart1_udre.o)
  .text.__vector_31
-                0x0000933a       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart1_udre.o)
-                0x0000933a                __vector_31
+                0x00009376       0x54 C:/ethernut-5.1\libnutarch.a(ih_usart1_udre.o)
+                0x00009376                __vector_31
  .text.Delay16Cycles
-                0x0000938e       0x22 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x000093ca       0x22 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
  .text.NicCompleteDma
-                0x000093b0       0x1e C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x000093ec       0x1e C:/ethernut-5.1\libnutarch.a(nicrtl.o)
  .text.NicWrite
-                0x000093ce       0x2c C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x0000940a       0x2c C:/ethernut-5.1\libnutarch.a(nicrtl.o)
  .text.NicInterrupt
-                0x000093fa      0x152 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x00009436      0x152 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
  .text.NicStart
-                0x0000954c      0x11c C:/ethernut-5.1\libnutarch.a(nicrtl.o)
- .text.NicInit  0x00009668       0xb8 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
-                0x00009668                NicInit
+                0x00009588      0x11c C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+ .text.NicInit  0x000096a4       0xb8 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x000096a4                NicInit
  .text.NicOutput
-                0x00009720      0x12c C:/ethernut-5.1\libnutarch.a(nicrtl.o)
-                0x00009720                NicOutput
- .text.NicRx    0x0000984c      0x226 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
-                0x0000984c                NicRx
+                0x0000975c      0x12c C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x0000975c                NicOutput
+ .text.NicRx    0x00009888      0x226 C:/ethernut-5.1\libnutarch.a(nicrtl.o)
+                0x00009888                NicRx
  .text.AvrInterrupt5Ctl
-                0x00009a72      0x100 C:/ethernut-5.1\libnutarch.a(ih_int5.o)
+                0x00009aae      0x100 C:/ethernut-5.1\libnutarch.a(ih_int5.o)
  .text.__vector_6
-                0x00009b72       0x54 C:/ethernut-5.1\libnutarch.a(ih_int5.o)
-                0x00009b72                __vector_6
+                0x00009bae       0x54 C:/ethernut-5.1\libnutarch.a(ih_int5.o)
+                0x00009bae                __vector_6
  .text.CallHandler
-                0x00009bc6       0x16 C:/ethernut-5.1\libnutdev.a(ihndlr.o)
-                0x00009bc6                CallHandler
+                0x00009c02       0x16 C:/ethernut-5.1\libnutdev.a(ihndlr.o)
+                0x00009c02                CallHandler
  .text.NutRegisterIrqHandler
-                0x00009bdc       0x44 C:/ethernut-5.1\libnutdev.a(ihndlr.o)
-                0x00009bdc                NutRegisterIrqHandler
+                0x00009c18       0x44 C:/ethernut-5.1\libnutdev.a(ihndlr.o)
+                0x00009c18                NutRegisterIrqHandler
  .text.UsartInit
-                0x00009c20       0x38 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x00009c20                UsartInit
+                0x00009c5c       0x38 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x00009c5c                UsartInit
  .text.UsartSize
-                0x00009c58       0x26 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x00009c58                UsartSize
+                0x00009c94       0x26 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x00009c94                UsartSize
  .text.UsartResetBuffer
-                0x00009c7e       0x9e C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x00009cba       0x9e C:/ethernut-5.1\libnutdev.a(usart.o)
  .text.UsartIOCtl
-                0x00009d1c      0x38c C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x00009d1c                UsartIOCtl
+                0x00009d58      0x38c C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x00009d58                UsartIOCtl
  .text.UsartOpen
-                0x0000a0a8       0xf0 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x0000a0a8                UsartOpen
+                0x0000a0e4       0xf0 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a0e4                UsartOpen
  .text.UsartFlushOutput
-                0x0000a198       0x8e C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a1d4       0x8e C:/ethernut-5.1\libnutdev.a(usart.o)
  .text.UsartClose
-                0x0000a226       0x94 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x0000a226                UsartClose
+                0x0000a262       0x94 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a262                UsartClose
  .text.UsartRead
-                0x0000a2ba      0x1d0 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x0000a2ba                UsartRead
+                0x0000a2f6      0x1d0 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a2f6                UsartRead
  .text.UsartPut
-                0x0000a48a      0x20c C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a4c6      0x20c C:/ethernut-5.1\libnutdev.a(usart.o)
  .text.UsartWrite_P
-                0x0000a696       0x10 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x0000a696                UsartWrite_P
+                0x0000a6d2       0x10 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a6d2                UsartWrite_P
  .text.UsartWrite
-                0x0000a6a6       0x10 C:/ethernut-5.1\libnutdev.a(usart.o)
-                0x0000a6a6                UsartWrite
+                0x0000a6e2       0x10 C:/ethernut-5.1\libnutdev.a(usart.o)
+                0x0000a6e2                UsartWrite
  .text.NutNetBufFree
-                0x0000a6b6       0x80 C:/ethernut-5.1\libnutdev.a(netbuf.o)
-                0x0000a6b6                NutNetBufFree
+                0x0000a6f2       0x80 C:/ethernut-5.1\libnutdev.a(netbuf.o)
+                0x0000a6f2                NutNetBufFree
  .text.NutNetBufAllocData
-                0x0000a736       0x4e C:/ethernut-5.1\libnutdev.a(netbuf.o)
+                0x0000a772       0x4e C:/ethernut-5.1\libnutdev.a(netbuf.o)
  .text.NutNetBufCollect
-                0x0000a784      0x134 C:/ethernut-5.1\libnutdev.a(netbuf.o)
-                0x0000a784                NutNetBufCollect
+                0x0000a7c0      0x134 C:/ethernut-5.1\libnutdev.a(netbuf.o)
+                0x0000a7c0                NutNetBufCollect
  .text.NutNetBufClonePart
-                0x0000a8b8      0x1c8 C:/ethernut-5.1\libnutdev.a(netbuf.o)
-                0x0000a8b8                NutNetBufClonePart
+                0x0000a8f4      0x1c8 C:/ethernut-5.1\libnutdev.a(netbuf.o)
+                0x0000a8f4                NutNetBufClonePart
  .text.NutNetBufAlloc
-                0x0000aa80       0xe0 C:/ethernut-5.1\libnutdev.a(netbuf.o)
-                0x0000aa80                NutNetBufAlloc
+                0x0000aabc       0xe0 C:/ethernut-5.1\libnutdev.a(netbuf.o)
+                0x0000aabc                NutNetBufAlloc
  .text.NutNvMemSave
-                0x0000ab60        0x6 C:/ethernut-5.1\libnutdev.a(nvmem.o)
-                0x0000ab60                NutNvMemSave
+                0x0000ab9c        0x6 C:/ethernut-5.1\libnutdev.a(nvmem.o)
+                0x0000ab9c                NutNvMemSave
  .text.NutNvMemLoad
-                0x0000ab66        0x6 C:/ethernut-5.1\libnutdev.a(nvmem.o)
-                0x0000ab66                NutNvMemLoad
+                0x0000aba2        0x6 C:/ethernut-5.1\libnutdev.a(nvmem.o)
+                0x0000aba2                NutNvMemLoad
  .text.NutEtherInput
-                0x0000ab6c       0x8a C:/ethernut-5.1\libnutnet.a(ethin.o)
-                0x0000ab6c                NutEtherInput
+                0x0000aba8       0x8a C:/ethernut-5.1\libnutnet.a(ethin.o)
+                0x0000aba8                NutEtherInput
  .text.NutEtherOutput
-                0x0000abf6       0xc2 C:/ethernut-5.1\libnutnet.a(ethout.o)
-                0x0000abf6                NutEtherOutput
+                0x0000ac32       0xc2 C:/ethernut-5.1\libnutnet.a(ethout.o)
+                0x0000ac32                NutEtherOutput
  .text.NutArpInput
-                0x0000acb8       0xea C:/ethernut-5.1\libnutnet.a(arpin.o)
-                0x0000acb8                NutArpInput
- .text._ioctl   0x0000ada2       0x2a C:/ethernut-5.1\libnutcrt.a(ioctl.o)
-                0x0000ada2                _ioctl
- .text.fclose   0x0000adcc       0x7c C:/ethernut-5.1\libnutcrt.a(fclose.o)
-                0x0000adcc                fclose
- .text._fdopen  0x0000ae48       0xae C:/ethernut-5.1\libnutcrt.a(fdopen.o)
-                0x0000ae48                _fdopen
- .text.fflush   0x0000aef6       0x24 C:/ethernut-5.1\libnutcrt.a(fflush.o)
-                0x0000aef6                fflush
- .text._fileno  0x0000af1a        0x8 C:/ethernut-5.1\libnutcrt.a(fileno.o)
-                0x0000af1a                _fileno
- .text._fmode   0x0000af22       0x68 C:/ethernut-5.1\libnutcrt.a(fmode.o)
-                0x0000af22                _fmode
- .text.fopen    0x0000af8a       0xbc C:/ethernut-5.1\libnutcrt.a(fopen.o)
-                0x0000af8a                fopen
- .text.freopen  0x0000b046       0xe4 C:/ethernut-5.1\libnutcrt.a(freopen.o)
-                0x0000b046                freopen
- .text.fread    0x0000b12a       0x94 C:/ethernut-5.1\libnutcrt.a(fread.o)
-                0x0000b12a                fread
- .text.scanf    0x0000b1be       0x24 C:/ethernut-5.1\libnutcrt.a(scanf.o)
-                0x0000b1be                scanf
- .text.vfscanf  0x0000b1e2       0x28 C:/ethernut-5.1\libnutcrt.a(vfscanf.o)
-                0x0000b1e2                vfscanf
- .text.fwrite   0x0000b20a       0x4e C:/ethernut-5.1\libnutcrt.a(fwrite.o)
-                0x0000b20a                fwrite
- .text.printf   0x0000b258       0x24 C:/ethernut-5.1\libnutcrt.a(printf.o)
-                0x0000b258                printf
- .text.putchar  0x0000b27c        0xe C:/ethernut-5.1\libnutcrt.a(putchar.o)
-                0x0000b27c                putchar
- .text.puts     0x0000b28a       0x32 C:/ethernut-5.1\libnutcrt.a(puts.o)
-                0x0000b28a                puts
+                0x0000acf4       0xea C:/ethernut-5.1\libnutnet.a(arpin.o)
+                0x0000acf4                NutArpInput
+ .text._ioctl   0x0000adde       0x2a C:/ethernut-5.1\libnutcrt.a(ioctl.o)
+                0x0000adde                _ioctl
+ .text.fclose   0x0000ae08       0x7c C:/ethernut-5.1\libnutcrt.a(fclose.o)
+                0x0000ae08                fclose
+ .text._fdopen  0x0000ae84       0xae C:/ethernut-5.1\libnutcrt.a(fdopen.o)
+                0x0000ae84                _fdopen
+ .text.fflush   0x0000af32       0x24 C:/ethernut-5.1\libnutcrt.a(fflush.o)
+                0x0000af32                fflush
+ .text._fileno  0x0000af56        0x8 C:/ethernut-5.1\libnutcrt.a(fileno.o)
+                0x0000af56                _fileno
+ .text._fmode   0x0000af5e       0x68 C:/ethernut-5.1\libnutcrt.a(fmode.o)
+                0x0000af5e                _fmode
+ .text.fopen    0x0000afc6       0xbc C:/ethernut-5.1\libnutcrt.a(fopen.o)
+                0x0000afc6                fopen
+ .text.freopen  0x0000b082       0xe4 C:/ethernut-5.1\libnutcrt.a(freopen.o)
+                0x0000b082                freopen
+ .text.fread    0x0000b166       0x94 C:/ethernut-5.1\libnutcrt.a(fread.o)
+                0x0000b166                fread
+ .text.scanf    0x0000b1fa       0x24 C:/ethernut-5.1\libnutcrt.a(scanf.o)
+                0x0000b1fa                scanf
+ .text.vfscanf  0x0000b21e       0x28 C:/ethernut-5.1\libnutcrt.a(vfscanf.o)
+                0x0000b21e                vfscanf
+ .text.fwrite   0x0000b246       0x4e C:/ethernut-5.1\libnutcrt.a(fwrite.o)
+                0x0000b246                fwrite
+ .text.printf   0x0000b294       0x24 C:/ethernut-5.1\libnutcrt.a(printf.o)
+                0x0000b294                printf
+ .text.putchar  0x0000b2b8        0xe C:/ethernut-5.1\libnutcrt.a(putchar.o)
+                0x0000b2b8                putchar
+ .text.puts     0x0000b2c6       0x32 C:/ethernut-5.1\libnutcrt.a(puts.o)
+                0x0000b2c6                puts
  .text.vfprintf
-                0x0000b2bc       0x16 C:/ethernut-5.1\libnutcrt.a(vfprintf.o)
-                0x0000b2bc                vfprintf
- .text.sprintf  0x0000b2d2       0x22 C:/ethernut-5.1\libnutcrt.a(sprintf.o)
-                0x0000b2d2                sprintf
- .text.sscanf   0x0000b2f4       0x22 C:/ethernut-5.1\libnutcrt.a(sscanf.o)
-                0x0000b2f4                sscanf
+                0x0000b2f8       0x16 C:/ethernut-5.1\libnutcrt.a(vfprintf.o)
+                0x0000b2f8                vfprintf
+ .text.sprintf  0x0000b30e       0x22 C:/ethernut-5.1\libnutcrt.a(sprintf.o)
+                0x0000b30e                sprintf
+ .text.sscanf   0x0000b330       0x22 C:/ethernut-5.1\libnutcrt.a(sscanf.o)
+                0x0000b330                sscanf
  .text.vsprintf
-                0x0000b316       0x32 C:/ethernut-5.1\libnutcrt.a(vsprintf.o)
-                0x0000b316                vsprintf
- .text._sputb   0x0000b348       0x30 C:/ethernut-5.1\libnutcrt.a(vsprintf.o)
- .text._sgetb   0x0000b378       0x36 C:/ethernut-5.1\libnutcrt.a(vsscanf.o)
- .text.vsscanf  0x0000b3ae       0x2c C:/ethernut-5.1\libnutcrt.a(vsscanf.o)
-                0x0000b3ae                vsscanf
- .text.calloc   0x0000b3da       0x38 C:/ethernut-5.1\libnutcrt.a(calloc.o)
-                0x0000b3da                calloc
- .text.free     0x0000b412        0xc C:/ethernut-5.1\libnutcrt.a(malloc.o)
-                0x0000b412                free
- .text.malloc   0x0000b41e       0x20 C:/ethernut-5.1\libnutcrt.a(malloc.o)
-                0x0000b41e                malloc
- .text._close   0x0000b43e       0x2c C:/ethernut-5.1\libnutcrt.a(close.o)
-                0x0000b43e                _close
- .text._open    0x0000b46a       0xbe C:/ethernut-5.1\libnutcrt.a(open.o)
-                0x0000b46a                _open
- .text._getf    0x0000b528      0x492 C:/ethernut-5.1\libnutcrt.a(getf.o)
-                0x0000b528                _getf
- .text._read    0x0000b9ba       0x32 C:/ethernut-5.1\libnutcrt.a(read.o)
-                0x0000b9ba                _read
- .text._putpad  0x0000b9ec       0x50 C:/ethernut-5.1\libnutcrt.a(putf.o)
- .text._putf    0x0000ba3c      0x69e C:/ethernut-5.1\libnutcrt.a(putf.o)
-                0x0000ba3c                _putf
- .text._write   0x0000c0da       0x32 C:/ethernut-5.1\libnutcrt.a(write.o)
-                0x0000c0da                _write
- .text.fputc    0x0000c10c       0x3c C:/ethernut-5.1\libnutcrt.a(fputc.o)
-                0x0000c10c                fputc
- .text.fputs    0x0000c148       0x20 C:/ethernut-5.1\libnutcrt.a(fputs.o)
-                0x0000c148                fputs
+                0x0000b352       0x32 C:/ethernut-5.1\libnutcrt.a(vsprintf.o)
+                0x0000b352                vsprintf
+ .text._sputb   0x0000b384       0x30 C:/ethernut-5.1\libnutcrt.a(vsprintf.o)
+ .text._sgetb   0x0000b3b4       0x36 C:/ethernut-5.1\libnutcrt.a(vsscanf.o)
+ .text.vsscanf  0x0000b3ea       0x2c C:/ethernut-5.1\libnutcrt.a(vsscanf.o)
+                0x0000b3ea                vsscanf
+ .text.calloc   0x0000b416       0x38 C:/ethernut-5.1\libnutcrt.a(calloc.o)
+                0x0000b416                calloc
+ .text.free     0x0000b44e        0xc C:/ethernut-5.1\libnutcrt.a(malloc.o)
+                0x0000b44e                free
+ .text.malloc   0x0000b45a       0x20 C:/ethernut-5.1\libnutcrt.a(malloc.o)
+                0x0000b45a                malloc
+ .text._close   0x0000b47a       0x2c C:/ethernut-5.1\libnutcrt.a(close.o)
+                0x0000b47a                _close
+ .text._open    0x0000b4a6       0xbe C:/ethernut-5.1\libnutcrt.a(open.o)
+                0x0000b4a6                _open
+ .text._getf    0x0000b564      0x492 C:/ethernut-5.1\libnutcrt.a(getf.o)
+                0x0000b564                _getf
+ .text._read    0x0000b9f6       0x32 C:/ethernut-5.1\libnutcrt.a(read.o)
+                0x0000b9f6                _read
+ .text._putpad  0x0000ba28       0x50 C:/ethernut-5.1\libnutcrt.a(putf.o)
+ .text._putf    0x0000ba78      0x69e C:/ethernut-5.1\libnutcrt.a(putf.o)
+                0x0000ba78                _putf
+ .text._write   0x0000c116       0x32 C:/ethernut-5.1\libnutcrt.a(write.o)
+                0x0000c116                _write
+ .text.fputc    0x0000c148       0x3c C:/ethernut-5.1\libnutcrt.a(fputc.o)
+                0x0000c148                fputc
+ .text.fputs    0x0000c184       0x20 C:/ethernut-5.1\libnutcrt.a(fputs.o)
+                0x0000c184                fputs
  .text.OnChipNvMemSave
-                0x0000c168       0x56 C:/ethernut-5.1\libnutarch.a(eeprom.o)
-                0x0000c168                OnChipNvMemSave
+                0x0000c1a4       0x56 C:/ethernut-5.1\libnutarch.a(eeprom.o)
+                0x0000c1a4                OnChipNvMemSave
  .text.OnChipNvMemLoad
-                0x0000c1be       0x10 C:/ethernut-5.1\libnutarch.a(eeprom.o)
-                0x0000c1be                OnChipNvMemLoad
- .text.libgcc   0x0000c1ce       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
-                0x0000c1ce                __mulsi3
- .text.libgcc   0x0000c20c       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
-                0x0000c20c                __udivmodqi4
- .text.libgcc   0x0000c224       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
-                0x0000c224                __udivmodhi4
- .text.libgcc   0x0000c24c       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
-                0x0000c24c                __udivmodsi4
+                0x0000c1fa       0x10 C:/ethernut-5.1\libnutarch.a(eeprom.o)
+                0x0000c1fa                OnChipNvMemLoad
+ .text.libgcc   0x0000c20a       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                0x0000c20a                __mulsi3
+ .text.libgcc   0x0000c248       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                0x0000c248                __udivmodqi4
+ .text.libgcc   0x0000c260       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                0x0000c260                __udivmodhi4
+ .text.libgcc   0x0000c288       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                0x0000c288                __udivmodsi4
  .text.avr-libc
-                0x0000c290      0x25e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strtol.o)
-                0x0000c290                strtol
+                0x0000c2cc      0x25e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strtol.o)
+                0x0000c2cc                strtol
  .text.avr-libc
-                0x0000c4ee       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
-                0x0000c4ee                isspace
+                0x0000c52a       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+                0x0000c52a                isspace
  .text.avr-libc
-                0x0000c4fe       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
-                0x0000c4fe                memcpy_P
+                0x0000c53a       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+                0x0000c53a                memcpy_P
  .text.avr-libc
-                0x0000c510        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy_P.o)
-                0x0000c510                strcpy_P
+                0x0000c54c        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy_P.o)
+                0x0000c54c                strcpy_P
  .text.avr-libc
-                0x0000c51e       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strlen_P.o)
-                0x0000c51e                strlen_P
+                0x0000c55a       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strlen_P.o)
+                0x0000c55a                strlen_P
  .text.avr-libc
-                0x0000c530       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memchr.o)
-                0x0000c530                memchr
+                0x0000c56c       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memchr.o)
+                0x0000c56c                memchr
  .text.avr-libc
-                0x0000c54a       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcmp.o)
-                0x0000c54a                memcmp
+                0x0000c586       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcmp.o)
+                0x0000c586                memcmp
  .text.avr-libc
-                0x0000c564       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
-                0x0000c564                memcpy
+                0x0000c5a0       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
+                0x0000c5a0                memcpy
  .text.avr-libc
-                0x0000c576        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
-                0x0000c576                memset
+                0x0000c5b2        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memset.o)
+                0x0000c5b2                memset
  .text.avr-libc
-                0x0000c584       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
-                0x0000c584                strcmp
+                0x0000c5c0       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
+                0x0000c5c0                strcmp
  .text.avr-libc
-                0x0000c596        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
-                0x0000c596                strcpy
+                0x0000c5d2        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
+                0x0000c5d2                strcpy
  .text.avr-libc
-                0x0000c5a4       0x1c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
-                0x0000c5a4                strncmp
+                0x0000c5e0       0x1c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
+                0x0000c5e0                strncmp
  .text.avr-libc
-                0x0000c5c0       0x2c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(utoa.o)
-                0x0000c5c0                utoa
+                0x0000c5fc       0x2c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(utoa.o)
+                0x0000c5fc                utoa
  .text.avr-libc
-                0x0000c5ec       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_block_atmega128.o)
-                0x0000c5f0                __eerd_blraw_m128
-                0x0000c5ec                __eerd_block_m128
+                0x0000c628       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_block_atmega128.o)
+                0x0000c62c                __eerd_blraw_m128
+                0x0000c628                __eerd_block_m128
  .text.avr-libc
-                0x0000c60c       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_byte_atmega128.o)
-                0x0000c60c                __eerd_byte_m128
+                0x0000c648       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_byte_atmega128.o)
+                0x0000c648                __eerd_byte_m128
  .text.avr-libc
-                0x0000c61c        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_dword_atmega128.o)
-                0x0000c61c                __eerd_dword_m128
-                0x0000c61c                __eerd_float_m128
+                0x0000c658        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_dword_atmega128.o)
+                0x0000c658                __eerd_dword_m128
+                0x0000c658                __eerd_float_m128
  .text.avr-libc
-                0x0000c628       0x14 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eewr_block_atmega128.o)
-                0x0000c628                __eewr_block_m128
+                0x0000c664       0x14 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eewr_block_atmega128.o)
+                0x0000c664                __eewr_block_m128
  .text.avr-libc
-                0x0000c63c       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eewr_byte_atmega128.o)
-                0x0000c63e                __eewr_r18_m128
-                0x0000c63c                __eewr_byte_m128
+                0x0000c678       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eewr_byte_atmega128.o)
+                0x0000c67a                __eewr_r18_m128
+                0x0000c678                __eewr_byte_m128
  .text.avr-libc
-                0x0000c656        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eewr_word_atmega128.o)
-                0x0000c656                __eewr_word_m128
+                0x0000c692        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eewr_word_atmega128.o)
+                0x0000c692                __eewr_word_m128
  .text.avr-libc
-                0x0000c660        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
-                0x0000c664                __ctype_istrue
-                0x0000c660                __ctype_isfalse
+                0x0000c69c        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                0x0000c6a0                __ctype_istrue
+                0x0000c69c                __ctype_isfalse
  .text.avr-libc
-                0x0000c666       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
-                0x0000c666                strrev
-                0x0000c686                . = ALIGN (0x2)
+                0x0000c6a2       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
+                0x0000c6a2                strrev
+                0x0000c6c2                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000c686        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
-                0x0000c686                exit
-                0x0000c686                _exit
+ .fini9         0x0000c6c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x0000c6c2                exit
+                0x0000c6c2                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1784,11 +1784,11 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000c686        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .fini0         0x0000c6c2        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000c68a                _etext = .
+                0x0000c6c6                _etext = .
 
-.data           0x00800100      0xaac load address 0x0000c68a
+.data           0x00800100      0xaac load address 0x0000c6c6
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100      0x16f rtu.o
@@ -1914,8 +1914,8 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
  COMMON         0x00800cb3        0x2 C:/ethernut-5.1\libnutcrt.a(errno.o)
                 0x00800cb3                errno
                 0x00800cb5                PROVIDE (__bss_end, .)
-                0x0000c68a                __data_load_start = LOADADDR (.data)
-                0x0000d136                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000c6c6                __data_load_start = LOADADDR (.data)
+                0x0000d172                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800cb5        0x0
                 0x00800cb5                PROVIDE (__noinit_start, .)

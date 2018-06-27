@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 1
 
 
    1               		.file	"network.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
   24      552D 4469 
   24      6167 6E6F 
   25               		.section	.text.UdpFind,"ax",@progbits
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 2
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 2
 
 
   26               	.global	UdpFind
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
   80 0066 FC01      		movw r30,r24
   81 0068 0097      		sbiw r24,0
   82 006a 01F0      		breq .L24
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 3
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 3
 
 
   83 006c EA0D      		add r30,r10
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  137 00de 8C93      		st X,r24
  138 00e0 5797      		sbiw r26,23
  139 00e2 1196      		adiw r26,1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 4
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 4
 
 
  140 00e4 80E0      		ldi r24,hi8(confnet+16)
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  194 0166 EF28      		or r14,r15
  195 0168 01F0      		breq .L8
  196 016a 2981      		ldd r18,Y+1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 5
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 5
 
 
  197 016c 3A81      		ldd r19,Y+2
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  251 01d6 7FEF      		ldi r23,hhi8(-1)
  252 01d8 8501      		movw r16,r10
  253 01da B0E4      		ldi r27,lo8(64)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 6
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 6
 
 
  254 01dc EB2E      		mov r14,r27
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  308 0244 90E0      		ldi r25,hi8(.LC6)
  309 0246 EDB7      		in r30,__SP_L__
  310 0248 FEB7      		in r31,__SP_H__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 7
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 7
 
 
  311 024a 9283      		std Z+2,r25
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  365 02d6 B0E0      		ldi r27,hi8(confnet+16)
  366 02d8 FB06      		cpc r15,r27
  367 02da 01F4      		brne .L13
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 8
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 8
 
 
  368 02dc FB01      		movw r30,r22
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  420      7420 636F 
  420      6E6E 6563 
  420      7465 6420 
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 9
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 9
 
 
  421               	.LC9:
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  447               	/* prologue: function */
  448               	/* frame size = 4 */
  449 000c 88EE      		ldi r24,lo8(1000)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 10
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 10
 
 
  450 000e 93E0      		ldi r25,hi8(1000)
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  504 0088 2E93      		st -X,r18
  505 008a 1197      		sbiw r26,1
  506 008c 9383      		std Z+3,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 11
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 11
 
 
  507 008e 8283      		std Z+2,r24
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  561 0110 00D0      		rcall .
  562 0112 ADB7      		in r26,__SP_L__
  563 0114 BEB7      		in r27,__SP_H__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 12
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 12
 
 
  564 0116 1296      		adiw r26,1+1
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  618 0184 1197      		sbiw r26,1
  619 0186 0E94 0000 		call printf
  620 018a F601      		movw r30,r12
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 13
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 13
 
 
  621 018c B082      		st Z,r11
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  675 01fa F601      		movw r30,r12
  676 01fc 8181      		ldd r24,Z+1
  677 01fe 8831      		cpi r24,lo8(24)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 14
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 14
 
 
  678 0200 01F0      		breq .+2
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  732 0274 00C0      		rjmp .L32
  733 0276 1296      		adiw r26,2
  734 0278 8C91      		ld r24,X
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 15
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 15
 
 
  735 027a 1297      		sbiw r26,2
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  789 02ec 0E94 0000 		call display_show
  790 02f0 00C0      		rjmp .L40
  791               	.L41:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 16
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 16
 
 
  792 02f2 8091 0000 		lds r24,win_loaded
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  846 036a 01F0      		breq .+2
  847 036c 00C0      		rjmp .L32
  848               	.L60:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 17
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 17
 
 
  849 036e B082      		st Z,r11
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  903 03da 8281      		ldd r24,Z+2
  904 03dc 8833      		cpi r24,lo8(56)
  905 03de 01F0      		breq .+2
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 18
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 18
 
 
  906 03e0 00C0      		rjmp .L32
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  960 0458 24EF      		ldi r18,lo8(4340)
  961 045a 30E1      		ldi r19,hi8(4340)
  962 045c 1496      		adiw r26,3+1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 19
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 19
 
 
  963 045e 3C93      		st X,r19
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  1017 04e0 8C01      		movw r16,r24
  1018 04e2 85E0      		ldi r24,lo8(5)
  1019               	.L59:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 20
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 20
 
 
  1020 04e4 60E0      		ldi r22,lo8(0)
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  1053      6E74 5F63 
  1053      6861 6E6E 
  1054               	.LC26:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 21
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 21
 
 
  1055 0292 6F74 6175 		.string	"otau_set_channel %d\r\n"
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  1075      2E25 640D 
  1075      0A00 
  1076               	.LC37:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 22
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 22
 
 
  1077 0352 6861 7665 		.string	"have_ext_rs323_plugged\r\n"
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  1100               	.LC49:
  1101 03f4 6261 645F 		.string	"bad_work_enable\r\n"
  1101      776F 726B 
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 23
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 23
 
 
  1101      5F65 6E61 
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  1121      2564 0D0A 
  1121      00
  1122               	.LC60:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 24
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 24
 
 
  1123 04c9 696E 695F 		.string	"ini_write\r\n"
@@ -1432,1616 +1432,1646 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 1
  1160               	/* prologue: function */
  1161               	/* frame size = 19 */
  1162 0034 1092 0000 		sts haveConnectTelnet,__zero_reg__
- 1163 0038 70E0      		ldi r23,lo8(.LC42)
- 1164 003a 672E      		mov r6,r23
- 1165 003c 70E0      		ldi r23,hi8(.LC42)
- 1166 003e 772E      		mov r7,r23
- 1167 0040 60E0      		ldi r22,lo8(.LC22)
- 1168 0042 462E      		mov r4,r22
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 25
+ 1163 0038 0FEF      		ldi r16,lo8(-1)
+ 1164 003a 1FEF      		ldi r17,hi8(-1)
+ 1165 003c 70E0      		ldi r23,lo8(.LC42)
+ 1166 003e 672E      		mov r6,r23
+ 1167 0040 70E0      		ldi r23,hi8(.LC42)
+ 1168 0042 772E      		mov r7,r23
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 25
 
 
- 1169 0044 60E0      		ldi r22,hi8(.LC22)
- 1170 0046 562E      		mov r5,r22
- 1171               	.L135:
- 1172 0048 0E94 0000 		call NutTcpCreateSocket
- 1173 004c 4C01      		movw r8,r24
- 1174 004e 67E1      		ldi r22,lo8(23)
- 1175 0050 70E0      		ldi r23,hi8(23)
- 1176 0052 0E94 0000 		call NutTcpAccept
- 1177 0056 D401      		movw r26,r8
- 1178 0058 5A96      		adiw r26,26
- 1179 005a 6D91      		ld r22,X+
- 1180 005c 7D91      		ld r23,X+
- 1181 005e 8D91      		ld r24,X+
- 1182 0060 9C91      		ld r25,X
- 1183 0062 5D97      		sbiw r26,26+3
- 1184 0064 0E94 0000 		call inet_ntoa
- 1185 0068 00D0      		rcall .
- 1186 006a 00D0      		rcall .
- 1187 006c 00D0      		rcall .
- 1188 006e EDB7      		in r30,__SP_L__
- 1189 0070 FEB7      		in r31,__SP_H__
- 1190 0072 3196      		adiw r30,1
- 1191 0074 20E0      		ldi r18,lo8(.LC8)
- 1192 0076 30E0      		ldi r19,hi8(.LC8)
- 1193 0078 ADB7      		in r26,__SP_L__
- 1194 007a BEB7      		in r27,__SP_H__
- 1195 007c 1296      		adiw r26,1+1
- 1196 007e 3C93      		st X,r19
- 1197 0080 2E93      		st -X,r18
- 1198 0082 1197      		sbiw r26,1
- 1199 0084 9383      		std Z+3,r25
- 1200 0086 8283      		std Z+2,r24
- 1201 0088 87E1      		ldi r24,lo8(23)
- 1202 008a 90E0      		ldi r25,hi8(23)
- 1203 008c 9583      		std Z+5,r25
- 1204 008e 8483      		std Z+4,r24
- 1205 0090 0E94 0000 		call printf
- 1206 0094 6DB7      		in r22,__SP_L__
- 1207 0096 7EB7      		in r23,__SP_H__
- 1208 0098 6A5F      		subi r22,lo8(-(6))
- 1209 009a 7F4F      		sbci r23,hi8(-(6))
- 1210 009c 0FB6      		in __tmp_reg__,__SREG__
- 1211 009e F894      		cli
- 1212 00a0 7EBF      		out __SP_H__,r23
- 1213 00a2 0FBE      		out __SREG__,__tmp_reg__
- 1214 00a4 6DBF      		out __SP_L__,r22
- 1215 00a6 C401      		movw r24,r8
- 1216 00a8 60E0      		ldi r22,lo8(.LC17)
- 1217 00aa 70E0      		ldi r23,hi8(.LC17)
- 1218 00ac 0E94 0000 		call _fdopen
- 1219 00b0 9093 0000 		sts (ethTelnetFile)+1,r25
- 1220 00b4 8093 0000 		sts ethTelnetFile,r24
- 1221 00b8 81E0      		ldi r24,lo8(1)
- 1222 00ba 8093 0000 		sts haveConnectTelnet,r24
- 1223 00be 80E0      		ldi r24,lo8(512)
- 1224 00c0 92E0      		ldi r25,hi8(512)
- 1225 00c2 0E94 0000 		call malloc
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 26
+ 1169 0044 60E0      		ldi r22,lo8(.LC22)
+ 1170 0046 462E      		mov r4,r22
+ 1171 0048 60E0      		ldi r22,hi8(.LC22)
+ 1172 004a 562E      		mov r5,r22
+ 1173 004c 00C0      		rjmp .L143
+ 1174               	.L64:
+ 1175 004e 0E94 0000 		call NutTcpCreateSocket
+ 1176 0052 4C01      		movw r8,r24
+ 1177 0054 82E3      		ldi r24,lo8(50)
+ 1178 0056 90E0      		ldi r25,hi8(50)
+ 1179 0058 A0E0      		ldi r26,hlo8(50)
+ 1180 005a B0E0      		ldi r27,hhi8(50)
+ 1181 005c 8C87      		std Y+12,r24
+ 1182 005e 9D87      		std Y+13,r25
+ 1183 0060 AE87      		std Y+14,r26
+ 1184 0062 BF87      		std Y+15,r27
+ 1185 0064 C401      		movw r24,r8
+ 1186 0066 66E0      		ldi r22,lo8(4102)
+ 1187 0068 70E1      		ldi r23,hi8(4102)
+ 1188 006a AE01      		movw r20,r28
+ 1189 006c 445F      		subi r20,lo8(-(12))
+ 1190 006e 5F4F      		sbci r21,hi8(-(12))
+ 1191 0070 24E0      		ldi r18,lo8(4)
+ 1192 0072 30E0      		ldi r19,hi8(4)
+ 1193 0074 0E94 0000 		call NutTcpSetSockOpt
+ 1194 0078 C401      		movw r24,r8
+ 1195 007a 67E1      		ldi r22,lo8(23)
+ 1196 007c 70E0      		ldi r23,hi8(23)
+ 1197 007e 0E94 0000 		call NutTcpAccept
+ 1198 0082 8C01      		movw r16,r24
+ 1199 0084 0097      		sbiw r24,0
+ 1200 0086 01F0      		breq .L63
+ 1201 0088 C401      		movw r24,r8
+ 1202 008a 0E94 0000 		call NutTcpCloseSocket
+ 1203               	.L143:
+ 1204 008e 012B      		or r16,r17
+ 1205 0090 01F4      		brne .L64
+ 1206               	.L63:
+ 1207 0092 D401      		movw r26,r8
+ 1208 0094 5A96      		adiw r26,26
+ 1209 0096 6D91      		ld r22,X+
+ 1210 0098 7D91      		ld r23,X+
+ 1211 009a 8D91      		ld r24,X+
+ 1212 009c 9C91      		ld r25,X
+ 1213 009e 5D97      		sbiw r26,26+3
+ 1214 00a0 0E94 0000 		call inet_ntoa
+ 1215 00a4 00D0      		rcall .
+ 1216 00a6 00D0      		rcall .
+ 1217 00a8 00D0      		rcall .
+ 1218 00aa EDB7      		in r30,__SP_L__
+ 1219 00ac FEB7      		in r31,__SP_H__
+ 1220 00ae 3196      		adiw r30,1
+ 1221 00b0 20E0      		ldi r18,lo8(.LC8)
+ 1222 00b2 30E0      		ldi r19,hi8(.LC8)
+ 1223 00b4 ADB7      		in r26,__SP_L__
+ 1224 00b6 BEB7      		in r27,__SP_H__
+ 1225 00b8 1296      		adiw r26,1+1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 26
 
 
- 1226 00c6 5C01      		movw r10,r24
- 1227 00c8 5CE0      		ldi r21,lo8(12)
- 1228 00ca 252E      		mov r2,r21
- 1229 00cc 312C      		mov r3,__zero_reg__
- 1230 00ce 2C0E      		add r2,r28
- 1231 00d0 3D1E      		adc r3,r29
- 1232 00d2 00C0      		rjmp .L140
- 1233               	.L134:
- 1234 00d4 88E8      		ldi r24,lo8(5000)
- 1235 00d6 93E1      		ldi r25,hi8(5000)
- 1236 00d8 A0E0      		ldi r26,hlo8(5000)
- 1237 00da B0E0      		ldi r27,hhi8(5000)
- 1238 00dc 8C87      		std Y+12,r24
- 1239 00de 9D87      		std Y+13,r25
- 1240 00e0 AE87      		std Y+14,r26
- 1241 00e2 BF87      		std Y+15,r27
- 1242 00e4 C401      		movw r24,r8
- 1243 00e6 66E0      		ldi r22,lo8(4102)
- 1244 00e8 70E1      		ldi r23,hi8(4102)
- 1245 00ea A101      		movw r20,r2
- 1246 00ec 24E0      		ldi r18,lo8(4)
- 1247 00ee 30E0      		ldi r19,hi8(4)
- 1248 00f0 0E94 0000 		call NutTcpSetSockOpt
- 1249 00f4 2091 0000 		lds r18,ethTelnetFile
- 1250 00f8 3091 0000 		lds r19,(ethTelnetFile)+1
- 1251 00fc C501      		movw r24,r10
- 1252 00fe 61E0      		ldi r22,lo8(1)
- 1253 0100 70E0      		ldi r23,hi8(1)
- 1254 0102 40E0      		ldi r20,lo8(512)
- 1255 0104 52E0      		ldi r21,hi8(512)
- 1256 0106 0E94 0000 		call fread
- 1257 010a 8C01      		movw r16,r24
- 1258 010c 6C01      		movw r12,r24
- 1259 010e 1816      		cp __zero_reg__,r24
- 1260 0110 1906      		cpc __zero_reg__,r25
- 1261 0112 04F0      		brlt .+2
- 1262 0114 00C0      		rjmp .L63
- 1263 0116 F501      		movw r30,r10
- 1264 0118 E80F      		add r30,r24
- 1265 011a F91F      		adc r31,r25
- 1266 011c 1082      		st Z,__zero_reg__
- 1267 011e 8091 0000 		lds r24,haveConnectTelnet
- 1268 0122 8823      		tst r24
- 1269 0124 01F4      		brne .+2
- 1270 0126 00C0      		rjmp .L140
- 1271 0128 C501      		movw r24,r10
- 1272 012a 60E0      		ldi r22,lo8(.LC18)
- 1273 012c 70E0      		ldi r23,hi8(.LC18)
- 1274 012e 0E94 0000 		call strcmp
- 1275 0132 0097      		sbiw r24,0
- 1276 0134 01F4      		brne .L64
- 1277 0136 0E94 0000 		call otau_reset
- 1278 013a 00C0      		rjmp .L158
- 1279               	.L64:
- 1280 013c C501      		movw r24,r10
- 1281 013e 60E0      		ldi r22,lo8(.LC21)
- 1282 0140 70E0      		ldi r23,hi8(.LC21)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 27
+ 1226 00ba 3C93      		st X,r19
+ 1227 00bc 2E93      		st -X,r18
+ 1228 00be 1197      		sbiw r26,1
+ 1229 00c0 9383      		std Z+3,r25
+ 1230 00c2 8283      		std Z+2,r24
+ 1231 00c4 87E1      		ldi r24,lo8(23)
+ 1232 00c6 90E0      		ldi r25,hi8(23)
+ 1233 00c8 9583      		std Z+5,r25
+ 1234 00ca 8483      		std Z+4,r24
+ 1235 00cc 0E94 0000 		call printf
+ 1236 00d0 6DB7      		in r22,__SP_L__
+ 1237 00d2 7EB7      		in r23,__SP_H__
+ 1238 00d4 6A5F      		subi r22,lo8(-(6))
+ 1239 00d6 7F4F      		sbci r23,hi8(-(6))
+ 1240 00d8 0FB6      		in __tmp_reg__,__SREG__
+ 1241 00da F894      		cli
+ 1242 00dc 7EBF      		out __SP_H__,r23
+ 1243 00de 0FBE      		out __SREG__,__tmp_reg__
+ 1244 00e0 6DBF      		out __SP_L__,r22
+ 1245 00e2 C401      		movw r24,r8
+ 1246 00e4 60E0      		ldi r22,lo8(.LC17)
+ 1247 00e6 70E0      		ldi r23,hi8(.LC17)
+ 1248 00e8 0E94 0000 		call _fdopen
+ 1249 00ec 9093 0000 		sts (ethTelnetFile)+1,r25
+ 1250 00f0 8093 0000 		sts ethTelnetFile,r24
+ 1251 00f4 81E0      		ldi r24,lo8(1)
+ 1252 00f6 8093 0000 		sts haveConnectTelnet,r24
+ 1253 00fa 80E0      		ldi r24,lo8(512)
+ 1254 00fc 92E0      		ldi r25,hi8(512)
+ 1255 00fe 0E94 0000 		call malloc
+ 1256 0102 5C01      		movw r10,r24
+ 1257 0104 5CE0      		ldi r21,lo8(12)
+ 1258 0106 252E      		mov r2,r21
+ 1259 0108 312C      		mov r3,__zero_reg__
+ 1260 010a 2C0E      		add r2,r28
+ 1261 010c 3D1E      		adc r3,r29
+ 1262 010e 00C0      		rjmp .L142
+ 1263               	.L137:
+ 1264 0110 88E8      		ldi r24,lo8(5000)
+ 1265 0112 93E1      		ldi r25,hi8(5000)
+ 1266 0114 A0E0      		ldi r26,hlo8(5000)
+ 1267 0116 B0E0      		ldi r27,hhi8(5000)
+ 1268 0118 8C87      		std Y+12,r24
+ 1269 011a 9D87      		std Y+13,r25
+ 1270 011c AE87      		std Y+14,r26
+ 1271 011e BF87      		std Y+15,r27
+ 1272 0120 C401      		movw r24,r8
+ 1273 0122 66E0      		ldi r22,lo8(4102)
+ 1274 0124 70E1      		ldi r23,hi8(4102)
+ 1275 0126 A101      		movw r20,r2
+ 1276 0128 24E0      		ldi r18,lo8(4)
+ 1277 012a 30E0      		ldi r19,hi8(4)
+ 1278 012c 0E94 0000 		call NutTcpSetSockOpt
+ 1279 0130 2091 0000 		lds r18,ethTelnetFile
+ 1280 0134 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1281 0138 C501      		movw r24,r10
+ 1282 013a 61E0      		ldi r22,lo8(1)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 27
 
 
- 1283 0142 0E94 0000 		call strcmp
- 1284 0146 0097      		sbiw r24,0
- 1285 0148 01F0      		breq .+2
- 1286 014a 00C0      		rjmp .L67
- 1287 014c 0E94 0000 		call otau_get_channel
- 1288 0150 082F      		mov r16,r24
- 1289 0152 10E0      		ldi r17,lo8(0)
- 1290 0154 1B87      		std Y+11,r17
- 1291 0156 0A87      		std Y+10,r16
- 1292 0158 0E94 0000 		call otau_get_count_channels
- 1293 015c 90E0      		ldi r25,lo8(0)
- 1294 015e 8F77      		andi r24,lo8(-129)
- 1295 0160 8017      		cp r24,r16
- 1296 0162 9107      		cpc r25,r17
- 1297 0164 04F0      		brlt .L68
- 1298 0166 00D0      		rcall .
- 1299 0168 00D0      		rcall .
- 1300 016a 00D0      		rcall .
- 1301 016c EDB7      		in r30,__SP_L__
- 1302 016e FEB7      		in r31,__SP_H__
- 1303 0170 3196      		adiw r30,1
- 1304 0172 ADB7      		in r26,__SP_L__
- 1305 0174 BEB7      		in r27,__SP_H__
- 1306 0176 1296      		adiw r26,1+1
- 1307 0178 BC92      		st X,r11
- 1308 017a AE92      		st -X,r10
- 1309 017c 1197      		sbiw r26,1
- 1310 017e 5382      		std Z+3,r5
- 1311 0180 4282      		std Z+2,r4
- 1312 0182 8A85      		ldd r24,Y+10
- 1313 0184 9B85      		ldd r25,Y+11
- 1314 0186 9583      		std Z+5,r25
- 1315 0188 8483      		std Z+4,r24
- 1316 018a 0E94 0000 		call sprintf
- 1317 018e 0F90      		pop __tmp_reg__
- 1318 0190 0F90      		pop __tmp_reg__
- 1319 0192 20E0      		ldi r18,lo8(.LC23)
- 1320 0194 30E0      		ldi r19,hi8(.LC23)
- 1321 0196 EDB7      		in r30,__SP_L__
- 1322 0198 FEB7      		in r31,__SP_H__
- 1323 019a 3283      		std Z+2,r19
- 1324 019c 2183      		std Z+1,r18
- 1325 019e B482      		std Z+4,r11
- 1326 01a0 A382      		std Z+3,r10
- 1327 01a2 0E94 0000 		call printf
- 1328 01a6 D501      		movw r26,r10
- 1329 01a8 0D90      		ld __tmp_reg__,X+
- 1330 01aa 0020      		tst __tmp_reg__
- 1331 01ac 01F4      		brne .-6
- 1332 01ae 1197      		sbiw r26,1
- 1333 01b0 AA19      		sub r26,r10
- 1334 01b2 BB09      		sbc r27,r11
- 1335 01b4 0F90      		pop __tmp_reg__
- 1336 01b6 0F90      		pop __tmp_reg__
- 1337 01b8 0F90      		pop __tmp_reg__
- 1338 01ba 0F90      		pop __tmp_reg__
- 1339 01bc 00C0      		rjmp .L150
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 28
+ 1283 013c 70E0      		ldi r23,hi8(1)
+ 1284 013e 40E0      		ldi r20,lo8(512)
+ 1285 0140 52E0      		ldi r21,hi8(512)
+ 1286 0142 0E94 0000 		call fread
+ 1287 0146 8C01      		movw r16,r24
+ 1288 0148 6C01      		movw r12,r24
+ 1289 014a 1816      		cp __zero_reg__,r24
+ 1290 014c 1906      		cpc __zero_reg__,r25
+ 1291 014e 04F0      		brlt .+2
+ 1292 0150 00C0      		rjmp .L66
+ 1293 0152 F501      		movw r30,r10
+ 1294 0154 E80F      		add r30,r24
+ 1295 0156 F91F      		adc r31,r25
+ 1296 0158 1082      		st Z,__zero_reg__
+ 1297 015a 8091 0000 		lds r24,haveConnectTelnet
+ 1298 015e 8823      		tst r24
+ 1299 0160 01F4      		brne .+2
+ 1300 0162 00C0      		rjmp .L142
+ 1301 0164 C501      		movw r24,r10
+ 1302 0166 60E0      		ldi r22,lo8(.LC18)
+ 1303 0168 70E0      		ldi r23,hi8(.LC18)
+ 1304 016a 0E94 0000 		call strcmp
+ 1305 016e 0097      		sbiw r24,0
+ 1306 0170 01F4      		brne .L67
+ 1307 0172 0E94 0000 		call otau_reset
+ 1308 0176 00C0      		rjmp .L161
+ 1309               	.L67:
+ 1310 0178 C501      		movw r24,r10
+ 1311 017a 60E0      		ldi r22,lo8(.LC21)
+ 1312 017c 70E0      		ldi r23,hi8(.LC21)
+ 1313 017e 0E94 0000 		call strcmp
+ 1314 0182 0097      		sbiw r24,0
+ 1315 0184 01F0      		breq .+2
+ 1316 0186 00C0      		rjmp .L70
+ 1317 0188 0E94 0000 		call otau_get_channel
+ 1318 018c 082F      		mov r16,r24
+ 1319 018e 10E0      		ldi r17,lo8(0)
+ 1320 0190 1B87      		std Y+11,r17
+ 1321 0192 0A87      		std Y+10,r16
+ 1322 0194 0E94 0000 		call otau_get_count_channels
+ 1323 0198 90E0      		ldi r25,lo8(0)
+ 1324 019a 8F77      		andi r24,lo8(-129)
+ 1325 019c 8017      		cp r24,r16
+ 1326 019e 9107      		cpc r25,r17
+ 1327 01a0 04F0      		brlt .L71
+ 1328 01a2 00D0      		rcall .
+ 1329 01a4 00D0      		rcall .
+ 1330 01a6 00D0      		rcall .
+ 1331 01a8 EDB7      		in r30,__SP_L__
+ 1332 01aa FEB7      		in r31,__SP_H__
+ 1333 01ac 3196      		adiw r30,1
+ 1334 01ae ADB7      		in r26,__SP_L__
+ 1335 01b0 BEB7      		in r27,__SP_H__
+ 1336 01b2 1296      		adiw r26,1+1
+ 1337 01b4 BC92      		st X,r11
+ 1338 01b6 AE92      		st -X,r10
+ 1339 01b8 1197      		sbiw r26,1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 28
 
 
- 1340               	.L68:
- 1341 01be 80E0      		ldi r24,lo8(.LC24)
- 1342 01c0 90E0      		ldi r25,hi8(.LC24)
- 1343 01c2 0E94 0000 		call puts
- 1344 01c6 00C0      		rjmp .L131
- 1345               	.L67:
- 1346 01c8 C501      		movw r24,r10
- 1347 01ca 60E0      		ldi r22,lo8(.LC25)
- 1348 01cc 70E0      		ldi r23,hi8(.LC25)
- 1349 01ce 0E94 0000 		call strcmp
- 1350 01d2 0097      		sbiw r24,0
- 1351 01d4 01F4      		brne .L69
- 1352 01d6 0E94 0000 		call otau_get_count_channels
- 1353 01da 90E0      		ldi r25,lo8(0)
- 1354 01dc 8F77      		andi r24,lo8(-129)
- 1355 01de 9B87      		std Y+11,r25
- 1356 01e0 8A87      		std Y+10,r24
- 1357 01e2 0097      		sbiw r24,0
- 1358 01e4 01F4      		brne .+2
- 1359 01e6 00C0      		rjmp .L131
- 1360 01e8 00D0      		rcall .
- 1361 01ea 00D0      		rcall .
- 1362 01ec 00D0      		rcall .
- 1363 01ee EDB7      		in r30,__SP_L__
- 1364 01f0 FEB7      		in r31,__SP_H__
- 1365 01f2 3196      		adiw r30,1
- 1366 01f4 ADB7      		in r26,__SP_L__
- 1367 01f6 BEB7      		in r27,__SP_H__
- 1368 01f8 1296      		adiw r26,1+1
- 1369 01fa BC92      		st X,r11
- 1370 01fc AE92      		st -X,r10
- 1371 01fe 1197      		sbiw r26,1
- 1372 0200 5382      		std Z+3,r5
- 1373 0202 4282      		std Z+2,r4
- 1374 0204 9583      		std Z+5,r25
- 1375 0206 8483      		std Z+4,r24
- 1376 0208 0E94 0000 		call sprintf
- 1377 020c D501      		movw r26,r10
- 1378 020e 0D90      		ld __tmp_reg__,X+
- 1379 0210 0020      		tst __tmp_reg__
- 1380 0212 01F4      		brne .-6
- 1381 0214 1197      		sbiw r26,1
- 1382 0216 AA19      		sub r26,r10
- 1383 0218 BB09      		sbc r27,r11
- 1384 021a EDB7      		in r30,__SP_L__
- 1385 021c FEB7      		in r31,__SP_H__
- 1386 021e 3696      		adiw r30,6
- 1387 0220 0FB6      		in __tmp_reg__,__SREG__
- 1388 0222 F894      		cli
- 1389 0224 FEBF      		out __SP_H__,r31
- 1390 0226 0FBE      		out __SREG__,__tmp_reg__
- 1391 0228 EDBF      		out __SP_L__,r30
- 1392               	.L150:
- 1393 022a 2091 0000 		lds r18,ethTelnetFile
- 1394 022e 3091 0000 		lds r19,(ethTelnetFile)+1
- 1395 0232 C501      		movw r24,r10
- 1396 0234 61E0      		ldi r22,lo8(1)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 29
+ 1340 01ba 5382      		std Z+3,r5
+ 1341 01bc 4282      		std Z+2,r4
+ 1342 01be 8A85      		ldd r24,Y+10
+ 1343 01c0 9B85      		ldd r25,Y+11
+ 1344 01c2 9583      		std Z+5,r25
+ 1345 01c4 8483      		std Z+4,r24
+ 1346 01c6 0E94 0000 		call sprintf
+ 1347 01ca 0F90      		pop __tmp_reg__
+ 1348 01cc 0F90      		pop __tmp_reg__
+ 1349 01ce 20E0      		ldi r18,lo8(.LC23)
+ 1350 01d0 30E0      		ldi r19,hi8(.LC23)
+ 1351 01d2 EDB7      		in r30,__SP_L__
+ 1352 01d4 FEB7      		in r31,__SP_H__
+ 1353 01d6 3283      		std Z+2,r19
+ 1354 01d8 2183      		std Z+1,r18
+ 1355 01da B482      		std Z+4,r11
+ 1356 01dc A382      		std Z+3,r10
+ 1357 01de 0E94 0000 		call printf
+ 1358 01e2 D501      		movw r26,r10
+ 1359 01e4 0D90      		ld __tmp_reg__,X+
+ 1360 01e6 0020      		tst __tmp_reg__
+ 1361 01e8 01F4      		brne .-6
+ 1362 01ea 1197      		sbiw r26,1
+ 1363 01ec AA19      		sub r26,r10
+ 1364 01ee BB09      		sbc r27,r11
+ 1365 01f0 0F90      		pop __tmp_reg__
+ 1366 01f2 0F90      		pop __tmp_reg__
+ 1367 01f4 0F90      		pop __tmp_reg__
+ 1368 01f6 0F90      		pop __tmp_reg__
+ 1369 01f8 00C0      		rjmp .L153
+ 1370               	.L71:
+ 1371 01fa 80E0      		ldi r24,lo8(.LC24)
+ 1372 01fc 90E0      		ldi r25,hi8(.LC24)
+ 1373 01fe 0E94 0000 		call puts
+ 1374 0202 00C0      		rjmp .L134
+ 1375               	.L70:
+ 1376 0204 C501      		movw r24,r10
+ 1377 0206 60E0      		ldi r22,lo8(.LC25)
+ 1378 0208 70E0      		ldi r23,hi8(.LC25)
+ 1379 020a 0E94 0000 		call strcmp
+ 1380 020e 0097      		sbiw r24,0
+ 1381 0210 01F4      		brne .L72
+ 1382 0212 0E94 0000 		call otau_get_count_channels
+ 1383 0216 90E0      		ldi r25,lo8(0)
+ 1384 0218 8F77      		andi r24,lo8(-129)
+ 1385 021a 9B87      		std Y+11,r25
+ 1386 021c 8A87      		std Y+10,r24
+ 1387 021e 0097      		sbiw r24,0
+ 1388 0220 01F4      		brne .+2
+ 1389 0222 00C0      		rjmp .L134
+ 1390 0224 00D0      		rcall .
+ 1391 0226 00D0      		rcall .
+ 1392 0228 00D0      		rcall .
+ 1393 022a EDB7      		in r30,__SP_L__
+ 1394 022c FEB7      		in r31,__SP_H__
+ 1395 022e 3196      		adiw r30,1
+ 1396 0230 ADB7      		in r26,__SP_L__
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 29
 
 
- 1397 0236 70E0      		ldi r23,hi8(1)
- 1398 0238 AD01      		movw r20,r26
- 1399 023a 00C0      		rjmp .L147
- 1400               	.L69:
- 1401 023c C501      		movw r24,r10
- 1402 023e 60E0      		ldi r22,lo8(.LC26)
- 1403 0240 70E0      		ldi r23,hi8(.LC26)
- 1404 0242 41E1      		ldi r20,lo8(17)
- 1405 0244 50E0      		ldi r21,hi8(17)
- 1406 0246 0E94 0000 		call strncmp
- 1407 024a 0097      		sbiw r24,0
- 1408 024c 01F0      		breq .+2
- 1409 024e 00C0      		rjmp .L71
- 1410 0250 00D0      		rcall .
- 1411 0252 00D0      		rcall .
- 1412 0254 00D0      		rcall .
- 1413 0256 EDB7      		in r30,__SP_L__
- 1414 0258 FEB7      		in r31,__SP_H__
- 1415 025a 3196      		adiw r30,1
- 1416 025c ADB7      		in r26,__SP_L__
- 1417 025e BEB7      		in r27,__SP_H__
- 1418 0260 1296      		adiw r26,1+1
- 1419 0262 BC92      		st X,r11
- 1420 0264 AE92      		st -X,r10
- 1421 0266 1197      		sbiw r26,1
- 1422 0268 20E0      		ldi r18,lo8(.LC27)
- 1423 026a 30E0      		ldi r19,hi8(.LC27)
- 1424 026c 3383      		std Z+3,r19
- 1425 026e 2283      		std Z+2,r18
- 1426 0270 CE01      		movw r24,r28
- 1427 0272 0A96      		adiw r24,10
- 1428 0274 9583      		std Z+5,r25
- 1429 0276 8483      		std Z+4,r24
- 1430 0278 0E94 0000 		call sscanf
- 1431 027c 6DB7      		in r22,__SP_L__
- 1432 027e 7EB7      		in r23,__SP_H__
- 1433 0280 6A5F      		subi r22,lo8(-(6))
- 1434 0282 7F4F      		sbci r23,hi8(-(6))
- 1435 0284 0FB6      		in __tmp_reg__,__SREG__
- 1436 0286 F894      		cli
- 1437 0288 7EBF      		out __SP_H__,r23
- 1438 028a 0FBE      		out __SREG__,__tmp_reg__
- 1439 028c 6DBF      		out __SP_L__,r22
- 1440 028e 8A85      		ldd r24,Y+10
- 1441 0290 0E94 0000 		call otau_set_channel
- 1442 0294 8823      		tst r24
- 1443 0296 01F0      		breq .L72
- 1444 0298 00D0      		rcall .
- 1445 029a 00D0      		rcall .
- 1446 029c E0E0      		ldi r30,lo8(.LC28)
- 1447 029e F0E0      		ldi r31,hi8(.LC28)
- 1448 02a0 ADB7      		in r26,__SP_L__
- 1449 02a2 BEB7      		in r27,__SP_H__
- 1450 02a4 1296      		adiw r26,1+1
- 1451 02a6 FC93      		st X,r31
- 1452 02a8 EE93      		st -X,r30
- 1453 02aa 1197      		sbiw r26,1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 30
+ 1397 0232 BEB7      		in r27,__SP_H__
+ 1398 0234 1296      		adiw r26,1+1
+ 1399 0236 BC92      		st X,r11
+ 1400 0238 AE92      		st -X,r10
+ 1401 023a 1197      		sbiw r26,1
+ 1402 023c 5382      		std Z+3,r5
+ 1403 023e 4282      		std Z+2,r4
+ 1404 0240 9583      		std Z+5,r25
+ 1405 0242 8483      		std Z+4,r24
+ 1406 0244 0E94 0000 		call sprintf
+ 1407 0248 D501      		movw r26,r10
+ 1408 024a 0D90      		ld __tmp_reg__,X+
+ 1409 024c 0020      		tst __tmp_reg__
+ 1410 024e 01F4      		brne .-6
+ 1411 0250 1197      		sbiw r26,1
+ 1412 0252 AA19      		sub r26,r10
+ 1413 0254 BB09      		sbc r27,r11
+ 1414 0256 EDB7      		in r30,__SP_L__
+ 1415 0258 FEB7      		in r31,__SP_H__
+ 1416 025a 3696      		adiw r30,6
+ 1417 025c 0FB6      		in __tmp_reg__,__SREG__
+ 1418 025e F894      		cli
+ 1419 0260 FEBF      		out __SP_H__,r31
+ 1420 0262 0FBE      		out __SREG__,__tmp_reg__
+ 1421 0264 EDBF      		out __SP_L__,r30
+ 1422               	.L153:
+ 1423 0266 2091 0000 		lds r18,ethTelnetFile
+ 1424 026a 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1425 026e C501      		movw r24,r10
+ 1426 0270 61E0      		ldi r22,lo8(1)
+ 1427 0272 70E0      		ldi r23,hi8(1)
+ 1428 0274 AD01      		movw r20,r26
+ 1429 0276 00C0      		rjmp .L150
+ 1430               	.L72:
+ 1431 0278 C501      		movw r24,r10
+ 1432 027a 60E0      		ldi r22,lo8(.LC26)
+ 1433 027c 70E0      		ldi r23,hi8(.LC26)
+ 1434 027e 41E1      		ldi r20,lo8(17)
+ 1435 0280 50E0      		ldi r21,hi8(17)
+ 1436 0282 0E94 0000 		call strncmp
+ 1437 0286 0097      		sbiw r24,0
+ 1438 0288 01F0      		breq .+2
+ 1439 028a 00C0      		rjmp .L74
+ 1440 028c 00D0      		rcall .
+ 1441 028e 00D0      		rcall .
+ 1442 0290 00D0      		rcall .
+ 1443 0292 EDB7      		in r30,__SP_L__
+ 1444 0294 FEB7      		in r31,__SP_H__
+ 1445 0296 3196      		adiw r30,1
+ 1446 0298 ADB7      		in r26,__SP_L__
+ 1447 029a BEB7      		in r27,__SP_H__
+ 1448 029c 1296      		adiw r26,1+1
+ 1449 029e BC92      		st X,r11
+ 1450 02a0 AE92      		st -X,r10
+ 1451 02a2 1197      		sbiw r26,1
+ 1452 02a4 20E0      		ldi r18,lo8(.LC27)
+ 1453 02a6 30E0      		ldi r19,hi8(.LC27)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 30
 
 
- 1454 02ac 8A85      		ldd r24,Y+10
- 1455 02ae 9B85      		ldd r25,Y+11
- 1456 02b0 1496      		adiw r26,3+1
- 1457 02b2 9C93      		st X,r25
- 1458 02b4 8E93      		st -X,r24
- 1459 02b6 1397      		sbiw r26,3
- 1460 02b8 0E94 0000 		call printf
- 1461 02bc 0F90      		pop __tmp_reg__
- 1462 02be 0F90      		pop __tmp_reg__
- 1463 02c0 0F90      		pop __tmp_reg__
- 1464 02c2 0F90      		pop __tmp_reg__
- 1465 02c4 2091 0000 		lds r18,ethTelnetFile
- 1466 02c8 3091 0000 		lds r19,(ethTelnetFile)+1
- 1467 02cc 80E0      		ldi r24,lo8(.LC19)
- 1468 02ce 90E0      		ldi r25,hi8(.LC19)
- 1469 02d0 61E0      		ldi r22,lo8(1)
- 1470 02d2 70E0      		ldi r23,hi8(1)
- 1471 02d4 44E0      		ldi r20,lo8(4)
- 1472 02d6 50E0      		ldi r21,hi8(4)
- 1473 02d8 0E94 0000 		call fwrite
- 1474 02dc 8A85      		ldd r24,Y+10
- 1475 02de 9B85      		ldd r25,Y+11
- 1476 02e0 0E94 0000 		call display_set_channel
- 1477 02e4 00C0      		rjmp .L66
- 1478               	.L72:
- 1479 02e6 00D0      		rcall .
- 1480 02e8 E0E0      		ldi r30,lo8(.LC29)
- 1481 02ea F0E0      		ldi r31,hi8(.LC29)
- 1482 02ec ADB7      		in r26,__SP_L__
- 1483 02ee BEB7      		in r27,__SP_H__
- 1484 02f0 1296      		adiw r26,1+1
- 1485 02f2 FC93      		st X,r31
- 1486 02f4 EE93      		st -X,r30
- 1487 02f6 1197      		sbiw r26,1
- 1488 02f8 0E94 0000 		call printf
- 1489 02fc 0F90      		pop __tmp_reg__
- 1490 02fe 0F90      		pop __tmp_reg__
- 1491 0300 00C0      		rjmp .L131
- 1492               	.L71:
- 1493 0302 C501      		movw r24,r10
- 1494 0304 60E0      		ldi r22,lo8(.LC30)
- 1495 0306 70E0      		ldi r23,hi8(.LC30)
- 1496 0308 0E94 0000 		call strcmp
- 1497 030c 0097      		sbiw r24,0
- 1498 030e 01F4      		brne .L73
- 1499 0310 0E94 0000 		call otau_check_alive
- 1500 0314 00C0      		rjmp .L158
- 1501               	.L73:
- 1502 0316 C501      		movw r24,r10
- 1503 0318 60E0      		ldi r22,lo8(.LC31)
- 1504 031a 70E0      		ldi r23,hi8(.LC31)
- 1505 031c 0E94 0000 		call strcmp
- 1506 0320 0097      		sbiw r24,0
- 1507 0322 01F4      		brne .L75
- 1508 0324 0E94 0000 		call reset_ext
- 1509 0328 00C0      		rjmp .L154
- 1510               	.L75:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 31
+ 1454 02a8 3383      		std Z+3,r19
+ 1455 02aa 2283      		std Z+2,r18
+ 1456 02ac CE01      		movw r24,r28
+ 1457 02ae 0A96      		adiw r24,10
+ 1458 02b0 9583      		std Z+5,r25
+ 1459 02b2 8483      		std Z+4,r24
+ 1460 02b4 0E94 0000 		call sscanf
+ 1461 02b8 6DB7      		in r22,__SP_L__
+ 1462 02ba 7EB7      		in r23,__SP_H__
+ 1463 02bc 6A5F      		subi r22,lo8(-(6))
+ 1464 02be 7F4F      		sbci r23,hi8(-(6))
+ 1465 02c0 0FB6      		in __tmp_reg__,__SREG__
+ 1466 02c2 F894      		cli
+ 1467 02c4 7EBF      		out __SP_H__,r23
+ 1468 02c6 0FBE      		out __SREG__,__tmp_reg__
+ 1469 02c8 6DBF      		out __SP_L__,r22
+ 1470 02ca 8A85      		ldd r24,Y+10
+ 1471 02cc 0E94 0000 		call otau_set_channel
+ 1472 02d0 8823      		tst r24
+ 1473 02d2 01F0      		breq .L75
+ 1474 02d4 00D0      		rcall .
+ 1475 02d6 00D0      		rcall .
+ 1476 02d8 E0E0      		ldi r30,lo8(.LC28)
+ 1477 02da F0E0      		ldi r31,hi8(.LC28)
+ 1478 02dc ADB7      		in r26,__SP_L__
+ 1479 02de BEB7      		in r27,__SP_H__
+ 1480 02e0 1296      		adiw r26,1+1
+ 1481 02e2 FC93      		st X,r31
+ 1482 02e4 EE93      		st -X,r30
+ 1483 02e6 1197      		sbiw r26,1
+ 1484 02e8 8A85      		ldd r24,Y+10
+ 1485 02ea 9B85      		ldd r25,Y+11
+ 1486 02ec 1496      		adiw r26,3+1
+ 1487 02ee 9C93      		st X,r25
+ 1488 02f0 8E93      		st -X,r24
+ 1489 02f2 1397      		sbiw r26,3
+ 1490 02f4 0E94 0000 		call printf
+ 1491 02f8 0F90      		pop __tmp_reg__
+ 1492 02fa 0F90      		pop __tmp_reg__
+ 1493 02fc 0F90      		pop __tmp_reg__
+ 1494 02fe 0F90      		pop __tmp_reg__
+ 1495 0300 2091 0000 		lds r18,ethTelnetFile
+ 1496 0304 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1497 0308 80E0      		ldi r24,lo8(.LC19)
+ 1498 030a 90E0      		ldi r25,hi8(.LC19)
+ 1499 030c 61E0      		ldi r22,lo8(1)
+ 1500 030e 70E0      		ldi r23,hi8(1)
+ 1501 0310 44E0      		ldi r20,lo8(4)
+ 1502 0312 50E0      		ldi r21,hi8(4)
+ 1503 0314 0E94 0000 		call fwrite
+ 1504 0318 8A85      		ldd r24,Y+10
+ 1505 031a 9B85      		ldd r25,Y+11
+ 1506 031c 0E94 0000 		call display_set_channel
+ 1507 0320 00C0      		rjmp .L69
+ 1508               	.L75:
+ 1509 0322 00D0      		rcall .
+ 1510 0324 E0E0      		ldi r30,lo8(.LC29)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 31
 
 
- 1511 032a C501      		movw r24,r10
- 1512 032c 60E0      		ldi r22,lo8(.LC32)
- 1513 032e 70E0      		ldi r23,hi8(.LC32)
- 1514 0330 0E94 0000 		call strcmp
- 1515 0334 0097      		sbiw r24,0
- 1516 0336 01F4      		brne .L76
- 1517 0338 81E0      		ldi r24,lo8(1)
- 1518 033a 8093 0000 		sts have_reset_command,r24
- 1519 033e 8091 0000 		lds r24,otdr_rs232_manual
- 1520 0342 8823      		tst r24
- 1521 0344 01F0      		breq .+2
- 1522 0346 00C0      		rjmp .L80
- 1523 0348 1092 0000 		sts haveConnectReflect,__zero_reg__
- 1524 034c 0E94 0000 		call otdr_reset
- 1525 0350 2091 0000 		lds r18,ethTelnetFile
- 1526 0354 3091 0000 		lds r19,(ethTelnetFile)+1
- 1527 0358 00C0      		rjmp .L153
- 1528               	.L76:
- 1529 035a C501      		movw r24,r10
- 1530 035c 60E0      		ldi r22,lo8(.LC34)
- 1531 035e 70E0      		ldi r23,hi8(.LC34)
- 1532 0360 0E94 0000 		call strcmp
- 1533 0364 0097      		sbiw r24,0
- 1534 0366 01F0      		breq .+2
- 1535 0368 00C0      		rjmp .L79
- 1536 036a 81E0      		ldi r24,lo8(1)
- 1537 036c 8093 0000 		sts have_reset_command,r24
- 1538 0370 8091 0000 		lds r24,otdr_rs232_manual
- 1539 0374 8823      		tst r24
- 1540 0376 01F0      		breq .+2
- 1541 0378 00C0      		rjmp .L80
- 1542 037a 1092 0000 		sts haveConnectReflect,__zero_reg__
- 1543 037e 0E94 0000 		call otdr_reset
- 1544 0382 85E5      		ldi r24,lo8(85)
- 1545 0384 0E94 0000 		call SPI_write_byte
- 1546 0388 80E8      		ldi r24,lo8(-128)
- 1547 038a 0E94 0000 		call SPI_write_byte
- 1548 038e 00E0      		ldi r16,lo8(0)
- 1549 0390 10E0      		ldi r17,hi8(0)
- 1550 0392 00C0      		rjmp .L81
- 1551               	.L85:
- 1552 0394 0F5F      		subi r16,lo8(-(1))
- 1553 0396 1F4F      		sbci r17,hi8(-(1))
- 1554               	.L81:
- 1555 0398 0E94 0000 		call SPI_have_data
- 1556 039c 8823      		tst r24
- 1557 039e 01F0      		breq .L82
- 1558 03a0 0051      		subi r16,lo8(10000)
- 1559 03a2 1742      		sbci r17,hi8(10000)
- 1560 03a4 01F4      		brne .L141
- 1561 03a6 00C0      		rjmp .L89
- 1562               	.L82:
- 1563 03a8 27E2      		ldi r18,hi8(10000)
- 1564 03aa 0031      		cpi r16,lo8(10000)
- 1565 03ac 1207      		cpc r17,r18
- 1566 03ae 01F4      		brne .L85
- 1567 03b0 00C0      		rjmp .L89
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 32
+ 1511 0326 F0E0      		ldi r31,hi8(.LC29)
+ 1512 0328 ADB7      		in r26,__SP_L__
+ 1513 032a BEB7      		in r27,__SP_H__
+ 1514 032c 1296      		adiw r26,1+1
+ 1515 032e FC93      		st X,r31
+ 1516 0330 EE93      		st -X,r30
+ 1517 0332 1197      		sbiw r26,1
+ 1518 0334 0E94 0000 		call printf
+ 1519 0338 0F90      		pop __tmp_reg__
+ 1520 033a 0F90      		pop __tmp_reg__
+ 1521 033c 00C0      		rjmp .L134
+ 1522               	.L74:
+ 1523 033e C501      		movw r24,r10
+ 1524 0340 60E0      		ldi r22,lo8(.LC30)
+ 1525 0342 70E0      		ldi r23,hi8(.LC30)
+ 1526 0344 0E94 0000 		call strcmp
+ 1527 0348 0097      		sbiw r24,0
+ 1528 034a 01F4      		brne .L76
+ 1529 034c 0E94 0000 		call otau_check_alive
+ 1530 0350 00C0      		rjmp .L161
+ 1531               	.L76:
+ 1532 0352 C501      		movw r24,r10
+ 1533 0354 60E0      		ldi r22,lo8(.LC31)
+ 1534 0356 70E0      		ldi r23,hi8(.LC31)
+ 1535 0358 0E94 0000 		call strcmp
+ 1536 035c 0097      		sbiw r24,0
+ 1537 035e 01F4      		brne .L78
+ 1538 0360 0E94 0000 		call reset_ext
+ 1539 0364 00C0      		rjmp .L157
+ 1540               	.L78:
+ 1541 0366 C501      		movw r24,r10
+ 1542 0368 60E0      		ldi r22,lo8(.LC32)
+ 1543 036a 70E0      		ldi r23,hi8(.LC32)
+ 1544 036c 0E94 0000 		call strcmp
+ 1545 0370 0097      		sbiw r24,0
+ 1546 0372 01F4      		brne .L79
+ 1547 0374 81E0      		ldi r24,lo8(1)
+ 1548 0376 8093 0000 		sts have_reset_command,r24
+ 1549 037a 8091 0000 		lds r24,otdr_rs232_manual
+ 1550 037e 8823      		tst r24
+ 1551 0380 01F0      		breq .+2
+ 1552 0382 00C0      		rjmp .L83
+ 1553 0384 1092 0000 		sts haveConnectReflect,__zero_reg__
+ 1554 0388 0E94 0000 		call otdr_reset
+ 1555 038c 2091 0000 		lds r18,ethTelnetFile
+ 1556 0390 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1557 0394 00C0      		rjmp .L156
+ 1558               	.L79:
+ 1559 0396 C501      		movw r24,r10
+ 1560 0398 60E0      		ldi r22,lo8(.LC34)
+ 1561 039a 70E0      		ldi r23,hi8(.LC34)
+ 1562 039c 0E94 0000 		call strcmp
+ 1563 03a0 0097      		sbiw r24,0
+ 1564 03a2 01F0      		breq .+2
+ 1565 03a4 00C0      		rjmp .L82
+ 1566 03a6 81E0      		ldi r24,lo8(1)
+ 1567 03a8 8093 0000 		sts have_reset_command,r24
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 32
 
 
- 1568               	.L141:
- 1569 03b2 0E94 0000 		call SPI_read_byte
- 1570 03b6 8A87      		std Y+10,r24
- 1571 03b8 1B86      		std Y+11,__zero_reg__
- 1572 03ba 88E0      		ldi r24,lo8(8)
- 1573 03bc 0E94 0000 		call SPI_write_byte
- 1574 03c0 00E0      		ldi r16,lo8(0)
- 1575 03c2 10E0      		ldi r17,hi8(0)
- 1576 03c4 00C0      		rjmp .L87
- 1577               	.L91:
- 1578 03c6 0F5F      		subi r16,lo8(-(1))
- 1579 03c8 1F4F      		sbci r17,hi8(-(1))
- 1580               	.L87:
- 1581 03ca 0E94 0000 		call SPI_have_data
- 1582 03ce 8823      		tst r24
- 1583 03d0 01F0      		breq .L88
- 1584 03d2 0051      		subi r16,lo8(10000)
- 1585 03d4 1742      		sbci r17,hi8(10000)
- 1586 03d6 01F4      		brne .L142
- 1587 03d8 00C0      		rjmp .L89
- 1588               	.L88:
- 1589 03da 67E2      		ldi r22,hi8(10000)
- 1590 03dc 0031      		cpi r16,lo8(10000)
- 1591 03de 1607      		cpc r17,r22
- 1592 03e0 01F4      		brne .L91
- 1593               	.L89:
- 1594 03e2 2091 0000 		lds r18,ethTelnetFile
- 1595 03e6 3091 0000 		lds r19,(ethTelnetFile)+1
- 1596 03ea 00C0      		rjmp .L92
- 1597               	.L142:
- 1598 03ec 0E94 0000 		call SPI_read_byte
- 1599 03f0 90E0      		ldi r25,lo8(0)
- 1600 03f2 9B87      		std Y+11,r25
- 1601 03f4 8A87      		std Y+10,r24
- 1602 03f6 2091 0000 		lds r18,ethTelnetFile
- 1603 03fa 3091 0000 		lds r19,(ethTelnetFile)+1
- 1604 03fe 8836      		cpi r24,104
- 1605 0400 9105      		cpc r25,__zero_reg__
- 1606 0402 01F4      		brne .L92
- 1607               	.L153:
- 1608 0404 80E0      		ldi r24,lo8(.LC19)
- 1609 0406 90E0      		ldi r25,hi8(.LC19)
- 1610 0408 61E0      		ldi r22,lo8(1)
- 1611 040a 70E0      		ldi r23,hi8(1)
- 1612 040c 44E0      		ldi r20,lo8(4)
- 1613 040e 50E0      		ldi r21,hi8(4)
- 1614 0410 00C0      		rjmp .L144
- 1615               	.L92:
- 1616 0412 80E0      		ldi r24,lo8(.LC20)
- 1617 0414 90E0      		ldi r25,hi8(.LC20)
- 1618 0416 61E0      		ldi r22,lo8(1)
- 1619 0418 70E0      		ldi r23,hi8(1)
- 1620 041a 47E0      		ldi r20,lo8(7)
- 1621 041c 50E0      		ldi r21,hi8(7)
- 1622 041e 00C0      		rjmp .L144
- 1623               	.L80:
- 1624 0420 2091 0000 		lds r18,ethTelnetFile
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 33
+ 1568 03ac 8091 0000 		lds r24,otdr_rs232_manual
+ 1569 03b0 8823      		tst r24
+ 1570 03b2 01F0      		breq .+2
+ 1571 03b4 00C0      		rjmp .L83
+ 1572 03b6 1092 0000 		sts haveConnectReflect,__zero_reg__
+ 1573 03ba 0E94 0000 		call otdr_reset
+ 1574 03be 85E5      		ldi r24,lo8(85)
+ 1575 03c0 0E94 0000 		call SPI_write_byte
+ 1576 03c4 80E8      		ldi r24,lo8(-128)
+ 1577 03c6 0E94 0000 		call SPI_write_byte
+ 1578 03ca 00E0      		ldi r16,lo8(0)
+ 1579 03cc 10E0      		ldi r17,hi8(0)
+ 1580 03ce 00C0      		rjmp .L84
+ 1581               	.L88:
+ 1582 03d0 0F5F      		subi r16,lo8(-(1))
+ 1583 03d2 1F4F      		sbci r17,hi8(-(1))
+ 1584               	.L84:
+ 1585 03d4 0E94 0000 		call SPI_have_data
+ 1586 03d8 8823      		tst r24
+ 1587 03da 01F0      		breq .L85
+ 1588 03dc 0051      		subi r16,lo8(10000)
+ 1589 03de 1742      		sbci r17,hi8(10000)
+ 1590 03e0 01F4      		brne .L144
+ 1591 03e2 00C0      		rjmp .L92
+ 1592               	.L85:
+ 1593 03e4 27E2      		ldi r18,hi8(10000)
+ 1594 03e6 0031      		cpi r16,lo8(10000)
+ 1595 03e8 1207      		cpc r17,r18
+ 1596 03ea 01F4      		brne .L88
+ 1597 03ec 00C0      		rjmp .L92
+ 1598               	.L144:
+ 1599 03ee 0E94 0000 		call SPI_read_byte
+ 1600 03f2 8A87      		std Y+10,r24
+ 1601 03f4 1B86      		std Y+11,__zero_reg__
+ 1602 03f6 88E0      		ldi r24,lo8(8)
+ 1603 03f8 0E94 0000 		call SPI_write_byte
+ 1604 03fc 00E0      		ldi r16,lo8(0)
+ 1605 03fe 10E0      		ldi r17,hi8(0)
+ 1606 0400 00C0      		rjmp .L90
+ 1607               	.L94:
+ 1608 0402 0F5F      		subi r16,lo8(-(1))
+ 1609 0404 1F4F      		sbci r17,hi8(-(1))
+ 1610               	.L90:
+ 1611 0406 0E94 0000 		call SPI_have_data
+ 1612 040a 8823      		tst r24
+ 1613 040c 01F0      		breq .L91
+ 1614 040e 0051      		subi r16,lo8(10000)
+ 1615 0410 1742      		sbci r17,hi8(10000)
+ 1616 0412 01F4      		brne .L145
+ 1617 0414 00C0      		rjmp .L92
+ 1618               	.L91:
+ 1619 0416 67E2      		ldi r22,hi8(10000)
+ 1620 0418 0031      		cpi r16,lo8(10000)
+ 1621 041a 1607      		cpc r17,r22
+ 1622 041c 01F4      		brne .L94
+ 1623               	.L92:
+ 1624 041e 2091 0000 		lds r18,ethTelnetFile
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 33
 
 
- 1625 0424 3091 0000 		lds r19,(ethTelnetFile)+1
- 1626 0428 80E0      		ldi r24,lo8(.LC33)
- 1627 042a 90E0      		ldi r25,hi8(.LC33)
- 1628 042c 61E0      		ldi r22,lo8(1)
- 1629 042e 70E0      		ldi r23,hi8(1)
- 1630 0430 46E0      		ldi r20,lo8(6)
- 1631 0432 50E0      		ldi r21,hi8(6)
- 1632               	.L144:
- 1633 0434 0E94 0000 		call fwrite
- 1634 0438 1092 0000 		sts have_reset_command,__zero_reg__
- 1635 043c 00C0      		rjmp .L66
- 1636               	.L79:
- 1637 043e C501      		movw r24,r10
- 1638 0440 60E0      		ldi r22,lo8(.LC35)
- 1639 0442 70E0      		ldi r23,hi8(.LC35)
- 1640 0444 0E94 0000 		call strcmp
- 1641 0448 0097      		sbiw r24,0
- 1642 044a 01F0      		breq .+2
- 1643 044c 00C0      		rjmp .L93
- 1644 044e 0E94 0000 		call ds_convert_temperature_command
- 1645 0452 80E6      		ldi r24,lo8(-5536)
- 1646 0454 9AEE      		ldi r25,hi8(-5536)
- 1647 0456 FC01      		movw r30,r24
- 1648               	/* #APP */
- 1649               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1650 0458 3197      		1: sbiw r30,1
- 1651 045a 01F4      		brne 1b
- 1652               	 ;  0 "" 2
- 1653               	/* #NOAPP */
- 1654 045c FC01      		movw r30,r24
- 1655               	/* #APP */
- 1656               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1657 045e 3197      		1: sbiw r30,1
- 1658 0460 01F4      		brne 1b
- 1659               	 ;  0 "" 2
- 1660               	/* #NOAPP */
- 1661 0462 FC01      		movw r30,r24
- 1662               	/* #APP */
- 1663               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1664 0464 3197      		1: sbiw r30,1
- 1665 0466 01F4      		brne 1b
- 1666               	 ;  0 "" 2
- 1667               	/* #NOAPP */
- 1668 0468 FC01      		movw r30,r24
- 1669               	/* #APP */
- 1670               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1671 046a 3197      		1: sbiw r30,1
- 1672 046c 01F4      		brne 1b
- 1673               	 ;  0 "" 2
- 1674               	/* #NOAPP */
- 1675 046e FC01      		movw r30,r24
- 1676               	/* #APP */
- 1677               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1678 0470 3197      		1: sbiw r30,1
- 1679 0472 01F4      		brne 1b
- 1680               	 ;  0 "" 2
- 1681               	/* #NOAPP */
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 34
+ 1625 0422 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1626 0426 00C0      		rjmp .L95
+ 1627               	.L145:
+ 1628 0428 0E94 0000 		call SPI_read_byte
+ 1629 042c 90E0      		ldi r25,lo8(0)
+ 1630 042e 9B87      		std Y+11,r25
+ 1631 0430 8A87      		std Y+10,r24
+ 1632 0432 2091 0000 		lds r18,ethTelnetFile
+ 1633 0436 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1634 043a 8836      		cpi r24,104
+ 1635 043c 9105      		cpc r25,__zero_reg__
+ 1636 043e 01F4      		brne .L95
+ 1637               	.L156:
+ 1638 0440 80E0      		ldi r24,lo8(.LC19)
+ 1639 0442 90E0      		ldi r25,hi8(.LC19)
+ 1640 0444 61E0      		ldi r22,lo8(1)
+ 1641 0446 70E0      		ldi r23,hi8(1)
+ 1642 0448 44E0      		ldi r20,lo8(4)
+ 1643 044a 50E0      		ldi r21,hi8(4)
+ 1644 044c 00C0      		rjmp .L147
+ 1645               	.L95:
+ 1646 044e 80E0      		ldi r24,lo8(.LC20)
+ 1647 0450 90E0      		ldi r25,hi8(.LC20)
+ 1648 0452 61E0      		ldi r22,lo8(1)
+ 1649 0454 70E0      		ldi r23,hi8(1)
+ 1650 0456 47E0      		ldi r20,lo8(7)
+ 1651 0458 50E0      		ldi r21,hi8(7)
+ 1652 045a 00C0      		rjmp .L147
+ 1653               	.L83:
+ 1654 045c 2091 0000 		lds r18,ethTelnetFile
+ 1655 0460 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1656 0464 80E0      		ldi r24,lo8(.LC33)
+ 1657 0466 90E0      		ldi r25,hi8(.LC33)
+ 1658 0468 61E0      		ldi r22,lo8(1)
+ 1659 046a 70E0      		ldi r23,hi8(1)
+ 1660 046c 46E0      		ldi r20,lo8(6)
+ 1661 046e 50E0      		ldi r21,hi8(6)
+ 1662               	.L147:
+ 1663 0470 0E94 0000 		call fwrite
+ 1664 0474 1092 0000 		sts have_reset_command,__zero_reg__
+ 1665 0478 00C0      		rjmp .L69
+ 1666               	.L82:
+ 1667 047a C501      		movw r24,r10
+ 1668 047c 60E0      		ldi r22,lo8(.LC35)
+ 1669 047e 70E0      		ldi r23,hi8(.LC35)
+ 1670 0480 0E94 0000 		call strcmp
+ 1671 0484 0097      		sbiw r24,0
+ 1672 0486 01F0      		breq .+2
+ 1673 0488 00C0      		rjmp .L96
+ 1674 048a 0E94 0000 		call ds_convert_temperature_command
+ 1675 048e 80E6      		ldi r24,lo8(-5536)
+ 1676 0490 9AEE      		ldi r25,hi8(-5536)
+ 1677 0492 FC01      		movw r30,r24
+ 1678               	/* #APP */
+ 1679               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1680 0494 3197      		1: sbiw r30,1
+ 1681 0496 01F4      		brne 1b
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 34
 
 
- 1682 0474 FC01      		movw r30,r24
- 1683               	/* #APP */
- 1684               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1685 0476 3197      		1: sbiw r30,1
- 1686 0478 01F4      		brne 1b
- 1687               	 ;  0 "" 2
- 1688               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 1689 047a 0197      		1: sbiw r24,1
- 1690 047c 01F4      		brne 1b
- 1691               	 ;  0 "" 2
- 1692               	/* #NOAPP */
- 1693 047e CE01      		movw r24,r28
- 1694 0480 0196      		adiw r24,1
- 1695 0482 BE01      		movw r22,r28
- 1696 0484 6E5F      		subi r22,lo8(-(2))
- 1697 0486 7F4F      		sbci r23,hi8(-(2))
- 1698 0488 AE01      		movw r20,r28
- 1699 048a 4D5F      		subi r20,lo8(-(3))
- 1700 048c 5F4F      		sbci r21,hi8(-(3))
- 1701 048e 0E94 0000 		call ds_read_temperature_command
- 1702 0492 8981      		ldd r24,Y+1
- 1703 0494 8823      		tst r24
- 1704 0496 01F4      		brne .L94
- 1705 0498 2BE2      		ldi r18,lo8(43)
- 1706 049a 30E0      		ldi r19,hi8(43)
- 1707 049c 00C0      		rjmp .L95
- 1708               	.L94:
- 1709 049e 2DE2      		ldi r18,lo8(45)
- 1710 04a0 30E0      		ldi r19,hi8(45)
- 1711               	.L95:
- 1712 04a2 4A81      		ldd r20,Y+2
- 1713 04a4 8B81      		ldd r24,Y+3
- 1714 04a6 8823      		tst r24
- 1715 04a8 01F4      		brne .L96
- 1716 04aa 85E0      		ldi r24,lo8(5)
- 1717 04ac 90E0      		ldi r25,hi8(5)
- 1718 04ae 00C0      		rjmp .L97
- 1719               	.L96:
- 1720 04b0 80E0      		ldi r24,lo8(0)
- 1721 04b2 90E0      		ldi r25,hi8(0)
- 1722               	.L97:
- 1723 04b4 ADB7      		in r26,__SP_L__
- 1724 04b6 BEB7      		in r27,__SP_H__
- 1725 04b8 1A97      		sbiw r26,10
- 1726 04ba 0FB6      		in __tmp_reg__,__SREG__
- 1727 04bc F894      		cli
- 1728 04be BEBF      		out __SP_H__,r27
- 1729 04c0 0FBE      		out __SREG__,__tmp_reg__
- 1730 04c2 ADBF      		out __SP_L__,r26
- 1731 04c4 EDB7      		in r30,__SP_L__
- 1732 04c6 FEB7      		in r31,__SP_H__
- 1733 04c8 3196      		adiw r30,1
- 1734 04ca 1296      		adiw r26,1+1
- 1735 04cc BC92      		st X,r11
- 1736 04ce AE92      		st -X,r10
- 1737 04d0 1197      		sbiw r26,1
- 1738 04d2 60E0      		ldi r22,lo8(.LC36)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 35
+ 1682               	 ;  0 "" 2
+ 1683               	/* #NOAPP */
+ 1684 0498 FC01      		movw r30,r24
+ 1685               	/* #APP */
+ 1686               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1687 049a 3197      		1: sbiw r30,1
+ 1688 049c 01F4      		brne 1b
+ 1689               	 ;  0 "" 2
+ 1690               	/* #NOAPP */
+ 1691 049e FC01      		movw r30,r24
+ 1692               	/* #APP */
+ 1693               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1694 04a0 3197      		1: sbiw r30,1
+ 1695 04a2 01F4      		brne 1b
+ 1696               	 ;  0 "" 2
+ 1697               	/* #NOAPP */
+ 1698 04a4 FC01      		movw r30,r24
+ 1699               	/* #APP */
+ 1700               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1701 04a6 3197      		1: sbiw r30,1
+ 1702 04a8 01F4      		brne 1b
+ 1703               	 ;  0 "" 2
+ 1704               	/* #NOAPP */
+ 1705 04aa FC01      		movw r30,r24
+ 1706               	/* #APP */
+ 1707               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1708 04ac 3197      		1: sbiw r30,1
+ 1709 04ae 01F4      		brne 1b
+ 1710               	 ;  0 "" 2
+ 1711               	/* #NOAPP */
+ 1712 04b0 FC01      		movw r30,r24
+ 1713               	/* #APP */
+ 1714               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1715 04b2 3197      		1: sbiw r30,1
+ 1716 04b4 01F4      		brne 1b
+ 1717               	 ;  0 "" 2
+ 1718               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 1719 04b6 0197      		1: sbiw r24,1
+ 1720 04b8 01F4      		brne 1b
+ 1721               	 ;  0 "" 2
+ 1722               	/* #NOAPP */
+ 1723 04ba CE01      		movw r24,r28
+ 1724 04bc 0196      		adiw r24,1
+ 1725 04be BE01      		movw r22,r28
+ 1726 04c0 6E5F      		subi r22,lo8(-(2))
+ 1727 04c2 7F4F      		sbci r23,hi8(-(2))
+ 1728 04c4 AE01      		movw r20,r28
+ 1729 04c6 4D5F      		subi r20,lo8(-(3))
+ 1730 04c8 5F4F      		sbci r21,hi8(-(3))
+ 1731 04ca 0E94 0000 		call ds_read_temperature_command
+ 1732 04ce 8981      		ldd r24,Y+1
+ 1733 04d0 8823      		tst r24
+ 1734 04d2 01F4      		brne .L97
+ 1735 04d4 2BE2      		ldi r18,lo8(43)
+ 1736 04d6 30E0      		ldi r19,hi8(43)
+ 1737 04d8 00C0      		rjmp .L98
+ 1738               	.L97:
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 35
 
 
- 1739 04d4 70E0      		ldi r23,hi8(.LC36)
- 1740 04d6 7383      		std Z+3,r23
- 1741 04d8 6283      		std Z+2,r22
- 1742 04da 3583      		std Z+5,r19
- 1743 04dc 2483      		std Z+4,r18
- 1744 04de 4683      		std Z+6,r20
- 1745 04e0 1782      		std Z+7,__zero_reg__
- 1746 04e2 9187      		std Z+9,r25
- 1747 04e4 8087      		std Z+8,r24
- 1748 04e6 0E94 0000 		call sprintf
- 1749 04ea D501      		movw r26,r10
- 1750 04ec 0D90      		ld __tmp_reg__,X+
- 1751 04ee 0020      		tst __tmp_reg__
- 1752 04f0 01F4      		brne .-6
- 1753 04f2 1197      		sbiw r26,1
- 1754 04f4 AA19      		sub r26,r10
- 1755 04f6 BB09      		sbc r27,r11
- 1756 04f8 8DB7      		in r24,__SP_L__
- 1757 04fa 9EB7      		in r25,__SP_H__
- 1758 04fc 0A96      		adiw r24,10
- 1759 04fe 0FB6      		in __tmp_reg__,__SREG__
- 1760 0500 F894      		cli
- 1761 0502 9EBF      		out __SP_H__,r25
- 1762 0504 0FBE      		out __SREG__,__tmp_reg__
- 1763 0506 8DBF      		out __SP_L__,r24
- 1764 0508 00C0      		rjmp .L150
- 1765               	.L93:
- 1766 050a C501      		movw r24,r10
- 1767 050c 60E0      		ldi r22,lo8(.LC37)
- 1768 050e 70E0      		ldi r23,hi8(.LC37)
- 1769 0510 0E94 0000 		call strcmp
- 1770 0514 0097      		sbiw r24,0
- 1771 0516 01F4      		brne .L98
- 1772 0518 8091 0000 		lds r24,otdr_rs232_manual
- 1773 051c 2091 0000 		lds r18,ethTelnetFile
- 1774 0520 3091 0000 		lds r19,(ethTelnetFile)+1
- 1775 0524 8823      		tst r24
- 1776 0526 01F0      		breq .L99
- 1777 0528 80E0      		ldi r24,lo8(.LC38)
- 1778 052a 90E0      		ldi r25,hi8(.LC38)
- 1779 052c 61E0      		ldi r22,lo8(1)
- 1780 052e 70E0      		ldi r23,hi8(1)
- 1781 0530 45E0      		ldi r20,lo8(5)
- 1782 0532 50E0      		ldi r21,hi8(5)
- 1783 0534 00C0      		rjmp .L147
- 1784               	.L99:
- 1785 0536 80E0      		ldi r24,lo8(.LC39)
- 1786 0538 90E0      		ldi r25,hi8(.LC39)
- 1787 053a 00C0      		rjmp .L151
- 1788               	.L98:
- 1789 053c C501      		movw r24,r10
- 1790 053e 60E0      		ldi r22,lo8(.LC40)
- 1791 0540 70E0      		ldi r23,hi8(.LC40)
- 1792 0542 0E94 0000 		call strcmp
- 1793 0546 0097      		sbiw r24,0
- 1794 0548 01F4      		brne .L100
- 1795 054a 81E0      		ldi r24,lo8(1)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 36
+ 1739 04da 2DE2      		ldi r18,lo8(45)
+ 1740 04dc 30E0      		ldi r19,hi8(45)
+ 1741               	.L98:
+ 1742 04de 4A81      		ldd r20,Y+2
+ 1743 04e0 8B81      		ldd r24,Y+3
+ 1744 04e2 8823      		tst r24
+ 1745 04e4 01F4      		brne .L99
+ 1746 04e6 85E0      		ldi r24,lo8(5)
+ 1747 04e8 90E0      		ldi r25,hi8(5)
+ 1748 04ea 00C0      		rjmp .L100
+ 1749               	.L99:
+ 1750 04ec 80E0      		ldi r24,lo8(0)
+ 1751 04ee 90E0      		ldi r25,hi8(0)
+ 1752               	.L100:
+ 1753 04f0 ADB7      		in r26,__SP_L__
+ 1754 04f2 BEB7      		in r27,__SP_H__
+ 1755 04f4 1A97      		sbiw r26,10
+ 1756 04f6 0FB6      		in __tmp_reg__,__SREG__
+ 1757 04f8 F894      		cli
+ 1758 04fa BEBF      		out __SP_H__,r27
+ 1759 04fc 0FBE      		out __SREG__,__tmp_reg__
+ 1760 04fe ADBF      		out __SP_L__,r26
+ 1761 0500 EDB7      		in r30,__SP_L__
+ 1762 0502 FEB7      		in r31,__SP_H__
+ 1763 0504 3196      		adiw r30,1
+ 1764 0506 1296      		adiw r26,1+1
+ 1765 0508 BC92      		st X,r11
+ 1766 050a AE92      		st -X,r10
+ 1767 050c 1197      		sbiw r26,1
+ 1768 050e 60E0      		ldi r22,lo8(.LC36)
+ 1769 0510 70E0      		ldi r23,hi8(.LC36)
+ 1770 0512 7383      		std Z+3,r23
+ 1771 0514 6283      		std Z+2,r22
+ 1772 0516 3583      		std Z+5,r19
+ 1773 0518 2483      		std Z+4,r18
+ 1774 051a 4683      		std Z+6,r20
+ 1775 051c 1782      		std Z+7,__zero_reg__
+ 1776 051e 9187      		std Z+9,r25
+ 1777 0520 8087      		std Z+8,r24
+ 1778 0522 0E94 0000 		call sprintf
+ 1779 0526 D501      		movw r26,r10
+ 1780 0528 0D90      		ld __tmp_reg__,X+
+ 1781 052a 0020      		tst __tmp_reg__
+ 1782 052c 01F4      		brne .-6
+ 1783 052e 1197      		sbiw r26,1
+ 1784 0530 AA19      		sub r26,r10
+ 1785 0532 BB09      		sbc r27,r11
+ 1786 0534 8DB7      		in r24,__SP_L__
+ 1787 0536 9EB7      		in r25,__SP_H__
+ 1788 0538 0A96      		adiw r24,10
+ 1789 053a 0FB6      		in __tmp_reg__,__SREG__
+ 1790 053c F894      		cli
+ 1791 053e 9EBF      		out __SP_H__,r25
+ 1792 0540 0FBE      		out __SREG__,__tmp_reg__
+ 1793 0542 8DBF      		out __SP_L__,r24
+ 1794 0544 00C0      		rjmp .L153
+ 1795               	.L96:
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 36
 
 
- 1796 054c 8093 0000 		sts pc_loaded,r24
- 1797 0550 8091 0000 		lds r24,win_loaded
- 1798 0554 8823      		tst r24
- 1799 0556 01F4      		brne .L101
- 1800 0558 0E94 0000 		call disable_timer1
- 1801 055c 0E94 0000 		call stop_timer1
- 1802 0560 80E0      		ldi r24,lo8(0)
- 1803 0562 0E94 0000 		call set_start_time_min
- 1804 0566 80E0      		ldi r24,lo8(0)
- 1805 0568 0E94 0000 		call set_start_time_sec
- 1806               	.L101:
- 1807 056c 8091 0000 		lds r24,otdr_rs232_manual
- 1808 0570 8823      		tst r24
- 1809 0572 01F0      		breq .+2
- 1810 0574 00C0      		rjmp .L154
- 1811 0576 0E94 0000 		call otau_get_channel
- 1812 057a D82E      		mov r13,r24
- 1813 057c 0E94 0000 		call get_rtu_number
- 1814 0580 7B01      		movw r14,r22
- 1815 0582 8C01      		movw r16,r24
- 1816 0584 81E0      		ldi r24,lo8(1)
- 1817 0586 60E0      		ldi r22,lo8(0)
- 1818 0588 70E0      		ldi r23,hi8(0)
- 1819 058a 4D2D      		mov r20,r13
- 1820 058c 50E0      		ldi r21,lo8(0)
- 1821 058e 00C0      		rjmp .L161
- 1822               	.L100:
- 1823 0590 C501      		movw r24,r10
- 1824 0592 60E0      		ldi r22,lo8(.LC41)
- 1825 0594 70E0      		ldi r23,hi8(.LC41)
- 1826 0596 4FE0      		ldi r20,lo8(15)
- 1827 0598 50E0      		ldi r21,hi8(15)
- 1828 059a 0E94 0000 		call strncmp
- 1829 059e 0097      		sbiw r24,0
- 1830 05a0 01F0      		breq .+2
- 1831 05a2 00C0      		rjmp .L103
- 1832 05a4 ADB7      		in r26,__SP_L__
- 1833 05a6 BEB7      		in r27,__SP_H__
- 1834 05a8 1A97      		sbiw r26,10
- 1835 05aa 0FB6      		in __tmp_reg__,__SREG__
- 1836 05ac F894      		cli
- 1837 05ae BEBF      		out __SP_H__,r27
- 1838 05b0 0FBE      		out __SREG__,__tmp_reg__
- 1839 05b2 ADBF      		out __SP_L__,r26
- 1840 05b4 EDB7      		in r30,__SP_L__
- 1841 05b6 FEB7      		in r31,__SP_H__
- 1842 05b8 3196      		adiw r30,1
- 1843 05ba 2FE0      		ldi r18,lo8(15)
- 1844 05bc 30E0      		ldi r19,hi8(15)
- 1845 05be A20E      		add r10,r18
- 1846 05c0 B31E      		adc r11,r19
- 1847 05c2 1296      		adiw r26,1+1
- 1848 05c4 BC92      		st X,r11
- 1849 05c6 AE92      		st -X,r10
- 1850 05c8 1197      		sbiw r26,1
- 1851 05ca 21EF      		ldi r18,lo8(-15)
- 1852 05cc 3FEF      		ldi r19,hi8(-15)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 37
+ 1796 0546 C501      		movw r24,r10
+ 1797 0548 60E0      		ldi r22,lo8(.LC37)
+ 1798 054a 70E0      		ldi r23,hi8(.LC37)
+ 1799 054c 0E94 0000 		call strcmp
+ 1800 0550 0097      		sbiw r24,0
+ 1801 0552 01F4      		brne .L101
+ 1802 0554 8091 0000 		lds r24,otdr_rs232_manual
+ 1803 0558 2091 0000 		lds r18,ethTelnetFile
+ 1804 055c 3091 0000 		lds r19,(ethTelnetFile)+1
+ 1805 0560 8823      		tst r24
+ 1806 0562 01F0      		breq .L102
+ 1807 0564 80E0      		ldi r24,lo8(.LC38)
+ 1808 0566 90E0      		ldi r25,hi8(.LC38)
+ 1809 0568 61E0      		ldi r22,lo8(1)
+ 1810 056a 70E0      		ldi r23,hi8(1)
+ 1811 056c 45E0      		ldi r20,lo8(5)
+ 1812 056e 50E0      		ldi r21,hi8(5)
+ 1813 0570 00C0      		rjmp .L150
+ 1814               	.L102:
+ 1815 0572 80E0      		ldi r24,lo8(.LC39)
+ 1816 0574 90E0      		ldi r25,hi8(.LC39)
+ 1817 0576 00C0      		rjmp .L154
+ 1818               	.L101:
+ 1819 0578 C501      		movw r24,r10
+ 1820 057a 60E0      		ldi r22,lo8(.LC40)
+ 1821 057c 70E0      		ldi r23,hi8(.LC40)
+ 1822 057e 0E94 0000 		call strcmp
+ 1823 0582 0097      		sbiw r24,0
+ 1824 0584 01F4      		brne .L103
+ 1825 0586 81E0      		ldi r24,lo8(1)
+ 1826 0588 8093 0000 		sts pc_loaded,r24
+ 1827 058c 8091 0000 		lds r24,win_loaded
+ 1828 0590 8823      		tst r24
+ 1829 0592 01F4      		brne .L104
+ 1830 0594 0E94 0000 		call disable_timer1
+ 1831 0598 0E94 0000 		call stop_timer1
+ 1832 059c 80E0      		ldi r24,lo8(0)
+ 1833 059e 0E94 0000 		call set_start_time_min
+ 1834 05a2 80E0      		ldi r24,lo8(0)
+ 1835 05a4 0E94 0000 		call set_start_time_sec
+ 1836               	.L104:
+ 1837 05a8 8091 0000 		lds r24,otdr_rs232_manual
+ 1838 05ac 8823      		tst r24
+ 1839 05ae 01F0      		breq .+2
+ 1840 05b0 00C0      		rjmp .L157
+ 1841 05b2 0E94 0000 		call otau_get_channel
+ 1842 05b6 D82E      		mov r13,r24
+ 1843 05b8 0E94 0000 		call get_rtu_number
+ 1844 05bc 7B01      		movw r14,r22
+ 1845 05be 8C01      		movw r16,r24
+ 1846 05c0 81E0      		ldi r24,lo8(1)
+ 1847 05c2 60E0      		ldi r22,lo8(0)
+ 1848 05c4 70E0      		ldi r23,hi8(0)
+ 1849 05c6 4D2D      		mov r20,r13
+ 1850 05c8 50E0      		ldi r21,lo8(0)
+ 1851 05ca 00C0      		rjmp .L164
+ 1852               	.L103:
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 37
 
 
- 1853 05ce A20E      		add r10,r18
- 1854 05d0 B31E      		adc r11,r19
- 1855 05d2 7382      		std Z+3,r7
- 1856 05d4 6282      		std Z+2,r6
- 1857 05d6 CE01      		movw r24,r28
- 1858 05d8 0896      		adiw r24,8
- 1859 05da 9583      		std Z+5,r25
- 1860 05dc 8483      		std Z+4,r24
- 1861 05de CE01      		movw r24,r28
- 1862 05e0 0496      		adiw r24,4
- 1863 05e2 9783      		std Z+7,r25
- 1864 05e4 8683      		std Z+6,r24
- 1865 05e6 CE01      		movw r24,r28
- 1866 05e8 0696      		adiw r24,6
- 1867 05ea 9187      		std Z+9,r25
- 1868 05ec 8087      		std Z+8,r24
- 1869 05ee 0E94 0000 		call sscanf
- 1870 05f2 6DB7      		in r22,__SP_L__
- 1871 05f4 7EB7      		in r23,__SP_H__
- 1872 05f6 665F      		subi r22,lo8(-(10))
- 1873 05f8 7F4F      		sbci r23,hi8(-(10))
- 1874 05fa 0FB6      		in __tmp_reg__,__SREG__
- 1875 05fc F894      		cli
- 1876 05fe 7EBF      		out __SP_H__,r23
- 1877 0600 0FBE      		out __SREG__,__tmp_reg__
- 1878 0602 6DBF      		out __SP_L__,r22
- 1879 0604 6885      		ldd r22,Y+8
- 1880 0606 7985      		ldd r23,Y+9
- 1881 0608 4C81      		ldd r20,Y+4
- 1882 060a 5D81      		ldd r21,Y+5
- 1883 060c 2E81      		ldd r18,Y+6
- 1884 060e 3F81      		ldd r19,Y+7
- 1885 0610 83E0      		ldi r24,lo8(3)
- 1886 0612 EE24      		clr r14
- 1887 0614 FF24      		clr r15
- 1888 0616 8701      		movw r16,r14
- 1889 0618 0E94 0000 		call display_show
- 1890 061c 86E0      		ldi r24,lo8(6)
- 1891 061e 60E0      		ldi r22,lo8(0)
- 1892 0620 0E94 0000 		call display_set_cursor_pos
- 1893 0624 81E2      		ldi r24,lo8(33)
- 1894 0626 61E0      		ldi r22,lo8(1)
- 1895 0628 0E94 0000 		call display_write_byte
- 1896 062c 00C0      		rjmp .L154
- 1897               	.L103:
- 1898 062e C501      		movw r24,r10
- 1899 0630 60E0      		ldi r22,lo8(.LC43)
- 1900 0632 70E0      		ldi r23,hi8(.LC43)
- 1901 0634 46E0      		ldi r20,lo8(6)
- 1902 0636 50E0      		ldi r21,hi8(6)
- 1903 0638 0E94 0000 		call strncmp
- 1904 063c 0097      		sbiw r24,0
- 1905 063e 01F0      		breq .+2
- 1906 0640 00C0      		rjmp .L104
- 1907 0642 8DB7      		in r24,__SP_L__
- 1908 0644 9EB7      		in r25,__SP_H__
- 1909 0646 0A97      		sbiw r24,10
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 38
+ 1853 05cc C501      		movw r24,r10
+ 1854 05ce 60E0      		ldi r22,lo8(.LC41)
+ 1855 05d0 70E0      		ldi r23,hi8(.LC41)
+ 1856 05d2 4FE0      		ldi r20,lo8(15)
+ 1857 05d4 50E0      		ldi r21,hi8(15)
+ 1858 05d6 0E94 0000 		call strncmp
+ 1859 05da 0097      		sbiw r24,0
+ 1860 05dc 01F0      		breq .+2
+ 1861 05de 00C0      		rjmp .L106
+ 1862 05e0 ADB7      		in r26,__SP_L__
+ 1863 05e2 BEB7      		in r27,__SP_H__
+ 1864 05e4 1A97      		sbiw r26,10
+ 1865 05e6 0FB6      		in __tmp_reg__,__SREG__
+ 1866 05e8 F894      		cli
+ 1867 05ea BEBF      		out __SP_H__,r27
+ 1868 05ec 0FBE      		out __SREG__,__tmp_reg__
+ 1869 05ee ADBF      		out __SP_L__,r26
+ 1870 05f0 EDB7      		in r30,__SP_L__
+ 1871 05f2 FEB7      		in r31,__SP_H__
+ 1872 05f4 3196      		adiw r30,1
+ 1873 05f6 2FE0      		ldi r18,lo8(15)
+ 1874 05f8 30E0      		ldi r19,hi8(15)
+ 1875 05fa A20E      		add r10,r18
+ 1876 05fc B31E      		adc r11,r19
+ 1877 05fe 1296      		adiw r26,1+1
+ 1878 0600 BC92      		st X,r11
+ 1879 0602 AE92      		st -X,r10
+ 1880 0604 1197      		sbiw r26,1
+ 1881 0606 21EF      		ldi r18,lo8(-15)
+ 1882 0608 3FEF      		ldi r19,hi8(-15)
+ 1883 060a A20E      		add r10,r18
+ 1884 060c B31E      		adc r11,r19
+ 1885 060e 7382      		std Z+3,r7
+ 1886 0610 6282      		std Z+2,r6
+ 1887 0612 CE01      		movw r24,r28
+ 1888 0614 0896      		adiw r24,8
+ 1889 0616 9583      		std Z+5,r25
+ 1890 0618 8483      		std Z+4,r24
+ 1891 061a CE01      		movw r24,r28
+ 1892 061c 0496      		adiw r24,4
+ 1893 061e 9783      		std Z+7,r25
+ 1894 0620 8683      		std Z+6,r24
+ 1895 0622 CE01      		movw r24,r28
+ 1896 0624 0696      		adiw r24,6
+ 1897 0626 9187      		std Z+9,r25
+ 1898 0628 8087      		std Z+8,r24
+ 1899 062a 0E94 0000 		call sscanf
+ 1900 062e 6DB7      		in r22,__SP_L__
+ 1901 0630 7EB7      		in r23,__SP_H__
+ 1902 0632 665F      		subi r22,lo8(-(10))
+ 1903 0634 7F4F      		sbci r23,hi8(-(10))
+ 1904 0636 0FB6      		in __tmp_reg__,__SREG__
+ 1905 0638 F894      		cli
+ 1906 063a 7EBF      		out __SP_H__,r23
+ 1907 063c 0FBE      		out __SREG__,__tmp_reg__
+ 1908 063e 6DBF      		out __SP_L__,r22
+ 1909 0640 6885      		ldd r22,Y+8
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 38
 
 
- 1910 0648 0FB6      		in __tmp_reg__,__SREG__
- 1911 064a F894      		cli
- 1912 064c 9EBF      		out __SP_H__,r25
- 1913 064e 0FBE      		out __SREG__,__tmp_reg__
- 1914 0650 8DBF      		out __SP_L__,r24
- 1915 0652 EDB7      		in r30,__SP_L__
- 1916 0654 FEB7      		in r31,__SP_H__
- 1917 0656 3196      		adiw r30,1
- 1918 0658 A6E0      		ldi r26,lo8(6)
- 1919 065a B0E0      		ldi r27,hi8(6)
- 1920 065c AA0E      		add r10,r26
- 1921 065e BB1E      		adc r11,r27
- 1922 0660 ADB7      		in r26,__SP_L__
- 1923 0662 BEB7      		in r27,__SP_H__
- 1924 0664 1296      		adiw r26,1+1
- 1925 0666 BC92      		st X,r11
- 1926 0668 AE92      		st -X,r10
- 1927 066a 1197      		sbiw r26,1
- 1928 066c 2AEF      		ldi r18,lo8(-6)
- 1929 066e 3FEF      		ldi r19,hi8(-6)
- 1930 0670 A20E      		add r10,r18
- 1931 0672 B31E      		adc r11,r19
- 1932 0674 7382      		std Z+3,r7
- 1933 0676 6282      		std Z+2,r6
- 1934 0678 CE01      		movw r24,r28
- 1935 067a 0896      		adiw r24,8
- 1936 067c 9583      		std Z+5,r25
- 1937 067e 8483      		std Z+4,r24
- 1938 0680 CE01      		movw r24,r28
- 1939 0682 0496      		adiw r24,4
- 1940 0684 9783      		std Z+7,r25
- 1941 0686 8683      		std Z+6,r24
- 1942 0688 CE01      		movw r24,r28
- 1943 068a 0696      		adiw r24,6
- 1944 068c 9187      		std Z+9,r25
- 1945 068e 8087      		std Z+8,r24
- 1946 0690 0E94 0000 		call sscanf
- 1947 0694 6DB7      		in r22,__SP_L__
- 1948 0696 7EB7      		in r23,__SP_H__
- 1949 0698 665F      		subi r22,lo8(-(10))
- 1950 069a 7F4F      		sbci r23,hi8(-(10))
- 1951 069c 0FB6      		in __tmp_reg__,__SREG__
- 1952 069e F894      		cli
- 1953 06a0 7EBF      		out __SP_H__,r23
- 1954 06a2 0FBE      		out __SREG__,__tmp_reg__
- 1955 06a4 6DBF      		out __SP_L__,r22
- 1956 06a6 6885      		ldd r22,Y+8
- 1957 06a8 7985      		ldd r23,Y+9
- 1958 06aa 4C81      		ldd r20,Y+4
- 1959 06ac 5D81      		ldd r21,Y+5
- 1960 06ae 2E81      		ldd r18,Y+6
- 1961 06b0 3F81      		ldd r19,Y+7
- 1962 06b2 83E0      		ldi r24,lo8(3)
- 1963               	.L162:
- 1964 06b4 EE24      		clr r14
- 1965 06b6 FF24      		clr r15
- 1966 06b8 8701      		movw r16,r14
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 39
+ 1910 0642 7985      		ldd r23,Y+9
+ 1911 0644 4C81      		ldd r20,Y+4
+ 1912 0646 5D81      		ldd r21,Y+5
+ 1913 0648 2E81      		ldd r18,Y+6
+ 1914 064a 3F81      		ldd r19,Y+7
+ 1915 064c 83E0      		ldi r24,lo8(3)
+ 1916 064e EE24      		clr r14
+ 1917 0650 FF24      		clr r15
+ 1918 0652 8701      		movw r16,r14
+ 1919 0654 0E94 0000 		call display_show
+ 1920 0658 86E0      		ldi r24,lo8(6)
+ 1921 065a 60E0      		ldi r22,lo8(0)
+ 1922 065c 0E94 0000 		call display_set_cursor_pos
+ 1923 0660 81E2      		ldi r24,lo8(33)
+ 1924 0662 61E0      		ldi r22,lo8(1)
+ 1925 0664 0E94 0000 		call display_write_byte
+ 1926 0668 00C0      		rjmp .L157
+ 1927               	.L106:
+ 1928 066a C501      		movw r24,r10
+ 1929 066c 60E0      		ldi r22,lo8(.LC43)
+ 1930 066e 70E0      		ldi r23,hi8(.LC43)
+ 1931 0670 46E0      		ldi r20,lo8(6)
+ 1932 0672 50E0      		ldi r21,hi8(6)
+ 1933 0674 0E94 0000 		call strncmp
+ 1934 0678 0097      		sbiw r24,0
+ 1935 067a 01F0      		breq .+2
+ 1936 067c 00C0      		rjmp .L107
+ 1937 067e 8DB7      		in r24,__SP_L__
+ 1938 0680 9EB7      		in r25,__SP_H__
+ 1939 0682 0A97      		sbiw r24,10
+ 1940 0684 0FB6      		in __tmp_reg__,__SREG__
+ 1941 0686 F894      		cli
+ 1942 0688 9EBF      		out __SP_H__,r25
+ 1943 068a 0FBE      		out __SREG__,__tmp_reg__
+ 1944 068c 8DBF      		out __SP_L__,r24
+ 1945 068e EDB7      		in r30,__SP_L__
+ 1946 0690 FEB7      		in r31,__SP_H__
+ 1947 0692 3196      		adiw r30,1
+ 1948 0694 A6E0      		ldi r26,lo8(6)
+ 1949 0696 B0E0      		ldi r27,hi8(6)
+ 1950 0698 AA0E      		add r10,r26
+ 1951 069a BB1E      		adc r11,r27
+ 1952 069c ADB7      		in r26,__SP_L__
+ 1953 069e BEB7      		in r27,__SP_H__
+ 1954 06a0 1296      		adiw r26,1+1
+ 1955 06a2 BC92      		st X,r11
+ 1956 06a4 AE92      		st -X,r10
+ 1957 06a6 1197      		sbiw r26,1
+ 1958 06a8 2AEF      		ldi r18,lo8(-6)
+ 1959 06aa 3FEF      		ldi r19,hi8(-6)
+ 1960 06ac A20E      		add r10,r18
+ 1961 06ae B31E      		adc r11,r19
+ 1962 06b0 7382      		std Z+3,r7
+ 1963 06b2 6282      		std Z+2,r6
+ 1964 06b4 CE01      		movw r24,r28
+ 1965 06b6 0896      		adiw r24,8
+ 1966 06b8 9583      		std Z+5,r25
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 39
 
 
- 1967               	.L160:
- 1968 06ba 0E94 0000 		call display_show
- 1969 06be 00C0      		rjmp .L154
- 1970               	.L104:
- 1971 06c0 C501      		movw r24,r10
- 1972 06c2 60E0      		ldi r22,lo8(.LC44)
- 1973 06c4 70E0      		ldi r23,hi8(.LC44)
- 1974 06c6 0E94 0000 		call strcmp
- 1975 06ca 0097      		sbiw r24,0
- 1976 06cc 01F4      		brne .L105
- 1977 06ce 0E94 0000 		call get_rtu_number
- 1978 06d2 ADB7      		in r26,__SP_L__
- 1979 06d4 BEB7      		in r27,__SP_H__
- 1980 06d6 1897      		sbiw r26,8
+ 1967 06ba 8483      		std Z+4,r24
+ 1968 06bc CE01      		movw r24,r28
+ 1969 06be 0496      		adiw r24,4
+ 1970 06c0 9783      		std Z+7,r25
+ 1971 06c2 8683      		std Z+6,r24
+ 1972 06c4 CE01      		movw r24,r28
+ 1973 06c6 0696      		adiw r24,6
+ 1974 06c8 9187      		std Z+9,r25
+ 1975 06ca 8087      		std Z+8,r24
+ 1976 06cc 0E94 0000 		call sscanf
+ 1977 06d0 6DB7      		in r22,__SP_L__
+ 1978 06d2 7EB7      		in r23,__SP_H__
+ 1979 06d4 665F      		subi r22,lo8(-(10))
+ 1980 06d6 7F4F      		sbci r23,hi8(-(10))
  1981 06d8 0FB6      		in __tmp_reg__,__SREG__
  1982 06da F894      		cli
- 1983 06dc BEBF      		out __SP_H__,r27
+ 1983 06dc 7EBF      		out __SP_H__,r23
  1984 06de 0FBE      		out __SREG__,__tmp_reg__
- 1985 06e0 ADBF      		out __SP_L__,r26
- 1986 06e2 EDB7      		in r30,__SP_L__
- 1987 06e4 FEB7      		in r31,__SP_H__
- 1988 06e6 3196      		adiw r30,1
- 1989 06e8 1296      		adiw r26,1+1
- 1990 06ea BC92      		st X,r11
- 1991 06ec AE92      		st -X,r10
- 1992 06ee 1197      		sbiw r26,1
- 1993 06f0 20E0      		ldi r18,lo8(.LC45)
- 1994 06f2 30E0      		ldi r19,hi8(.LC45)
- 1995 06f4 3383      		std Z+3,r19
- 1996 06f6 2283      		std Z+2,r18
- 1997 06f8 6483      		std Z+4,r22
- 1998 06fa 7583      		std Z+5,r23
- 1999 06fc 8683      		std Z+6,r24
- 2000 06fe 9783      		std Z+7,r25
- 2001 0700 0E94 0000 		call sprintf
- 2002 0704 D501      		movw r26,r10
- 2003 0706 0D90      		ld __tmp_reg__,X+
- 2004 0708 0020      		tst __tmp_reg__
- 2005 070a 01F4      		brne .-6
- 2006 070c 1197      		sbiw r26,1
- 2007 070e AA19      		sub r26,r10
- 2008 0710 BB09      		sbc r27,r11
- 2009 0712 6DB7      		in r22,__SP_L__
- 2010 0714 7EB7      		in r23,__SP_H__
- 2011 0716 685F      		subi r22,lo8(-(8))
- 2012 0718 7F4F      		sbci r23,hi8(-(8))
- 2013 071a 0FB6      		in __tmp_reg__,__SREG__
- 2014 071c F894      		cli
- 2015 071e 7EBF      		out __SP_H__,r23
- 2016 0720 0FBE      		out __SREG__,__tmp_reg__
- 2017 0722 6DBF      		out __SP_L__,r22
- 2018 0724 00C0      		rjmp .L150
- 2019               	.L105:
- 2020 0726 C501      		movw r24,r10
- 2021 0728 60E0      		ldi r22,lo8(.LC46)
- 2022 072a 70E0      		ldi r23,hi8(.LC46)
- 2023 072c 0E94 0000 		call strcmp
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 40
+ 1985 06e0 6DBF      		out __SP_L__,r22
+ 1986 06e2 6885      		ldd r22,Y+8
+ 1987 06e4 7985      		ldd r23,Y+9
+ 1988 06e6 4C81      		ldd r20,Y+4
+ 1989 06e8 5D81      		ldd r21,Y+5
+ 1990 06ea 2E81      		ldd r18,Y+6
+ 1991 06ec 3F81      		ldd r19,Y+7
+ 1992 06ee 83E0      		ldi r24,lo8(3)
+ 1993               	.L165:
+ 1994 06f0 EE24      		clr r14
+ 1995 06f2 FF24      		clr r15
+ 1996 06f4 8701      		movw r16,r14
+ 1997               	.L163:
+ 1998 06f6 0E94 0000 		call display_show
+ 1999 06fa 00C0      		rjmp .L157
+ 2000               	.L107:
+ 2001 06fc C501      		movw r24,r10
+ 2002 06fe 60E0      		ldi r22,lo8(.LC44)
+ 2003 0700 70E0      		ldi r23,hi8(.LC44)
+ 2004 0702 0E94 0000 		call strcmp
+ 2005 0706 0097      		sbiw r24,0
+ 2006 0708 01F4      		brne .L108
+ 2007 070a 0E94 0000 		call get_rtu_number
+ 2008 070e ADB7      		in r26,__SP_L__
+ 2009 0710 BEB7      		in r27,__SP_H__
+ 2010 0712 1897      		sbiw r26,8
+ 2011 0714 0FB6      		in __tmp_reg__,__SREG__
+ 2012 0716 F894      		cli
+ 2013 0718 BEBF      		out __SP_H__,r27
+ 2014 071a 0FBE      		out __SREG__,__tmp_reg__
+ 2015 071c ADBF      		out __SP_L__,r26
+ 2016 071e EDB7      		in r30,__SP_L__
+ 2017 0720 FEB7      		in r31,__SP_H__
+ 2018 0722 3196      		adiw r30,1
+ 2019 0724 1296      		adiw r26,1+1
+ 2020 0726 BC92      		st X,r11
+ 2021 0728 AE92      		st -X,r10
+ 2022 072a 1197      		sbiw r26,1
+ 2023 072c 20E0      		ldi r18,lo8(.LC45)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 40
 
 
- 2024 0730 0097      		sbiw r24,0
- 2025 0732 01F4      		brne .L106
- 2026 0734 8091 0000 		lds r24,otdr_rs232_manual
- 2027 0738 2091 0000 		lds r18,ethTelnetFile
- 2028 073c 3091 0000 		lds r19,(ethTelnetFile)+1
- 2029 0740 8823      		tst r24
- 2030 0742 01F4      		brne .L110
- 2031 0744 1092 0000 		sts haveConnectReflect,__zero_reg__
- 2032 0748 00C0      		rjmp .L149
- 2033               	.L106:
- 2034 074a C501      		movw r24,r10
- 2035 074c 60E0      		ldi r22,lo8(.LC47)
- 2036 074e 70E0      		ldi r23,hi8(.LC47)
- 2037 0750 0E94 0000 		call strcmp
- 2038 0754 0097      		sbiw r24,0
- 2039 0756 01F4      		brne .L108
- 2040 0758 80E0      		ldi r24,lo8(0)
- 2041 075a 0E94 0000 		call set_start_time_min
- 2042 075e 80E0      		ldi r24,lo8(0)
- 2043 0760 0E94 0000 		call set_start_time_sec
- 2044 0764 C501      		movw r24,r10
- 2045 0766 0E94 0000 		call boot
- 2046 076a 80E0      		ldi r24,lo8(.LC48)
- 2047 076c 90E0      		ldi r25,hi8(.LC48)
- 2048 076e 0E94 0000 		call puts
- 2049 0772 00C0      		rjmp .L66
- 2050               	.L108:
- 2051 0774 C501      		movw r24,r10
- 2052 0776 60E0      		ldi r22,lo8(.LC49)
- 2053 0778 70E0      		ldi r23,hi8(.LC49)
- 2054 077a 0E94 0000 		call strcmp
- 2055 077e 0097      		sbiw r24,0
- 2056 0780 01F4      		brne .L109
- 2057 0782 8091 0000 		lds r24,otdr_rs232_manual
- 2058 0786 2091 0000 		lds r18,ethTelnetFile
- 2059 078a 3091 0000 		lds r19,(ethTelnetFile)+1
- 2060 078e 8823      		tst r24
- 2061 0790 01F4      		brne .L110
- 2062 0792 1092 0000 		sts haveConnectReflect,__zero_reg__
- 2063 0796 81E0      		ldi r24,lo8(1)
- 2064 0798 8093 0000 		sts bad_work_enable,r24
- 2065 079c 00C0      		rjmp .L149
- 2066               	.L110:
- 2067 079e 80E0      		ldi r24,lo8(.LC33)
- 2068 07a0 90E0      		ldi r25,hi8(.LC33)
- 2069 07a2 61E0      		ldi r22,lo8(1)
- 2070 07a4 70E0      		ldi r23,hi8(1)
- 2071 07a6 46E0      		ldi r20,lo8(6)
- 2072 07a8 50E0      		ldi r21,hi8(6)
- 2073 07aa 00C0      		rjmp .L147
- 2074               	.L109:
- 2075 07ac C501      		movw r24,r10
- 2076 07ae 60E0      		ldi r22,lo8(.LC50)
- 2077 07b0 70E0      		ldi r23,hi8(.LC50)
- 2078 07b2 0E94 0000 		call strcmp
- 2079 07b6 0097      		sbiw r24,0
- 2080 07b8 01F4      		brne .L111
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 41
+ 2024 072e 30E0      		ldi r19,hi8(.LC45)
+ 2025 0730 3383      		std Z+3,r19
+ 2026 0732 2283      		std Z+2,r18
+ 2027 0734 6483      		std Z+4,r22
+ 2028 0736 7583      		std Z+5,r23
+ 2029 0738 8683      		std Z+6,r24
+ 2030 073a 9783      		std Z+7,r25
+ 2031 073c 0E94 0000 		call sprintf
+ 2032 0740 D501      		movw r26,r10
+ 2033 0742 0D90      		ld __tmp_reg__,X+
+ 2034 0744 0020      		tst __tmp_reg__
+ 2035 0746 01F4      		brne .-6
+ 2036 0748 1197      		sbiw r26,1
+ 2037 074a AA19      		sub r26,r10
+ 2038 074c BB09      		sbc r27,r11
+ 2039 074e 6DB7      		in r22,__SP_L__
+ 2040 0750 7EB7      		in r23,__SP_H__
+ 2041 0752 685F      		subi r22,lo8(-(8))
+ 2042 0754 7F4F      		sbci r23,hi8(-(8))
+ 2043 0756 0FB6      		in __tmp_reg__,__SREG__
+ 2044 0758 F894      		cli
+ 2045 075a 7EBF      		out __SP_H__,r23
+ 2046 075c 0FBE      		out __SREG__,__tmp_reg__
+ 2047 075e 6DBF      		out __SP_L__,r22
+ 2048 0760 00C0      		rjmp .L153
+ 2049               	.L108:
+ 2050 0762 C501      		movw r24,r10
+ 2051 0764 60E0      		ldi r22,lo8(.LC46)
+ 2052 0766 70E0      		ldi r23,hi8(.LC46)
+ 2053 0768 0E94 0000 		call strcmp
+ 2054 076c 0097      		sbiw r24,0
+ 2055 076e 01F4      		brne .L109
+ 2056 0770 8091 0000 		lds r24,otdr_rs232_manual
+ 2057 0774 2091 0000 		lds r18,ethTelnetFile
+ 2058 0778 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2059 077c 8823      		tst r24
+ 2060 077e 01F4      		brne .L113
+ 2061 0780 1092 0000 		sts haveConnectReflect,__zero_reg__
+ 2062 0784 00C0      		rjmp .L152
+ 2063               	.L109:
+ 2064 0786 C501      		movw r24,r10
+ 2065 0788 60E0      		ldi r22,lo8(.LC47)
+ 2066 078a 70E0      		ldi r23,hi8(.LC47)
+ 2067 078c 0E94 0000 		call strcmp
+ 2068 0790 0097      		sbiw r24,0
+ 2069 0792 01F4      		brne .L111
+ 2070 0794 80E0      		ldi r24,lo8(0)
+ 2071 0796 0E94 0000 		call set_start_time_min
+ 2072 079a 80E0      		ldi r24,lo8(0)
+ 2073 079c 0E94 0000 		call set_start_time_sec
+ 2074 07a0 C501      		movw r24,r10
+ 2075 07a2 0E94 0000 		call boot
+ 2076 07a6 80E0      		ldi r24,lo8(.LC48)
+ 2077 07a8 90E0      		ldi r25,hi8(.LC48)
+ 2078 07aa 0E94 0000 		call puts
+ 2079 07ae 00C0      		rjmp .L69
+ 2080               	.L111:
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 41
 
 
- 2081 07ba 8091 0000 		lds r24,otdr_rs232_manual
- 2082 07be 8823      		tst r24
- 2083 07c0 01F4      		brne .+2
- 2084 07c2 00C0      		rjmp .L154
- 2085 07c4 1092 0000 		sts otdr_rs232_manual,__zero_reg__
- 2086 07c8 8091 0000 		lds r24,pc_loaded
- 2087 07cc 8823      		tst r24
- 2088 07ce 01F0      		breq .L113
- 2089 07d0 0E94 0000 		call get_rtu_number
- 2090 07d4 7B01      		movw r14,r22
- 2091 07d6 8C01      		movw r16,r24
- 2092 07d8 81E0      		ldi r24,lo8(1)
- 2093 07da 00C0      		rjmp .L145
- 2094               	.L113:
- 2095 07dc 8091 0000 		lds r24,con_otdr
- 2096 07e0 8823      		tst r24
- 2097 07e2 01F0      		breq .L114
- 2098 07e4 0E94 0000 		call get_rtu_number
- 2099 07e8 7B01      		movw r14,r22
- 2100 07ea 8C01      		movw r16,r24
- 2101 07ec 88E0      		ldi r24,lo8(8)
- 2102               	.L145:
- 2103 07ee 60E0      		ldi r22,lo8(0)
- 2104 07f0 70E0      		ldi r23,hi8(0)
- 2105 07f2 40E0      		ldi r20,lo8(0)
- 2106 07f4 50E0      		ldi r21,hi8(0)
- 2107               	.L161:
- 2108 07f6 20E0      		ldi r18,lo8(0)
- 2109 07f8 30E0      		ldi r19,hi8(0)
- 2110 07fa 00C0      		rjmp .L160
- 2111               	.L114:
- 2112 07fc 8091 0000 		lds r24,win_loaded
- 2113 0800 8823      		tst r24
- 2114 0802 01F0      		breq .L115
- 2115 0804 0E94 0000 		call get_rtu_number
- 2116 0808 7B01      		movw r14,r22
- 2117 080a 8C01      		movw r16,r24
- 2118 080c 85E0      		ldi r24,lo8(5)
- 2119 080e 00C0      		rjmp .L145
- 2120               	.L115:
- 2121 0810 0E94 0000 		call get_rtu_number
- 2122 0814 7B01      		movw r14,r22
- 2123 0816 8C01      		movw r16,r24
- 2124 0818 80E0      		ldi r24,lo8(0)
- 2125 081a 60E0      		ldi r22,lo8(0)
- 2126 081c 70E0      		ldi r23,hi8(0)
- 2127 081e 40E0      		ldi r20,lo8(0)
- 2128 0820 50E0      		ldi r21,hi8(0)
- 2129 0822 20E0      		ldi r18,lo8(0)
- 2130 0824 30E0      		ldi r19,hi8(0)
- 2131 0826 0E94 0000 		call display_show
- 2132 082a 0E94 0000 		call enable_timer1
- 2133 082e 00C0      		rjmp .L154
- 2134               	.L111:
- 2135 0830 C501      		movw r24,r10
- 2136 0832 60E0      		ldi r22,lo8(.LC51)
- 2137 0834 70E0      		ldi r23,hi8(.LC51)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 42
+ 2081 07b0 C501      		movw r24,r10
+ 2082 07b2 60E0      		ldi r22,lo8(.LC49)
+ 2083 07b4 70E0      		ldi r23,hi8(.LC49)
+ 2084 07b6 0E94 0000 		call strcmp
+ 2085 07ba 0097      		sbiw r24,0
+ 2086 07bc 01F4      		brne .L112
+ 2087 07be 8091 0000 		lds r24,otdr_rs232_manual
+ 2088 07c2 2091 0000 		lds r18,ethTelnetFile
+ 2089 07c6 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2090 07ca 8823      		tst r24
+ 2091 07cc 01F4      		brne .L113
+ 2092 07ce 1092 0000 		sts haveConnectReflect,__zero_reg__
+ 2093 07d2 81E0      		ldi r24,lo8(1)
+ 2094 07d4 8093 0000 		sts bad_work_enable,r24
+ 2095 07d8 00C0      		rjmp .L152
+ 2096               	.L113:
+ 2097 07da 80E0      		ldi r24,lo8(.LC33)
+ 2098 07dc 90E0      		ldi r25,hi8(.LC33)
+ 2099 07de 61E0      		ldi r22,lo8(1)
+ 2100 07e0 70E0      		ldi r23,hi8(1)
+ 2101 07e2 46E0      		ldi r20,lo8(6)
+ 2102 07e4 50E0      		ldi r21,hi8(6)
+ 2103 07e6 00C0      		rjmp .L150
+ 2104               	.L112:
+ 2105 07e8 C501      		movw r24,r10
+ 2106 07ea 60E0      		ldi r22,lo8(.LC50)
+ 2107 07ec 70E0      		ldi r23,hi8(.LC50)
+ 2108 07ee 0E94 0000 		call strcmp
+ 2109 07f2 0097      		sbiw r24,0
+ 2110 07f4 01F4      		brne .L114
+ 2111 07f6 8091 0000 		lds r24,otdr_rs232_manual
+ 2112 07fa 8823      		tst r24
+ 2113 07fc 01F4      		brne .+2
+ 2114 07fe 00C0      		rjmp .L157
+ 2115 0800 1092 0000 		sts otdr_rs232_manual,__zero_reg__
+ 2116 0804 8091 0000 		lds r24,pc_loaded
+ 2117 0808 8823      		tst r24
+ 2118 080a 01F0      		breq .L116
+ 2119 080c 0E94 0000 		call get_rtu_number
+ 2120 0810 7B01      		movw r14,r22
+ 2121 0812 8C01      		movw r16,r24
+ 2122 0814 81E0      		ldi r24,lo8(1)
+ 2123 0816 00C0      		rjmp .L148
+ 2124               	.L116:
+ 2125 0818 8091 0000 		lds r24,con_otdr
+ 2126 081c 8823      		tst r24
+ 2127 081e 01F0      		breq .L117
+ 2128 0820 0E94 0000 		call get_rtu_number
+ 2129 0824 7B01      		movw r14,r22
+ 2130 0826 8C01      		movw r16,r24
+ 2131 0828 88E0      		ldi r24,lo8(8)
+ 2132               	.L148:
+ 2133 082a 60E0      		ldi r22,lo8(0)
+ 2134 082c 70E0      		ldi r23,hi8(0)
+ 2135 082e 40E0      		ldi r20,lo8(0)
+ 2136 0830 50E0      		ldi r21,hi8(0)
+ 2137               	.L164:
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 42
 
 
- 2138 0836 0E94 0000 		call strcmp
- 2139 083a 0097      		sbiw r24,0
- 2140 083c 01F4      		brne .L116
- 2141 083e 2091 0000 		lds r18,ethTelnetFile
- 2142 0842 3091 0000 		lds r19,(ethTelnetFile)+1
- 2143 0846 80E0      		ldi r24,lo8(.LC19)
- 2144 0848 90E0      		ldi r25,hi8(.LC19)
- 2145 084a 61E0      		ldi r22,lo8(1)
- 2146 084c 70E0      		ldi r23,hi8(1)
- 2147 084e 44E0      		ldi r20,lo8(4)
- 2148 0850 50E0      		ldi r21,hi8(4)
- 2149 0852 0E94 0000 		call fwrite
- 2150 0856 0E94 0000 		call charon_reset
- 2151 085a 00C0      		rjmp .L66
- 2152               	.L116:
- 2153 085c C501      		movw r24,r10
- 2154 085e 60E0      		ldi r22,lo8(.LC52)
- 2155 0860 70E0      		ldi r23,hi8(.LC52)
- 2156 0862 0E94 0000 		call strcmp
- 2157 0866 0097      		sbiw r24,0
- 2158 0868 01F4      		brne .L117
- 2159 086a 00D0      		rcall .
- 2160 086c E0E0      		ldi r30,lo8(.LC53)
- 2161 086e F0E0      		ldi r31,hi8(.LC53)
- 2162 0870 ADB7      		in r26,__SP_L__
- 2163 0872 BEB7      		in r27,__SP_H__
- 2164 0874 1296      		adiw r26,1+1
- 2165 0876 FC93      		st X,r31
- 2166 0878 EE93      		st -X,r30
- 2167 087a 1197      		sbiw r26,1
- 2168 087c 0E94 0000 		call printf
- 2169 0880 0F90      		pop __tmp_reg__
- 2170 0882 0F90      		pop __tmp_reg__
- 2171 0884 0E94 0000 		call disable_int_key
- 2172 0888 0E94 0000 		call disable_timer1
- 2173 088c 0E94 0000 		call otau_get_channel
- 2174 0890 682F      		mov r22,r24
- 2175 0892 82E0      		ldi r24,lo8(2)
- 2176 0894 70E0      		ldi r23,lo8(0)
- 2177 0896 40E0      		ldi r20,lo8(0)
- 2178 0898 50E0      		ldi r21,hi8(0)
- 2179 089a 20E0      		ldi r18,lo8(0)
- 2180 089c 30E0      		ldi r19,hi8(0)
- 2181 089e 00C0      		rjmp .L162
- 2182               	.L117:
- 2183 08a0 C501      		movw r24,r10
- 2184 08a2 60E0      		ldi r22,lo8(.LC54)
- 2185 08a4 70E0      		ldi r23,hi8(.LC54)
- 2186 08a6 0E94 0000 		call strcmp
- 2187 08aa 0097      		sbiw r24,0
- 2188 08ac 01F0      		breq .+2
- 2189 08ae 00C0      		rjmp .L118
- 2190 08b0 00D0      		rcall .
- 2191 08b2 E0E0      		ldi r30,lo8(.LC55)
- 2192 08b4 F0E0      		ldi r31,hi8(.LC55)
- 2193 08b6 ADB7      		in r26,__SP_L__
- 2194 08b8 BEB7      		in r27,__SP_H__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 43
+ 2138 0832 20E0      		ldi r18,lo8(0)
+ 2139 0834 30E0      		ldi r19,hi8(0)
+ 2140 0836 00C0      		rjmp .L163
+ 2141               	.L117:
+ 2142 0838 8091 0000 		lds r24,win_loaded
+ 2143 083c 8823      		tst r24
+ 2144 083e 01F0      		breq .L118
+ 2145 0840 0E94 0000 		call get_rtu_number
+ 2146 0844 7B01      		movw r14,r22
+ 2147 0846 8C01      		movw r16,r24
+ 2148 0848 85E0      		ldi r24,lo8(5)
+ 2149 084a 00C0      		rjmp .L148
+ 2150               	.L118:
+ 2151 084c 0E94 0000 		call get_rtu_number
+ 2152 0850 7B01      		movw r14,r22
+ 2153 0852 8C01      		movw r16,r24
+ 2154 0854 80E0      		ldi r24,lo8(0)
+ 2155 0856 60E0      		ldi r22,lo8(0)
+ 2156 0858 70E0      		ldi r23,hi8(0)
+ 2157 085a 40E0      		ldi r20,lo8(0)
+ 2158 085c 50E0      		ldi r21,hi8(0)
+ 2159 085e 20E0      		ldi r18,lo8(0)
+ 2160 0860 30E0      		ldi r19,hi8(0)
+ 2161 0862 0E94 0000 		call display_show
+ 2162 0866 0E94 0000 		call enable_timer1
+ 2163 086a 00C0      		rjmp .L157
+ 2164               	.L114:
+ 2165 086c C501      		movw r24,r10
+ 2166 086e 60E0      		ldi r22,lo8(.LC51)
+ 2167 0870 70E0      		ldi r23,hi8(.LC51)
+ 2168 0872 0E94 0000 		call strcmp
+ 2169 0876 0097      		sbiw r24,0
+ 2170 0878 01F4      		brne .L119
+ 2171 087a 2091 0000 		lds r18,ethTelnetFile
+ 2172 087e 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2173 0882 80E0      		ldi r24,lo8(.LC19)
+ 2174 0884 90E0      		ldi r25,hi8(.LC19)
+ 2175 0886 61E0      		ldi r22,lo8(1)
+ 2176 0888 70E0      		ldi r23,hi8(1)
+ 2177 088a 44E0      		ldi r20,lo8(4)
+ 2178 088c 50E0      		ldi r21,hi8(4)
+ 2179 088e 0E94 0000 		call fwrite
+ 2180 0892 0E94 0000 		call charon_reset
+ 2181 0896 00C0      		rjmp .L69
+ 2182               	.L119:
+ 2183 0898 C501      		movw r24,r10
+ 2184 089a 60E0      		ldi r22,lo8(.LC52)
+ 2185 089c 70E0      		ldi r23,hi8(.LC52)
+ 2186 089e 0E94 0000 		call strcmp
+ 2187 08a2 0097      		sbiw r24,0
+ 2188 08a4 01F4      		brne .L120
+ 2189 08a6 00D0      		rcall .
+ 2190 08a8 E0E0      		ldi r30,lo8(.LC53)
+ 2191 08aa F0E0      		ldi r31,hi8(.LC53)
+ 2192 08ac ADB7      		in r26,__SP_L__
+ 2193 08ae BEB7      		in r27,__SP_H__
+ 2194 08b0 1296      		adiw r26,1+1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 43
 
 
- 2195 08ba 1296      		adiw r26,1+1
- 2196 08bc FC93      		st X,r31
- 2197 08be EE93      		st -X,r30
- 2198 08c0 1197      		sbiw r26,1
- 2199 08c2 0E94 0000 		call printf
- 2200 08c6 0F90      		pop __tmp_reg__
- 2201 08c8 0F90      		pop __tmp_reg__
- 2202 08ca 8091 0000 		lds r24,pc_loaded
- 2203 08ce 8823      		tst r24
- 2204 08d0 01F0      		breq .L119
- 2205 08d2 0E94 0000 		call get_rtu_number
- 2206 08d6 7B01      		movw r14,r22
- 2207 08d8 8C01      		movw r16,r24
- 2208 08da 81E0      		ldi r24,lo8(1)
- 2209 08dc 00C0      		rjmp .L146
- 2210               	.L119:
- 2211 08de 8091 0000 		lds r24,con_otdr
- 2212 08e2 8823      		tst r24
- 2213 08e4 01F0      		breq .L121
- 2214 08e6 0E94 0000 		call get_rtu_number
- 2215 08ea 7B01      		movw r14,r22
- 2216 08ec 8C01      		movw r16,r24
- 2217 08ee 88E0      		ldi r24,lo8(8)
- 2218               	.L146:
- 2219 08f0 60E0      		ldi r22,lo8(0)
- 2220 08f2 70E0      		ldi r23,hi8(0)
- 2221 08f4 40E0      		ldi r20,lo8(0)
- 2222 08f6 50E0      		ldi r21,hi8(0)
- 2223 08f8 20E0      		ldi r18,lo8(0)
- 2224 08fa 30E0      		ldi r19,hi8(0)
- 2225 08fc 0E94 0000 		call display_show
- 2226 0900 00C0      		rjmp .L120
- 2227               	.L121:
- 2228 0902 8091 0000 		lds r24,win_loaded
- 2229 0906 8823      		tst r24
- 2230 0908 01F0      		breq .L122
- 2231 090a 0E94 0000 		call get_rtu_number
- 2232 090e 7B01      		movw r14,r22
- 2233 0910 8C01      		movw r16,r24
- 2234 0912 85E0      		ldi r24,lo8(5)
- 2235 0914 00C0      		rjmp .L146
- 2236               	.L122:
- 2237 0916 0E94 0000 		call get_rtu_number
- 2238 091a 7B01      		movw r14,r22
- 2239 091c 8C01      		movw r16,r24
- 2240 091e 80E0      		ldi r24,lo8(0)
- 2241 0920 60E0      		ldi r22,lo8(0)
- 2242 0922 70E0      		ldi r23,hi8(0)
- 2243 0924 40E0      		ldi r20,lo8(0)
- 2244 0926 50E0      		ldi r21,hi8(0)
- 2245 0928 20E0      		ldi r18,lo8(0)
- 2246 092a 30E0      		ldi r19,hi8(0)
- 2247 092c 0E94 0000 		call display_show
- 2248 0930 0E94 0000 		call enable_timer1
- 2249               	.L120:
- 2250 0934 0E94 0000 		call enable_int_key
- 2251               	.L154:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 44
+ 2195 08b2 FC93      		st X,r31
+ 2196 08b4 EE93      		st -X,r30
+ 2197 08b6 1197      		sbiw r26,1
+ 2198 08b8 0E94 0000 		call printf
+ 2199 08bc 0F90      		pop __tmp_reg__
+ 2200 08be 0F90      		pop __tmp_reg__
+ 2201 08c0 0E94 0000 		call disable_int_key
+ 2202 08c4 0E94 0000 		call disable_timer1
+ 2203 08c8 0E94 0000 		call otau_get_channel
+ 2204 08cc 682F      		mov r22,r24
+ 2205 08ce 82E0      		ldi r24,lo8(2)
+ 2206 08d0 70E0      		ldi r23,lo8(0)
+ 2207 08d2 40E0      		ldi r20,lo8(0)
+ 2208 08d4 50E0      		ldi r21,hi8(0)
+ 2209 08d6 20E0      		ldi r18,lo8(0)
+ 2210 08d8 30E0      		ldi r19,hi8(0)
+ 2211 08da 00C0      		rjmp .L165
+ 2212               	.L120:
+ 2213 08dc C501      		movw r24,r10
+ 2214 08de 60E0      		ldi r22,lo8(.LC54)
+ 2215 08e0 70E0      		ldi r23,hi8(.LC54)
+ 2216 08e2 0E94 0000 		call strcmp
+ 2217 08e6 0097      		sbiw r24,0
+ 2218 08e8 01F0      		breq .+2
+ 2219 08ea 00C0      		rjmp .L121
+ 2220 08ec 00D0      		rcall .
+ 2221 08ee E0E0      		ldi r30,lo8(.LC55)
+ 2222 08f0 F0E0      		ldi r31,hi8(.LC55)
+ 2223 08f2 ADB7      		in r26,__SP_L__
+ 2224 08f4 BEB7      		in r27,__SP_H__
+ 2225 08f6 1296      		adiw r26,1+1
+ 2226 08f8 FC93      		st X,r31
+ 2227 08fa EE93      		st -X,r30
+ 2228 08fc 1197      		sbiw r26,1
+ 2229 08fe 0E94 0000 		call printf
+ 2230 0902 0F90      		pop __tmp_reg__
+ 2231 0904 0F90      		pop __tmp_reg__
+ 2232 0906 8091 0000 		lds r24,pc_loaded
+ 2233 090a 8823      		tst r24
+ 2234 090c 01F0      		breq .L122
+ 2235 090e 0E94 0000 		call get_rtu_number
+ 2236 0912 7B01      		movw r14,r22
+ 2237 0914 8C01      		movw r16,r24
+ 2238 0916 81E0      		ldi r24,lo8(1)
+ 2239 0918 00C0      		rjmp .L149
+ 2240               	.L122:
+ 2241 091a 8091 0000 		lds r24,con_otdr
+ 2242 091e 8823      		tst r24
+ 2243 0920 01F0      		breq .L124
+ 2244 0922 0E94 0000 		call get_rtu_number
+ 2245 0926 7B01      		movw r14,r22
+ 2246 0928 8C01      		movw r16,r24
+ 2247 092a 88E0      		ldi r24,lo8(8)
+ 2248               	.L149:
+ 2249 092c 60E0      		ldi r22,lo8(0)
+ 2250 092e 70E0      		ldi r23,hi8(0)
+ 2251 0930 40E0      		ldi r20,lo8(0)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 44
 
 
- 2252 0938 2091 0000 		lds r18,ethTelnetFile
- 2253 093c 3091 0000 		lds r19,(ethTelnetFile)+1
- 2254               	.L149:
- 2255 0940 80E0      		ldi r24,lo8(.LC19)
- 2256 0942 90E0      		ldi r25,hi8(.LC19)
- 2257               	.L151:
- 2258 0944 61E0      		ldi r22,lo8(1)
- 2259 0946 70E0      		ldi r23,hi8(1)
- 2260 0948 44E0      		ldi r20,lo8(4)
- 2261 094a 50E0      		ldi r21,hi8(4)
- 2262 094c 00C0      		rjmp .L147
- 2263               	.L118:
- 2264 094e C501      		movw r24,r10
- 2265 0950 60E0      		ldi r22,lo8(.LC56)
- 2266 0952 70E0      		ldi r23,hi8(.LC56)
- 2267 0954 4DE0      		ldi r20,lo8(13)
- 2268 0956 50E0      		ldi r21,hi8(13)
- 2269 0958 0E94 0000 		call strncmp
- 2270 095c 0097      		sbiw r24,0
- 2271 095e 01F4      		brne .L123
- 2272 0960 00D0      		rcall .
- 2273 0962 00D0      		rcall .
- 2274 0964 00D0      		rcall .
- 2275 0966 EDB7      		in r30,__SP_L__
- 2276 0968 FEB7      		in r31,__SP_H__
- 2277 096a 3196      		adiw r30,1
- 2278 096c ADB7      		in r26,__SP_L__
- 2279 096e BEB7      		in r27,__SP_H__
- 2280 0970 1296      		adiw r26,1+1
- 2281 0972 BC92      		st X,r11
- 2282 0974 AE92      		st -X,r10
- 2283 0976 1197      		sbiw r26,1
- 2284 0978 20E0      		ldi r18,lo8(.LC57)
- 2285 097a 30E0      		ldi r19,hi8(.LC57)
- 2286 097c 3383      		std Z+3,r19
- 2287 097e 2283      		std Z+2,r18
- 2288 0980 CE01      		movw r24,r28
- 2289 0982 0A96      		adiw r24,10
- 2290 0984 9583      		std Z+5,r25
- 2291 0986 8483      		std Z+4,r24
- 2292 0988 0E94 0000 		call sscanf
- 2293 098c 6DB7      		in r22,__SP_L__
- 2294 098e 7EB7      		in r23,__SP_H__
- 2295 0990 6A5F      		subi r22,lo8(-(6))
- 2296 0992 7F4F      		sbci r23,hi8(-(6))
- 2297 0994 0FB6      		in __tmp_reg__,__SREG__
- 2298 0996 F894      		cli
- 2299 0998 7EBF      		out __SP_H__,r23
- 2300 099a 0FBE      		out __SREG__,__tmp_reg__
- 2301 099c 6DBF      		out __SP_L__,r22
- 2302 099e 8A85      		ldd r24,Y+10
- 2303 09a0 9B85      		ldd r25,Y+11
- 2304 09a2 0E94 0000 		call set_power_ii
- 2305 09a6 00C0      		rjmp .L158
- 2306               	.L123:
- 2307 09a8 C501      		movw r24,r10
- 2308 09aa 60E0      		ldi r22,lo8(.LC58)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 45
+ 2252 0932 50E0      		ldi r21,hi8(0)
+ 2253 0934 20E0      		ldi r18,lo8(0)
+ 2254 0936 30E0      		ldi r19,hi8(0)
+ 2255 0938 0E94 0000 		call display_show
+ 2256 093c 00C0      		rjmp .L123
+ 2257               	.L124:
+ 2258 093e 8091 0000 		lds r24,win_loaded
+ 2259 0942 8823      		tst r24
+ 2260 0944 01F0      		breq .L125
+ 2261 0946 0E94 0000 		call get_rtu_number
+ 2262 094a 7B01      		movw r14,r22
+ 2263 094c 8C01      		movw r16,r24
+ 2264 094e 85E0      		ldi r24,lo8(5)
+ 2265 0950 00C0      		rjmp .L149
+ 2266               	.L125:
+ 2267 0952 0E94 0000 		call get_rtu_number
+ 2268 0956 7B01      		movw r14,r22
+ 2269 0958 8C01      		movw r16,r24
+ 2270 095a 80E0      		ldi r24,lo8(0)
+ 2271 095c 60E0      		ldi r22,lo8(0)
+ 2272 095e 70E0      		ldi r23,hi8(0)
+ 2273 0960 40E0      		ldi r20,lo8(0)
+ 2274 0962 50E0      		ldi r21,hi8(0)
+ 2275 0964 20E0      		ldi r18,lo8(0)
+ 2276 0966 30E0      		ldi r19,hi8(0)
+ 2277 0968 0E94 0000 		call display_show
+ 2278 096c 0E94 0000 		call enable_timer1
+ 2279               	.L123:
+ 2280 0970 0E94 0000 		call enable_int_key
+ 2281               	.L157:
+ 2282 0974 2091 0000 		lds r18,ethTelnetFile
+ 2283 0978 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2284               	.L152:
+ 2285 097c 80E0      		ldi r24,lo8(.LC19)
+ 2286 097e 90E0      		ldi r25,hi8(.LC19)
+ 2287               	.L154:
+ 2288 0980 61E0      		ldi r22,lo8(1)
+ 2289 0982 70E0      		ldi r23,hi8(1)
+ 2290 0984 44E0      		ldi r20,lo8(4)
+ 2291 0986 50E0      		ldi r21,hi8(4)
+ 2292 0988 00C0      		rjmp .L150
+ 2293               	.L121:
+ 2294 098a C501      		movw r24,r10
+ 2295 098c 60E0      		ldi r22,lo8(.LC56)
+ 2296 098e 70E0      		ldi r23,hi8(.LC56)
+ 2297 0990 4DE0      		ldi r20,lo8(13)
+ 2298 0992 50E0      		ldi r21,hi8(13)
+ 2299 0994 0E94 0000 		call strncmp
+ 2300 0998 0097      		sbiw r24,0
+ 2301 099a 01F4      		brne .L126
+ 2302 099c 00D0      		rcall .
+ 2303 099e 00D0      		rcall .
+ 2304 09a0 00D0      		rcall .
+ 2305 09a2 EDB7      		in r30,__SP_L__
+ 2306 09a4 FEB7      		in r31,__SP_H__
+ 2307 09a6 3196      		adiw r30,1
+ 2308 09a8 ADB7      		in r26,__SP_L__
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 45
 
 
- 2309 09ac 70E0      		ldi r23,hi8(.LC58)
- 2310 09ae 4DE0      		ldi r20,lo8(13)
- 2311 09b0 50E0      		ldi r21,hi8(13)
- 2312 09b2 0E94 0000 		call strncmp
- 2313 09b6 0097      		sbiw r24,0
- 2314 09b8 01F4      		brne .L125
- 2315 09ba 00D0      		rcall .
- 2316 09bc 00D0      		rcall .
- 2317 09be 00D0      		rcall .
- 2318 09c0 EDB7      		in r30,__SP_L__
- 2319 09c2 FEB7      		in r31,__SP_H__
- 2320 09c4 3196      		adiw r30,1
- 2321 09c6 ADB7      		in r26,__SP_L__
- 2322 09c8 BEB7      		in r27,__SP_H__
- 2323 09ca 1296      		adiw r26,1+1
- 2324 09cc BC92      		st X,r11
- 2325 09ce AE92      		st -X,r10
- 2326 09d0 1197      		sbiw r26,1
- 2327 09d2 20E0      		ldi r18,lo8(.LC59)
- 2328 09d4 30E0      		ldi r19,hi8(.LC59)
- 2329 09d6 3383      		std Z+3,r19
- 2330 09d8 2283      		std Z+2,r18
- 2331 09da CE01      		movw r24,r28
- 2332 09dc 0A96      		adiw r24,10
- 2333 09de 9583      		std Z+5,r25
- 2334 09e0 8483      		std Z+4,r24
- 2335 09e2 0E94 0000 		call sscanf
- 2336 09e6 6DB7      		in r22,__SP_L__
- 2337 09e8 7EB7      		in r23,__SP_H__
- 2338 09ea 6A5F      		subi r22,lo8(-(6))
- 2339 09ec 7F4F      		sbci r23,hi8(-(6))
- 2340 09ee 0FB6      		in __tmp_reg__,__SREG__
- 2341 09f0 F894      		cli
- 2342 09f2 7EBF      		out __SP_H__,r23
- 2343 09f4 0FBE      		out __SREG__,__tmp_reg__
- 2344 09f6 6DBF      		out __SP_L__,r22
- 2345 09f8 8A85      		ldd r24,Y+10
- 2346 09fa 9B85      		ldd r25,Y+11
- 2347 09fc 0E94 0000 		call set_power_ac
- 2348               	.L158:
- 2349 0a00 2091 0000 		lds r18,ethTelnetFile
- 2350 0a04 3091 0000 		lds r19,(ethTelnetFile)+1
- 2351 0a08 8823      		tst r24
- 2352 0a0a 01F4      		brne .+2
- 2353 0a0c 00C0      		rjmp .L152
- 2354 0a0e 00C0      		rjmp .L149
- 2355               	.L125:
- 2356 0a10 C501      		movw r24,r10
- 2357 0a12 60E0      		ldi r22,lo8(.LC60)
- 2358 0a14 70E0      		ldi r23,hi8(.LC60)
- 2359 0a16 4BE0      		ldi r20,lo8(11)
- 2360 0a18 50E0      		ldi r21,hi8(11)
- 2361 0a1a 0E94 0000 		call strncmp
- 2362 0a1e 0097      		sbiw r24,0
- 2363 0a20 01F0      		breq .+2
- 2364 0a22 00C0      		rjmp .L127
- 2365 0a24 C401      		movw r24,r8
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 46
+ 2309 09aa BEB7      		in r27,__SP_H__
+ 2310 09ac 1296      		adiw r26,1+1
+ 2311 09ae BC92      		st X,r11
+ 2312 09b0 AE92      		st -X,r10
+ 2313 09b2 1197      		sbiw r26,1
+ 2314 09b4 20E0      		ldi r18,lo8(.LC57)
+ 2315 09b6 30E0      		ldi r19,hi8(.LC57)
+ 2316 09b8 3383      		std Z+3,r19
+ 2317 09ba 2283      		std Z+2,r18
+ 2318 09bc CE01      		movw r24,r28
+ 2319 09be 0A96      		adiw r24,10
+ 2320 09c0 9583      		std Z+5,r25
+ 2321 09c2 8483      		std Z+4,r24
+ 2322 09c4 0E94 0000 		call sscanf
+ 2323 09c8 6DB7      		in r22,__SP_L__
+ 2324 09ca 7EB7      		in r23,__SP_H__
+ 2325 09cc 6A5F      		subi r22,lo8(-(6))
+ 2326 09ce 7F4F      		sbci r23,hi8(-(6))
+ 2327 09d0 0FB6      		in __tmp_reg__,__SREG__
+ 2328 09d2 F894      		cli
+ 2329 09d4 7EBF      		out __SP_H__,r23
+ 2330 09d6 0FBE      		out __SREG__,__tmp_reg__
+ 2331 09d8 6DBF      		out __SP_L__,r22
+ 2332 09da 8A85      		ldd r24,Y+10
+ 2333 09dc 9B85      		ldd r25,Y+11
+ 2334 09de 0E94 0000 		call set_power_ii
+ 2335 09e2 00C0      		rjmp .L161
+ 2336               	.L126:
+ 2337 09e4 C501      		movw r24,r10
+ 2338 09e6 60E0      		ldi r22,lo8(.LC58)
+ 2339 09e8 70E0      		ldi r23,hi8(.LC58)
+ 2340 09ea 4DE0      		ldi r20,lo8(13)
+ 2341 09ec 50E0      		ldi r21,hi8(13)
+ 2342 09ee 0E94 0000 		call strncmp
+ 2343 09f2 0097      		sbiw r24,0
+ 2344 09f4 01F4      		brne .L128
+ 2345 09f6 00D0      		rcall .
+ 2346 09f8 00D0      		rcall .
+ 2347 09fa 00D0      		rcall .
+ 2348 09fc EDB7      		in r30,__SP_L__
+ 2349 09fe FEB7      		in r31,__SP_H__
+ 2350 0a00 3196      		adiw r30,1
+ 2351 0a02 ADB7      		in r26,__SP_L__
+ 2352 0a04 BEB7      		in r27,__SP_H__
+ 2353 0a06 1296      		adiw r26,1+1
+ 2354 0a08 BC92      		st X,r11
+ 2355 0a0a AE92      		st -X,r10
+ 2356 0a0c 1197      		sbiw r26,1
+ 2357 0a0e 20E0      		ldi r18,lo8(.LC59)
+ 2358 0a10 30E0      		ldi r19,hi8(.LC59)
+ 2359 0a12 3383      		std Z+3,r19
+ 2360 0a14 2283      		std Z+2,r18
+ 2361 0a16 CE01      		movw r24,r28
+ 2362 0a18 0A96      		adiw r24,10
+ 2363 0a1a 9583      		std Z+5,r25
+ 2364 0a1c 8483      		std Z+4,r24
+ 2365 0a1e 0E94 0000 		call sscanf
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 46
 
 
- 2366 0a26 60E0      		ldi r22,lo8(.LC19)
- 2367 0a28 70E0      		ldi r23,hi8(.LC19)
- 2368 0a2a 44E0      		ldi r20,lo8(4)
- 2369 0a2c 50E0      		ldi r21,hi8(4)
- 2370 0a2e 0E94 0000 		call NutTcpSend
- 2371 0a32 0B50      		subi r16,lo8(-(-11))
- 2372 0a34 1040      		sbci r17,hi8(-(-11))
- 2373 0a36 88E8      		ldi r24,lo8(5000)
- 2374 0a38 93E1      		ldi r25,hi8(5000)
- 2375 0a3a A0E0      		ldi r26,hlo8(5000)
- 2376 0a3c B0E0      		ldi r27,hhi8(5000)
- 2377 0a3e 888B      		std Y+16,r24
- 2378 0a40 998B      		std Y+17,r25
- 2379 0a42 AA8B      		std Y+18,r26
- 2380 0a44 BB8B      		std Y+19,r27
- 2381 0a46 C401      		movw r24,r8
- 2382 0a48 66E0      		ldi r22,lo8(4102)
- 2383 0a4a 70E1      		ldi r23,hi8(4102)
- 2384 0a4c AE01      		movw r20,r28
- 2385 0a4e 405F      		subi r20,lo8(-(16))
- 2386 0a50 5F4F      		sbci r21,hi8(-(16))
- 2387 0a52 24E0      		ldi r18,lo8(4)
- 2388 0a54 30E0      		ldi r19,hi8(4)
- 2389 0a56 0E94 0000 		call NutTcpSetSockOpt
- 2390 0a5a 40EE      		ldi r20,lo8(480)
- 2391 0a5c E42E      		mov r14,r20
- 2392 0a5e 41E0      		ldi r20,hi8(480)
- 2393 0a60 F42E      		mov r15,r20
- 2394 0a62 00C0      		rjmp .L128
- 2395               	.L130:
- 2396 0a64 C801      		movw r24,r16
- 2397 0a66 0B96      		adiw r24,11
- 2398 0a68 A701      		movw r20,r14
- 2399 0a6a 401B      		sub r20,r16
- 2400 0a6c 510B      		sbc r21,r17
- 2401 0a6e 2091 0000 		lds r18,ethTelnetFile
- 2402 0a72 3091 0000 		lds r19,(ethTelnetFile)+1
- 2403 0a76 8A0D      		add r24,r10
- 2404 0a78 9B1D      		adc r25,r11
- 2405 0a7a 61E0      		ldi r22,lo8(1)
- 2406 0a7c 70E0      		ldi r23,hi8(1)
- 2407 0a7e 0E94 0000 		call fread
- 2408 0a82 6C01      		movw r12,r24
- 2409 0a84 1816      		cp __zero_reg__,r24
- 2410 0a86 1906      		cpc __zero_reg__,r25
- 2411 0a88 04F4      		brge .L129
- 2412 0a8a 080F      		add r16,r24
- 2413 0a8c 191F      		adc r17,r25
- 2414               	.L128:
- 2415 0a8e 71E0      		ldi r23,hi8(480)
- 2416 0a90 003E      		cpi r16,lo8(480)
- 2417 0a92 1707      		cpc r17,r23
- 2418 0a94 01F4      		brne .L130
- 2419               	.L129:
- 2420 0a96 188A      		std Y+16,__zero_reg__
- 2421 0a98 198A      		std Y+17,__zero_reg__
- 2422 0a9a 1A8A      		std Y+18,__zero_reg__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 47
+ 2366 0a22 6DB7      		in r22,__SP_L__
+ 2367 0a24 7EB7      		in r23,__SP_H__
+ 2368 0a26 6A5F      		subi r22,lo8(-(6))
+ 2369 0a28 7F4F      		sbci r23,hi8(-(6))
+ 2370 0a2a 0FB6      		in __tmp_reg__,__SREG__
+ 2371 0a2c F894      		cli
+ 2372 0a2e 7EBF      		out __SP_H__,r23
+ 2373 0a30 0FBE      		out __SREG__,__tmp_reg__
+ 2374 0a32 6DBF      		out __SP_L__,r22
+ 2375 0a34 8A85      		ldd r24,Y+10
+ 2376 0a36 9B85      		ldd r25,Y+11
+ 2377 0a38 0E94 0000 		call set_power_ac
+ 2378               	.L161:
+ 2379 0a3c 2091 0000 		lds r18,ethTelnetFile
+ 2380 0a40 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2381 0a44 8823      		tst r24
+ 2382 0a46 01F4      		brne .+2
+ 2383 0a48 00C0      		rjmp .L155
+ 2384 0a4a 00C0      		rjmp .L152
+ 2385               	.L128:
+ 2386 0a4c C501      		movw r24,r10
+ 2387 0a4e 60E0      		ldi r22,lo8(.LC60)
+ 2388 0a50 70E0      		ldi r23,hi8(.LC60)
+ 2389 0a52 4BE0      		ldi r20,lo8(11)
+ 2390 0a54 50E0      		ldi r21,hi8(11)
+ 2391 0a56 0E94 0000 		call strncmp
+ 2392 0a5a 0097      		sbiw r24,0
+ 2393 0a5c 01F0      		breq .+2
+ 2394 0a5e 00C0      		rjmp .L130
+ 2395 0a60 C401      		movw r24,r8
+ 2396 0a62 60E0      		ldi r22,lo8(.LC19)
+ 2397 0a64 70E0      		ldi r23,hi8(.LC19)
+ 2398 0a66 44E0      		ldi r20,lo8(4)
+ 2399 0a68 50E0      		ldi r21,hi8(4)
+ 2400 0a6a 0E94 0000 		call NutTcpSend
+ 2401 0a6e 0B50      		subi r16,lo8(-(-11))
+ 2402 0a70 1040      		sbci r17,hi8(-(-11))
+ 2403 0a72 88E8      		ldi r24,lo8(5000)
+ 2404 0a74 93E1      		ldi r25,hi8(5000)
+ 2405 0a76 A0E0      		ldi r26,hlo8(5000)
+ 2406 0a78 B0E0      		ldi r27,hhi8(5000)
+ 2407 0a7a 888B      		std Y+16,r24
+ 2408 0a7c 998B      		std Y+17,r25
+ 2409 0a7e AA8B      		std Y+18,r26
+ 2410 0a80 BB8B      		std Y+19,r27
+ 2411 0a82 C401      		movw r24,r8
+ 2412 0a84 66E0      		ldi r22,lo8(4102)
+ 2413 0a86 70E1      		ldi r23,hi8(4102)
+ 2414 0a88 AE01      		movw r20,r28
+ 2415 0a8a 405F      		subi r20,lo8(-(16))
+ 2416 0a8c 5F4F      		sbci r21,hi8(-(16))
+ 2417 0a8e 24E0      		ldi r18,lo8(4)
+ 2418 0a90 30E0      		ldi r19,hi8(4)
+ 2419 0a92 0E94 0000 		call NutTcpSetSockOpt
+ 2420 0a96 40EE      		ldi r20,lo8(480)
+ 2421 0a98 E42E      		mov r14,r20
+ 2422 0a9a 41E0      		ldi r20,hi8(480)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 47
 
 
- 2423 0a9c 1B8A      		std Y+19,__zero_reg__
- 2424 0a9e C401      		movw r24,r8
- 2425 0aa0 66E0      		ldi r22,lo8(4102)
- 2426 0aa2 70E1      		ldi r23,hi8(4102)
- 2427 0aa4 AE01      		movw r20,r28
- 2428 0aa6 405F      		subi r20,lo8(-(16))
- 2429 0aa8 5F4F      		sbci r21,hi8(-(16))
- 2430 0aaa 24E0      		ldi r18,lo8(4)
- 2431 0aac 30E0      		ldi r19,hi8(4)
- 2432 0aae 0E94 0000 		call NutTcpSetSockOpt
- 2433 0ab2 D7FC      		sbrc r13,7
- 2434 0ab4 00C0      		rjmp .L63
- 2435 0ab6 005E      		subi r16,lo8(480)
- 2436 0ab8 1140      		sbci r17,hi8(480)
- 2437 0aba 01F4      		brne .L131
- 2438 0abc C501      		movw r24,r10
- 2439 0abe 0B96      		adiw r24,11
- 2440 0ac0 0E94 0000 		call write_ini
- 2441 0ac4 00C0      		rjmp .L154
- 2442               	.L131:
- 2443 0ac6 2091 0000 		lds r18,ethTelnetFile
- 2444 0aca 3091 0000 		lds r19,(ethTelnetFile)+1
- 2445               	.L152:
- 2446 0ace 80E0      		ldi r24,lo8(.LC20)
- 2447 0ad0 90E0      		ldi r25,hi8(.LC20)
- 2448 0ad2 61E0      		ldi r22,lo8(1)
- 2449 0ad4 70E0      		ldi r23,hi8(1)
- 2450 0ad6 47E0      		ldi r20,lo8(7)
- 2451 0ad8 50E0      		ldi r21,hi8(7)
- 2452 0ada 00C0      		rjmp .L147
- 2453               	.L127:
- 2454 0adc C501      		movw r24,r10
- 2455 0ade 60E0      		ldi r22,lo8(.LC61)
- 2456 0ae0 70E0      		ldi r23,hi8(.LC61)
- 2457 0ae2 4AE0      		ldi r20,lo8(10)
- 2458 0ae4 50E0      		ldi r21,hi8(10)
- 2459 0ae6 0E94 0000 		call strncmp
- 2460 0aea 0097      		sbiw r24,0
- 2461 0aec 01F4      		brne .L132
- 2462 0aee C501      		movw r24,r10
- 2463 0af0 0E94 0000 		call read_ini
- 2464 0af4 00E0      		ldi r16,lo8(0)
- 2465 0af6 10E0      		ldi r17,hi8(0)
- 2466 0af8 30EE      		ldi r19,lo8(480)
- 2467 0afa E32E      		mov r14,r19
- 2468 0afc 31E0      		ldi r19,hi8(480)
- 2469 0afe F32E      		mov r15,r19
- 2470               	.L133:
- 2471 0b00 B501      		movw r22,r10
- 2472 0b02 600F      		add r22,r16
- 2473 0b04 711F      		adc r23,r17
- 2474 0b06 A701      		movw r20,r14
- 2475 0b08 401B      		sub r20,r16
- 2476 0b0a 510B      		sbc r21,r17
- 2477 0b0c C401      		movw r24,r8
- 2478 0b0e 0E94 0000 		call NutTcpSend
- 2479 0b12 080F      		add r16,r24
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 48
+ 2423 0a9c F42E      		mov r15,r20
+ 2424 0a9e 00C0      		rjmp .L131
+ 2425               	.L133:
+ 2426 0aa0 C801      		movw r24,r16
+ 2427 0aa2 0B96      		adiw r24,11
+ 2428 0aa4 A701      		movw r20,r14
+ 2429 0aa6 401B      		sub r20,r16
+ 2430 0aa8 510B      		sbc r21,r17
+ 2431 0aaa 2091 0000 		lds r18,ethTelnetFile
+ 2432 0aae 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2433 0ab2 8A0D      		add r24,r10
+ 2434 0ab4 9B1D      		adc r25,r11
+ 2435 0ab6 61E0      		ldi r22,lo8(1)
+ 2436 0ab8 70E0      		ldi r23,hi8(1)
+ 2437 0aba 0E94 0000 		call fread
+ 2438 0abe 6C01      		movw r12,r24
+ 2439 0ac0 1816      		cp __zero_reg__,r24
+ 2440 0ac2 1906      		cpc __zero_reg__,r25
+ 2441 0ac4 04F4      		brge .L132
+ 2442 0ac6 080F      		add r16,r24
+ 2443 0ac8 191F      		adc r17,r25
+ 2444               	.L131:
+ 2445 0aca 71E0      		ldi r23,hi8(480)
+ 2446 0acc 003E      		cpi r16,lo8(480)
+ 2447 0ace 1707      		cpc r17,r23
+ 2448 0ad0 01F4      		brne .L133
+ 2449               	.L132:
+ 2450 0ad2 188A      		std Y+16,__zero_reg__
+ 2451 0ad4 198A      		std Y+17,__zero_reg__
+ 2452 0ad6 1A8A      		std Y+18,__zero_reg__
+ 2453 0ad8 1B8A      		std Y+19,__zero_reg__
+ 2454 0ada C401      		movw r24,r8
+ 2455 0adc 66E0      		ldi r22,lo8(4102)
+ 2456 0ade 70E1      		ldi r23,hi8(4102)
+ 2457 0ae0 AE01      		movw r20,r28
+ 2458 0ae2 405F      		subi r20,lo8(-(16))
+ 2459 0ae4 5F4F      		sbci r21,hi8(-(16))
+ 2460 0ae6 24E0      		ldi r18,lo8(4)
+ 2461 0ae8 30E0      		ldi r19,hi8(4)
+ 2462 0aea 0E94 0000 		call NutTcpSetSockOpt
+ 2463 0aee D7FC      		sbrc r13,7
+ 2464 0af0 00C0      		rjmp .L66
+ 2465 0af2 005E      		subi r16,lo8(480)
+ 2466 0af4 1140      		sbci r17,hi8(480)
+ 2467 0af6 01F4      		brne .L134
+ 2468 0af8 C501      		movw r24,r10
+ 2469 0afa 0B96      		adiw r24,11
+ 2470 0afc 0E94 0000 		call write_ini
+ 2471 0b00 00C0      		rjmp .L157
+ 2472               	.L134:
+ 2473 0b02 2091 0000 		lds r18,ethTelnetFile
+ 2474 0b06 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2475               	.L155:
+ 2476 0b0a 80E0      		ldi r24,lo8(.LC20)
+ 2477 0b0c 90E0      		ldi r25,hi8(.LC20)
+ 2478 0b0e 61E0      		ldi r22,lo8(1)
+ 2479 0b10 70E0      		ldi r23,hi8(1)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 48
 
 
- 2480 0b14 191F      		adc r17,r25
- 2481 0b16 91E0      		ldi r25,hi8(480)
- 2482 0b18 003E      		cpi r16,lo8(480)
- 2483 0b1a 1907      		cpc r17,r25
- 2484 0b1c 01F4      		brne .L133
- 2485 0b1e 00C0      		rjmp .L66
- 2486               	.L132:
- 2487 0b20 2091 0000 		lds r18,ethTelnetFile
- 2488 0b24 3091 0000 		lds r19,(ethTelnetFile)+1
- 2489 0b28 80E0      		ldi r24,lo8(.LC62)
- 2490 0b2a 90E0      		ldi r25,hi8(.LC62)
- 2491 0b2c 61E0      		ldi r22,lo8(1)
- 2492 0b2e 70E0      		ldi r23,hi8(1)
- 2493 0b30 4FE0      		ldi r20,lo8(15)
- 2494 0b32 50E0      		ldi r21,hi8(15)
- 2495               	.L147:
- 2496 0b34 0E94 0000 		call fwrite
- 2497               	.L66:
- 2498 0b38 8091 0000 		lds r24,ethTelnetFile
- 2499 0b3c 9091 0000 		lds r25,(ethTelnetFile)+1
- 2500 0b40 0E94 0000 		call fflush
- 2501               	.L140:
- 2502 0b44 8091 0000 		lds r24,haveConnectTelnet
- 2503 0b48 8823      		tst r24
- 2504 0b4a 01F0      		breq .+2
- 2505 0b4c 00C0      		rjmp .L134
- 2506               	.L63:
- 2507 0b4e 1092 0000 		sts haveConnectTelnet,__zero_reg__
- 2508 0b52 C501      		movw r24,r10
- 2509 0b54 0E94 0000 		call free
- 2510 0b58 8091 0000 		lds r24,ethTelnetFile
- 2511 0b5c 9091 0000 		lds r25,(ethTelnetFile)+1
- 2512 0b60 0E94 0000 		call fclose
- 2513 0b64 C401      		movw r24,r8
- 2514 0b66 0E94 0000 		call NutTcpCloseSocket
- 2515 0b6a 80E0      		ldi r24,lo8(.LC63)
- 2516 0b6c 90E0      		ldi r25,hi8(.LC63)
- 2517 0b6e 0E94 0000 		call puts
- 2518 0b72 00C0      		rjmp .L135
- 2519               		.size	loopNetwork, .-loopNetwork
- 2520               		.data
- 2521               	.LC64:
- 2522 0511 6574 6830 		.string	"eth0"
- 2522      00
- 2523               	.LC65:
- 2524 0516 3139 322E 		.string	"192.168.111.81"
- 2524      3136 382E 
- 2524      3131 312E 
- 2524      3831 00
- 2525               	.LC66:
- 2526 0525 3235 352E 		.string	"255.255.255.0"
- 2526      3235 352E 
- 2526      3235 352E 
- 2526      3000 
- 2527               	.LC67:
- 2528 0533 302E 302E 		.string	"0.0.0.0"
- 2528      302E 3000 
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 49
+ 2480 0b12 47E0      		ldi r20,lo8(7)
+ 2481 0b14 50E0      		ldi r21,hi8(7)
+ 2482 0b16 00C0      		rjmp .L150
+ 2483               	.L130:
+ 2484 0b18 C501      		movw r24,r10
+ 2485 0b1a 60E0      		ldi r22,lo8(.LC61)
+ 2486 0b1c 70E0      		ldi r23,hi8(.LC61)
+ 2487 0b1e 4AE0      		ldi r20,lo8(10)
+ 2488 0b20 50E0      		ldi r21,hi8(10)
+ 2489 0b22 0E94 0000 		call strncmp
+ 2490 0b26 0097      		sbiw r24,0
+ 2491 0b28 01F4      		brne .L135
+ 2492 0b2a C501      		movw r24,r10
+ 2493 0b2c 0E94 0000 		call read_ini
+ 2494 0b30 00E0      		ldi r16,lo8(0)
+ 2495 0b32 10E0      		ldi r17,hi8(0)
+ 2496 0b34 30EE      		ldi r19,lo8(480)
+ 2497 0b36 E32E      		mov r14,r19
+ 2498 0b38 31E0      		ldi r19,hi8(480)
+ 2499 0b3a F32E      		mov r15,r19
+ 2500               	.L136:
+ 2501 0b3c B501      		movw r22,r10
+ 2502 0b3e 600F      		add r22,r16
+ 2503 0b40 711F      		adc r23,r17
+ 2504 0b42 A701      		movw r20,r14
+ 2505 0b44 401B      		sub r20,r16
+ 2506 0b46 510B      		sbc r21,r17
+ 2507 0b48 C401      		movw r24,r8
+ 2508 0b4a 0E94 0000 		call NutTcpSend
+ 2509 0b4e 080F      		add r16,r24
+ 2510 0b50 191F      		adc r17,r25
+ 2511 0b52 91E0      		ldi r25,hi8(480)
+ 2512 0b54 003E      		cpi r16,lo8(480)
+ 2513 0b56 1907      		cpc r17,r25
+ 2514 0b58 01F4      		brne .L136
+ 2515 0b5a 00C0      		rjmp .L69
+ 2516               	.L135:
+ 2517 0b5c 2091 0000 		lds r18,ethTelnetFile
+ 2518 0b60 3091 0000 		lds r19,(ethTelnetFile)+1
+ 2519 0b64 80E0      		ldi r24,lo8(.LC62)
+ 2520 0b66 90E0      		ldi r25,hi8(.LC62)
+ 2521 0b68 61E0      		ldi r22,lo8(1)
+ 2522 0b6a 70E0      		ldi r23,hi8(1)
+ 2523 0b6c 4FE0      		ldi r20,lo8(15)
+ 2524 0b6e 50E0      		ldi r21,hi8(15)
+ 2525               	.L150:
+ 2526 0b70 0E94 0000 		call fwrite
+ 2527               	.L69:
+ 2528 0b74 8091 0000 		lds r24,ethTelnetFile
+ 2529 0b78 9091 0000 		lds r25,(ethTelnetFile)+1
+ 2530 0b7c 0E94 0000 		call fflush
+ 2531               	.L142:
+ 2532 0b80 8091 0000 		lds r24,haveConnectTelnet
+ 2533 0b84 8823      		tst r24
+ 2534 0b86 01F0      		breq .+2
+ 2535 0b88 00C0      		rjmp .L137
+ 2536               	.L66:
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 49
 
 
- 2529               	.LC68:
- 2530 053b 2D2D 204C 		.string	"-- Loading default values and storing to EEPROM\r"
- 2530      6F61 6469 
- 2530      6E67 2064 
- 2530      6566 6175 
- 2530      6C74 2076 
- 2531               		.section	.text.defaultNet,"ax",@progbits
- 2532               	.global	defaultNet
- 2533               		.type	defaultNet, @function
- 2534               	defaultNet:
- 2535               	/* prologue: function */
- 2536               	/* frame size = 0 */
- 2537 0000 A0E0      		ldi r26,lo8(confnet+10)
- 2538 0002 B0E0      		ldi r27,hi8(confnet+10)
- 2539 0004 E0E0      		ldi r30,lo8(mac)
- 2540 0006 F0E0      		ldi r31,hi8(mac)
- 2541 0008 86E0      		ldi r24,lo8(6)
- 2542               	.L164:
- 2543 000a 0190      		ld r0,Z+
- 2544 000c 0D92      		st X+,r0
- 2545 000e 8150      		subi r24,lo8(-(-1))
- 2546 0010 01F4      		brne .L164
- 2547 0012 A0E0      		ldi r26,lo8(confnet+1)
- 2548 0014 B0E0      		ldi r27,hi8(confnet+1)
- 2549 0016 E0E0      		ldi r30,lo8(.LC64)
- 2550 0018 F0E0      		ldi r31,hi8(.LC64)
- 2551 001a 89E0      		ldi r24,lo8(9)
- 2552               	.L165:
- 2553 001c 0190      		ld r0,Z+
- 2554 001e 0D92      		st X+,r0
- 2555 0020 8150      		subi r24,lo8(-(-1))
- 2556 0022 01F4      		brne .L165
- 2557 0024 80E0      		ldi r24,lo8(.LC65)
- 2558 0026 90E0      		ldi r25,hi8(.LC65)
- 2559 0028 0E94 0000 		call inet_addr
- 2560 002c 6093 0000 		sts confnet+16,r22
- 2561 0030 7093 0000 		sts (confnet+16)+1,r23
- 2562 0034 8093 0000 		sts (confnet+16)+2,r24
- 2563 0038 9093 0000 		sts (confnet+16)+3,r25
- 2564 003c 80E0      		ldi r24,lo8(.LC65)
- 2565 003e 90E0      		ldi r25,hi8(.LC65)
- 2566 0040 0E94 0000 		call inet_addr
- 2567 0044 6093 0000 		sts confnet+28,r22
- 2568 0048 7093 0000 		sts (confnet+28)+1,r23
- 2569 004c 8093 0000 		sts (confnet+28)+2,r24
- 2570 0050 9093 0000 		sts (confnet+28)+3,r25
- 2571 0054 80E0      		ldi r24,lo8(.LC66)
- 2572 0056 90E0      		ldi r25,hi8(.LC66)
- 2573 0058 0E94 0000 		call inet_addr
- 2574 005c 6093 0000 		sts confnet+20,r22
- 2575 0060 7093 0000 		sts (confnet+20)+1,r23
- 2576 0064 8093 0000 		sts (confnet+20)+2,r24
- 2577 0068 9093 0000 		sts (confnet+20)+3,r25
- 2578 006c 80E0      		ldi r24,lo8(.LC67)
- 2579 006e 90E0      		ldi r25,hi8(.LC67)
- 2580 0070 0E94 0000 		call inet_addr
- 2581 0074 6093 0000 		sts confnet+24,r22
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 50
+ 2537 0b8a 1092 0000 		sts haveConnectTelnet,__zero_reg__
+ 2538 0b8e C501      		movw r24,r10
+ 2539 0b90 0E94 0000 		call free
+ 2540 0b94 8091 0000 		lds r24,ethTelnetFile
+ 2541 0b98 9091 0000 		lds r25,(ethTelnetFile)+1
+ 2542 0b9c 0E94 0000 		call fclose
+ 2543 0ba0 C401      		movw r24,r8
+ 2544 0ba2 0E94 0000 		call NutTcpCloseSocket
+ 2545 0ba6 80E0      		ldi r24,lo8(.LC63)
+ 2546 0ba8 90E0      		ldi r25,hi8(.LC63)
+ 2547 0baa 0E94 0000 		call puts
+ 2548 0bae 00C0      		rjmp .L64
+ 2549               		.size	loopNetwork, .-loopNetwork
+ 2550               		.data
+ 2551               	.LC64:
+ 2552 0511 6574 6830 		.string	"eth0"
+ 2552      00
+ 2553               	.LC65:
+ 2554 0516 3139 322E 		.string	"192.168.111.81"
+ 2554      3136 382E 
+ 2554      3131 312E 
+ 2554      3831 00
+ 2555               	.LC66:
+ 2556 0525 3235 352E 		.string	"255.255.255.0"
+ 2556      3235 352E 
+ 2556      3235 352E 
+ 2556      3000 
+ 2557               	.LC67:
+ 2558 0533 302E 302E 		.string	"0.0.0.0"
+ 2558      302E 3000 
+ 2559               	.LC68:
+ 2560 053b 2D2D 204C 		.string	"-- Loading default values and storing to EEPROM\r"
+ 2560      6F61 6469 
+ 2560      6E67 2064 
+ 2560      6566 6175 
+ 2560      6C74 2076 
+ 2561               		.section	.text.defaultNet,"ax",@progbits
+ 2562               	.global	defaultNet
+ 2563               		.type	defaultNet, @function
+ 2564               	defaultNet:
+ 2565               	/* prologue: function */
+ 2566               	/* frame size = 0 */
+ 2567 0000 A0E0      		ldi r26,lo8(confnet+10)
+ 2568 0002 B0E0      		ldi r27,hi8(confnet+10)
+ 2569 0004 E0E0      		ldi r30,lo8(mac)
+ 2570 0006 F0E0      		ldi r31,hi8(mac)
+ 2571 0008 86E0      		ldi r24,lo8(6)
+ 2572               	.L167:
+ 2573 000a 0190      		ld r0,Z+
+ 2574 000c 0D92      		st X+,r0
+ 2575 000e 8150      		subi r24,lo8(-(-1))
+ 2576 0010 01F4      		brne .L167
+ 2577 0012 A0E0      		ldi r26,lo8(confnet+1)
+ 2578 0014 B0E0      		ldi r27,hi8(confnet+1)
+ 2579 0016 E0E0      		ldi r30,lo8(.LC64)
+ 2580 0018 F0E0      		ldi r31,hi8(.LC64)
+ 2581 001a 89E0      		ldi r24,lo8(9)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 50
 
 
- 2582 0078 7093 0000 		sts (confnet+24)+1,r23
- 2583 007c 8093 0000 		sts (confnet+24)+2,r24
- 2584 0080 9093 0000 		sts (confnet+24)+3,r25
- 2585 0084 80E0      		ldi r24,lo8(.LC68)
- 2586 0086 90E0      		ldi r25,hi8(.LC68)
- 2587 0088 0E94 0000 		call puts
- 2588 008c 0E94 0000 		call NutNetSaveConfig
- 2589               	/* epilogue start */
- 2590 0090 0895      		ret
- 2591               		.size	defaultNet, .-defaultNet
- 2592               		.section	.text.initNetwork,"ax",@progbits
- 2593               	.global	initNetwork
- 2594               		.type	initNetwork, @function
- 2595               	initNetwork:
- 2596               	/* prologue: function */
- 2597               	/* frame size = 0 */
- 2598 0000 80E0      		ldi r24,lo8(.LC64)
- 2599 0002 90E0      		ldi r25,hi8(.LC64)
- 2600 0004 0E94 0000 		call NutNetLoadConfig
- 2601 0008 892B      		or r24,r25
- 2602 000a 01F0      		breq .L171
- 2603 000c 0E94 0000 		call defaultNet
- 2604               	.L171:
- 2605 0010 0895      		ret
- 2606               		.size	initNetwork, .-initNetwork
- 2607               	.global	mac
- 2608               		.data
- 2609               		.type	mac, @object
- 2610               		.size	mac, 6
- 2611               	mac:
- 2612 056c 00        		.byte	0
- 2613 056d 0A        		.byte	10
- 2614 056e 59        		.byte	89
- 2615 056f 04        		.byte	4
- 2616 0570 01        		.byte	1
- 2617 0571 01        		.byte	1
- 2618               	.global	haveConnectTelnet
- 2619               	.global	haveConnectTelnet
- 2620               		.section .bss
- 2621               		.type	haveConnectTelnet, @object
- 2622               		.size	haveConnectTelnet, 1
- 2623               	haveConnectTelnet:
- 2624 0000 00        		.skip 1,0
- 2625               	.global	haveConnectReflect
- 2626               	.global	haveConnectReflect
- 2627               		.type	haveConnectReflect, @object
- 2628               		.size	haveConnectReflect, 1
- 2629               	haveConnectReflect:
- 2630 0001 00        		.skip 1,0
- 2631               	.global	have_reset_command
- 2632               	.global	have_reset_command
- 2633               		.type	have_reset_command, @object
- 2634               		.size	have_reset_command, 1
- 2635               	have_reset_command:
- 2636 0002 00        		.skip 1,0
- 2637               	.global	pc_loaded
- 2638               	.global	pc_loaded
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 51
+ 2582               	.L168:
+ 2583 001c 0190      		ld r0,Z+
+ 2584 001e 0D92      		st X+,r0
+ 2585 0020 8150      		subi r24,lo8(-(-1))
+ 2586 0022 01F4      		brne .L168
+ 2587 0024 80E0      		ldi r24,lo8(.LC65)
+ 2588 0026 90E0      		ldi r25,hi8(.LC65)
+ 2589 0028 0E94 0000 		call inet_addr
+ 2590 002c 6093 0000 		sts confnet+16,r22
+ 2591 0030 7093 0000 		sts (confnet+16)+1,r23
+ 2592 0034 8093 0000 		sts (confnet+16)+2,r24
+ 2593 0038 9093 0000 		sts (confnet+16)+3,r25
+ 2594 003c 80E0      		ldi r24,lo8(.LC65)
+ 2595 003e 90E0      		ldi r25,hi8(.LC65)
+ 2596 0040 0E94 0000 		call inet_addr
+ 2597 0044 6093 0000 		sts confnet+28,r22
+ 2598 0048 7093 0000 		sts (confnet+28)+1,r23
+ 2599 004c 8093 0000 		sts (confnet+28)+2,r24
+ 2600 0050 9093 0000 		sts (confnet+28)+3,r25
+ 2601 0054 80E0      		ldi r24,lo8(.LC66)
+ 2602 0056 90E0      		ldi r25,hi8(.LC66)
+ 2603 0058 0E94 0000 		call inet_addr
+ 2604 005c 6093 0000 		sts confnet+20,r22
+ 2605 0060 7093 0000 		sts (confnet+20)+1,r23
+ 2606 0064 8093 0000 		sts (confnet+20)+2,r24
+ 2607 0068 9093 0000 		sts (confnet+20)+3,r25
+ 2608 006c 80E0      		ldi r24,lo8(.LC67)
+ 2609 006e 90E0      		ldi r25,hi8(.LC67)
+ 2610 0070 0E94 0000 		call inet_addr
+ 2611 0074 6093 0000 		sts confnet+24,r22
+ 2612 0078 7093 0000 		sts (confnet+24)+1,r23
+ 2613 007c 8093 0000 		sts (confnet+24)+2,r24
+ 2614 0080 9093 0000 		sts (confnet+24)+3,r25
+ 2615 0084 80E0      		ldi r24,lo8(.LC68)
+ 2616 0086 90E0      		ldi r25,hi8(.LC68)
+ 2617 0088 0E94 0000 		call puts
+ 2618 008c 0E94 0000 		call NutNetSaveConfig
+ 2619               	/* epilogue start */
+ 2620 0090 0895      		ret
+ 2621               		.size	defaultNet, .-defaultNet
+ 2622               		.section	.text.initNetwork,"ax",@progbits
+ 2623               	.global	initNetwork
+ 2624               		.type	initNetwork, @function
+ 2625               	initNetwork:
+ 2626               	/* prologue: function */
+ 2627               	/* frame size = 0 */
+ 2628 0000 80E0      		ldi r24,lo8(.LC64)
+ 2629 0002 90E0      		ldi r25,hi8(.LC64)
+ 2630 0004 0E94 0000 		call NutNetLoadConfig
+ 2631 0008 892B      		or r24,r25
+ 2632 000a 01F0      		breq .L174
+ 2633 000c 0E94 0000 		call defaultNet
+ 2634               	.L174:
+ 2635 0010 0895      		ret
+ 2636               		.size	initNetwork, .-initNetwork
+ 2637               	.global	mac
+ 2638               		.data
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 51
 
 
- 2639               		.type	pc_loaded, @object
- 2640               		.size	pc_loaded, 1
- 2641               	pc_loaded:
- 2642 0003 00        		.skip 1,0
- 2643               	.global	bad_work_enable
- 2644               	.global	bad_work_enable
- 2645               		.type	bad_work_enable, @object
- 2646               		.size	bad_work_enable, 1
- 2647               	bad_work_enable:
- 2648 0004 00        		.skip 1,0
- 2649               		.comm sockReflect,2,1
- 2650               		.comm ip_addr,4,1
- 2651               		.comm ip_mask,4,1
- 2652               		.comm ip_gateway,4,1
- 2653               		.comm ethTelnetFile,2,1
- 2654               	.global __do_copy_data
- 2655               	.global __do_clear_bss
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 52
+ 2639               		.type	mac, @object
+ 2640               		.size	mac, 6
+ 2641               	mac:
+ 2642 056c 00        		.byte	0
+ 2643 056d 0A        		.byte	10
+ 2644 056e 59        		.byte	89
+ 2645 056f 04        		.byte	4
+ 2646 0570 01        		.byte	1
+ 2647 0571 01        		.byte	1
+ 2648               	.global	haveConnectTelnet
+ 2649               	.global	haveConnectTelnet
+ 2650               		.section .bss
+ 2651               		.type	haveConnectTelnet, @object
+ 2652               		.size	haveConnectTelnet, 1
+ 2653               	haveConnectTelnet:
+ 2654 0000 00        		.skip 1,0
+ 2655               	.global	haveConnectReflect
+ 2656               	.global	haveConnectReflect
+ 2657               		.type	haveConnectReflect, @object
+ 2658               		.size	haveConnectReflect, 1
+ 2659               	haveConnectReflect:
+ 2660 0001 00        		.skip 1,0
+ 2661               	.global	have_reset_command
+ 2662               	.global	have_reset_command
+ 2663               		.type	have_reset_command, @object
+ 2664               		.size	have_reset_command, 1
+ 2665               	have_reset_command:
+ 2666 0002 00        		.skip 1,0
+ 2667               	.global	pc_loaded
+ 2668               	.global	pc_loaded
+ 2669               		.type	pc_loaded, @object
+ 2670               		.size	pc_loaded, 1
+ 2671               	pc_loaded:
+ 2672 0003 00        		.skip 1,0
+ 2673               	.global	bad_work_enable
+ 2674               	.global	bad_work_enable
+ 2675               		.type	bad_work_enable, @object
+ 2676               		.size	bad_work_enable, 1
+ 2677               	bad_work_enable:
+ 2678 0004 00        		.skip 1,0
+ 2679               		.comm sockReflect,2,1
+ 2680               		.comm ip_addr,4,1
+ 2681               		.comm ip_mask,4,1
+ 2682               		.comm ip_gateway,4,1
+ 2683               		.comm ethTelnetFile,2,1
+ 2684               	.global __do_copy_data
+ 2685               	.global __do_clear_bss
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 52
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 network.c
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2      *ABS*:0000003f __SREG__
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:3      *ABS*:0000003e __SP_H__
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:4      *ABS*:0000003d __SP_L__
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:5      *ABS*:00000034 __CCP__
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:28     .text.UdpFind:00000000 UdpFind
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:440    .text.ReflectThread:00000000 ReflectThread
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2629   .bss:00000001 haveConnectReflect
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2      *ABS*:0000003f __SREG__
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:3      *ABS*:0000003e __SP_H__
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:4      *ABS*:0000003d __SP_L__
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:5      *ABS*:00000034 __CCP__
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:28     .text.UdpFind:00000000 UdpFind
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:440    .text.ReflectThread:00000000 ReflectThread
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2659   .bss:00000001 haveConnectReflect
                             *COM*:00000002 sockReflect
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2641   .bss:00000003 pc_loaded
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2647   .bss:00000004 bad_work_enable
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:1133   .text.loopNetwork:00000000 loopNetwork
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2623   .bss:00000000 haveConnectTelnet
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2671   .bss:00000003 pc_loaded
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2677   .bss:00000004 bad_work_enable
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:1133   .text.loopNetwork:00000000 loopNetwork
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2653   .bss:00000000 haveConnectTelnet
                             *COM*:00000002 ethTelnetFile
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2635   .bss:00000002 have_reset_command
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2534   .text.defaultNet:00000000 defaultNet
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2611   .data:0000056c mac
-C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s:2595   .text.initNetwork:00000000 initNetwork
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2665   .bss:00000002 have_reset_command
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2564   .text.defaultNet:00000000 defaultNet
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2641   .data:0000056c mac
+C:\Users\hag\AppData\Local\Temp/cccbMgT7.s:2625   .text.initNetwork:00000000 initNetwork
                             *COM*:00000004 ip_addr
                             *COM*:00000004 ip_mask
                             *COM*:00000004 ip_gateway
@@ -3078,7 +3108,7 @@ con_otdr
 win_loaded
 enable_timer1
 NutTcpSend
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccqN4Kph.s 			page 53
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cccbMgT7.s 			page 53
 
 
 enable_int_key
