@@ -120,10 +120,12 @@ void loopNetwork(void)
 		// открываем файл сокета
 		//ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
         //haveConnectTelnet = 1;
+		
 
 		int in = -1; 
 		while (in != 0)
 		{
+			
 			// создаём сокет
 			sockTelnet = NutTcpCreateSocket();
 
@@ -156,11 +158,14 @@ void loopNetwork(void)
 		while (haveConnectTelnet) 
 		{
 		
-			u_long timeoutrsv1 = 5000; // значение   timeout приема команды
-			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
+			u_long timeoutrsv2 = 1000; // значение   timeout приема команды
+			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
 			
-			if ((cnt = fread(buff, 1, ETH_BUFFERSIZE_TELNET, ethTelnetFile)) <= 0)  // fread - ожидание получения данных или закрытия соединения 
+			cnt = fread(buff, 1, ETH_BUFFERSIZE_TELNET, ethTelnetFile); // fread - ожидание получения данных или закрытия соединения
+			
+			if (cnt<= 0)   
 				break;
+				
 			buff[cnt] = 0x00;
 			//if (strcmp(buff, CMD_START_FLASH_PROCEDURE)) printf("-- command - %s", buff);
 			if (haveConnectTelnet)
