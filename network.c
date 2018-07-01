@@ -121,7 +121,7 @@ void loopNetwork(void)
 			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
 			
 			in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
-			if (in == 0) break;
+			if (in >= 0) break;
 			
 			// закрываем сокет
 			NutTcpCloseSocket(sockTelnet);			
