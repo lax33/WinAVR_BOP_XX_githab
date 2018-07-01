@@ -109,19 +109,7 @@ void loopNetwork(void)
     haveConnectTelnet = 0;
      while (1) 
 	{
-		// создаём сокет
-        //sockTelnet = NutTcpCreateSocket();
-
-		// ожидаем коннекта на 23 порту
-        //NutTcpAccept(sockTelnet, TELNET_PORT);
-      	//printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
-		//inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
-
-		// открываем файл сокета
-		//ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
-        //haveConnectTelnet = 1;
 		
-
 		int in = -1; 
 		while (in != 0)
 		{
