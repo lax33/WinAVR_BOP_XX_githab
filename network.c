@@ -111,7 +111,7 @@ void loopNetwork(void)
 	{
 		
 		int in = -1; 
-		while (in != 0)
+		while (1)
 		{
 			
 			// создаём сокет
@@ -124,7 +124,8 @@ void loopNetwork(void)
 			if (in >= 0) break;
 			
 			// закрываем сокет
-			NutTcpCloseSocket(sockTelnet);			
+			NutTcpCloseSocket(sockTelnet);
+			in = -1;				
 			
 		}	
 			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
