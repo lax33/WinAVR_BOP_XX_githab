@@ -111,13 +111,13 @@ void loopNetwork(void)
 	{
 		
 		int in = -1; 
-		while (1)
+		while (1)   // ожидание соединения
 		{
 			
 			// создаём сокет
 			sockTelnet = NutTcpCreateSocket();
 
-			u_long timeoutrsv1 = 50; // значение   timeout приема команды
+			u_long timeoutrsv1 = 60; //    timeout установления соединения
 			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
 			
 			in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
@@ -136,9 +136,6 @@ void loopNetwork(void)
 			ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
 			haveConnectTelnet = 1;
 		
-
-
-
         /*
          * Call RS232 transmit routine. On return we will be
          * disconnected again.
@@ -147,7 +144,7 @@ void loopNetwork(void)
 		while (haveConnectTelnet) 
 		{
 		
-			u_long timeoutrsv2 = 1000; // значение   timeout приема команды
+			u_long timeoutrsv2 = 900; //    timeout приема команды
 			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
 			
 			cnt = fread(buff, 1, ETH_BUFFERSIZE_TELNET, ethTelnetFile); // fread - ожидание получения данных или закрытия соединения
