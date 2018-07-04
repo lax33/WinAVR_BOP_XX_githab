@@ -101,7 +101,8 @@ void loopNetwork(void)
     TCPSOCKET *sockTelnet;		// сокет
 	unsigned char sign, d_temp, f_temp;
 	unsigned int d, f, port;
-	int cnt, bt, tmp;
+	//int cnt, bt, tmp;
+	int bt, tmp;
 	char *buff;
 	
 	
@@ -131,10 +132,15 @@ void loopNetwork(void)
 			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
 			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
 			
+			u_long timeoutrsv2 = 5000; //    timeout приема команды
+			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
+			
 			
 			// открываем файл сокета
 			ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
 			haveConnectTelnet = 1;
+			
+			int cnt; //////!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 		
         /*
          * Call RS232 transmit routine. On return we will be
@@ -143,9 +149,7 @@ void loopNetwork(void)
 		buff = malloc(ETH_BUFFERSIZE_TELNET);
 		while (haveConnectTelnet) 
 		{
-		
-			u_long timeoutrsv2 = 900; //    timeout приема команды
-			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
+					
 			
 			cnt = fread(buff, 1, ETH_BUFFERSIZE_TELNET, ethTelnetFile); // fread - ожидание получения данных или закрытия соединения
 			
@@ -505,6 +509,8 @@ void loopNetwork(void)
 				}
 				fflush(ethTelnetFile);
 			}
+			
+			//cnt = -1;
 		}
 		haveConnectTelnet = 0;
 		free(buff);
