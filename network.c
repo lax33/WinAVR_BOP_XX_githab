@@ -149,8 +149,8 @@ void loopNetwork(void)
 			
 			cnt = fread(buff, 1, ETH_BUFFERSIZE_TELNET, ethTelnetFile); // fread - ожидание получения данных или закрытия соединения
 			
-			if (cnt<= 0)   
-				break;
+			if (cnt<= 0)   break;
+				
 				
 			buff[cnt] = 0x00;
 			//if (strcmp(buff, CMD_START_FLASH_PROCEDURE)) printf("-- command - %s", buff);
@@ -462,7 +462,7 @@ void loopNetwork(void)
 					tmp = cnt - strlen(CMD_INI_WR);
 //					printf("--- CMD_INI_WR, cnt = %d\r\n", tmp);
 					uint32_t tcard;
-					//NutTcpGetSockOpt(sockTelnet, SO_RCVTIMEO, &tcard, sizeof(tcard));  //// ! hag
+					NutTcpGetSockOpt(sockTelnet, SO_RCVTIMEO, &tcard, sizeof(tcard));  //// ! hag
 //					printf("--- SO_RCVTIMEO = %lu\r\n", tcard);
 					tcard = 5000;
 					NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &tcard, sizeof(tcard));
