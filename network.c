@@ -99,6 +99,7 @@ void initNetwork(void)
 void loopNetwork(void)
 {
     TCPSOCKET *sockTelnet;		// сокет
+	FILE *ethTelnetFile;       // файл сокета
 	unsigned char sign, d_temp, f_temp;
 	unsigned int d, f, port;
 	int cnt, bt, tmp;	
@@ -115,50 +116,44 @@ void loopNetwork(void)
 		{
 			
 			// создаём сокет
-			sockTelnet = NutTcpCreateSocket();
-
-			u_long timeoutrsv1 = 600; //    timeout установления соединения
-			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
+			if((sockTelnet = NutTcpCreateSocket()) != 0)
 			
-			in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
-			if (in >= 0)
-			{
-			
-			u_long timeoutrsv2 = 50000; //    timeout приема команды
-			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
-			
-			
-			// открываем файл сокета
-			ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
-			haveConnectTelnet = 1;
-			
-			buff = malloc(ETH_BUFFERSIZE_TELNET);
-			
-			break;
+			{			
+				in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
+				if (in == 0)
+				{			
+						// открываем файл сокета
+						ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+						
+						if (ethTelnetFile)
+						{
+						
+						uint32_t timeoutrsv1 = 5000;
+						NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
+						
+						haveConnectTelnet = 1;
+						
+						buff = malloc(ETH_BUFFERSIZE_TELNET);
+						
+						break;
+						}
+						
+						else 
+						{
+						
+						// закрываем файл сокета
+						fclose(ethTelnetFile);
+						}
+				}
 			}
 			
 			// закрываем сокет
 			NutTcpCloseSocket(sockTelnet);
-			in = -1;				
-			
 		}	
 			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
 			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
 			
-			//u_long timeoutrsv2 = 5000; //    timeout приема команды
-			//NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
 			
-			
-			// открываем файл сокета
-			//ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
-			//haveConnectTelnet = 1;
-			
-			
-		
-        /*
-         * Call RS232 transmit routine. On return we will be
-         * disconnected again.
-         */
 		
 		while (haveConnectTelnet) 
 		{

@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 1
 
 
    1               		.file	"text_lcd_BOP_24_Rus.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
   55 0050 8F7D      		andi r24,lo8(-33)
   56 0052 8093 6200 		sts 98,r24
   57 0056 97FF      		sbrs r25,7
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 2
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 2
 
 
   58 0058 00C0      		rjmp .L6
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  112 00ce 8093 6200 		sts 98,r24
  113 00d2 8091 6200 		lds r24,98
  114 00d6 8F7D      		andi r24,lo8(-33)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 3
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 3
 
 
  115 00d8 8093 6200 		sts 98,r24
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  169 0002 8068      		ori r24,lo8(-128)
  170 0004 70E0      		ldi r23,lo8(0)
  171 0006 6170      		andi r22,lo8(1)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 4
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 4
 
 
  172 0008 7070      		andi r23,hi8(1)
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  226               	/* prologue: function */
  227               	/* frame size = 0 */
  228 0004 982F      		mov r25,r24
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 5
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 5
 
 
  229 0006 EA01      		movw r28,r20
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  283               	/* prologue: function */
  284               	/* frame size = 0 */
  285 0000 E1E6      		ldi r30,lo8(97)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 6
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 6
 
 
  286 0002 F0E0      		ldi r31,hi8(97)
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  340               	/* #NOAPP */
  341 0058 8081      		ld r24,Z
  342 005a 8260      		ori r24,lo8(2)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 7
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 7
 
 
  343 005c 8083      		st Z,r24
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  397 00a0 8081      		ld r24,Z
  398 00a2 8D7F      		andi r24,lo8(-3)
  399 00a4 8083      		st Z,r24
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 8
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 8
 
 
  400 00a6 CA01      		movw r24,r20
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  454 0008 8083      		st Z,r24
  455               	/* epilogue start */
  456 000a 0895      		ret
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 9
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 9
 
 
  457               		.size	display_can_write, .-display_can_write
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  511               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
  512 0042 3197      		1: sbiw r30,1
  513 0044 01F4      		brne 1b
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 10
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 10
 
 
  514               	 ;  0 "" 2
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  567 002e 0FBE      		out __SREG__,__tmp_reg__
  568 0030 CDBF      		out __SP_L__,r28
  569               	/* prologue: function */
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 11
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 11
 
 
  570               	/* frame size = 11 */
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  624 00a0 FB15      		cp r31,r11
  625 00a2 00F0      		brlo .L56
  626 00a4 BB20      		tst r11
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 12
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 12
 
 
  627 00a6 01F0      		breq .L51
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  681 010a 9383      		std Z+3,r25
  682 010c 8283      		std Z+2,r24
  683 010e 6482      		std Z+4,r6
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 13
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 13
 
 
  684 0110 7582      		std Z+5,r7
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  738 0180 EA1B      		sub r30,r26
  739 0182 8E2F      		mov r24,r30
  740 0184 805F      		subi r24,lo8(-(16))
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 14
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 14
 
 
  741 0186 60E0      		ldi r22,lo8(0)
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  795 01f8 0E94 0000 		call sprintf
  796 01fc D801      		movw r26,r16
  797 01fe 0D90      		ld __tmp_reg__,X+
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 15
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 15
 
 
  798 0200 0020      		tst __tmp_reg__
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  852 026c BF90      		pop r11
  853 026e 9F90      		pop r9
  854 0270 8F90      		pop r8
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 16
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 16
 
 
  855 0272 7F90      		pop r7
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  909 002f 11        		.byte	17
  910 0030 11        		.byte	17
  911 0031 0A        		.byte	10
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 17
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 17
 
 
  912 0032 04        		.byte	4
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  966 005c 00        		.byte	0
  967 005d 50        		.byte	80
  968 005e 05        		.byte	5
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 18
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 18
 
 
  969 005f 33        		.byte	51
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  1023 0095 20        		.byte	32
  1024 0096 20        		.byte	32
  1025 0097 20        		.byte	32
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 19
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 19
 
 
  1026 0098 20        		.byte	32
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  1080 00ce 20        		.byte	32
  1081 00cf 20        		.byte	32
  1082 00d0 20        		.byte	32
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 20
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 20
 
 
  1083 00d1 30        		.byte	48
@@ -1164,34 +1164,34 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 1
  1103 00e5 78        		.byte	120
  1104               	.global __do_copy_data
  1105               	.global __do_clear_bss
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s 			page 21
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s 			page 21
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 text_lcd_BOP_24_Rus.c
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:2      *ABS*:0000003f __SREG__
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:3      *ABS*:0000003e __SP_H__
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:4      *ABS*:0000003d __SP_L__
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:5      *ABS*:00000034 __CCP__
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:11     .text.display_set_channel:00000000 display_set_channel
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:20     .text.display_write_byte:00000000 display_write_byte
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:165    .text.display_set_cursor_pos:00000000 display_set_cursor_pos
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:187    .text.display_hide_cursor:00000000 display_hide_cursor
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:199    .text.display_show_cursor:00000000 display_show_cursor
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:211    .text.display_clear_screen:00000000 display_clear_screen
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:223    .text.display_show_string_BOP:00000000 display_show_string_BOP
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:254    .text.display_set_font:00000000 display_set_font
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:867    .data:00000006 font
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:937    .bss:00000000 current_font
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:282    .text.display_init:00000000 display_init
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:423    .text.display_show_string:00000000 display_show_string
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:447    .text.display_can_write:00000000 display_can_write
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:461    .text.display_can_read:00000000 display_can_read
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:475    .text.display_wait_for_work:00000000 display_wait_for_work
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:543    .text.display_show:00000000 display_show
-C:\Users\hag\AppData\Local\Temp/cc0BUtTn.s:943    .data:00000046 displays
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:2      *ABS*:0000003f __SREG__
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:3      *ABS*:0000003e __SP_H__
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:4      *ABS*:0000003d __SP_L__
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:5      *ABS*:00000034 __CCP__
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:11     .text.display_set_channel:00000000 display_set_channel
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:20     .text.display_write_byte:00000000 display_write_byte
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:165    .text.display_set_cursor_pos:00000000 display_set_cursor_pos
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:187    .text.display_hide_cursor:00000000 display_hide_cursor
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:199    .text.display_show_cursor:00000000 display_show_cursor
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:211    .text.display_clear_screen:00000000 display_clear_screen
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:223    .text.display_show_string_BOP:00000000 display_show_string_BOP
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:254    .text.display_set_font:00000000 display_set_font
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:867    .data:00000006 font
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:937    .bss:00000000 current_font
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:282    .text.display_init:00000000 display_init
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:423    .text.display_show_string:00000000 display_show_string
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:447    .text.display_can_write:00000000 display_can_write
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:461    .text.display_can_read:00000000 display_can_read
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:475    .text.display_wait_for_work:00000000 display_wait_for_work
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:543    .text.display_show:00000000 display_show
+C:\Users\hag\AppData\Local\Temp/ccbmTWtO.s:943    .data:00000046 displays
 
 UNDEFINED SYMBOLS
 sprintf
