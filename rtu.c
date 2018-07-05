@@ -113,12 +113,23 @@ int main(void)
 	//display_show(0x03, 0x00, 0x00, 0x00, get_rtu_number()); // для экперимента , удалить
 	//_delay_ms(5000);                                         // для экперимента , удалить
 	
-	display_show(0x01, 0x00, 0x00, 0x00, get_rtu_number());
+	
 	
 	printf("\r\nRunning ...\r\n");
+	
+	
+	_delay_ms(5000);
+	_delay_ms(5000);
+	_delay_ms(5000);
+	_delay_ms(5000);
+	
+	display_show(0x01, 0x00, 0x00, 0x00, get_rtu_number());
 
 	loopNetwork();
-		
+	
+	
+	
+
 	
 	return 0;
 }

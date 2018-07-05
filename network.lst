@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 1
 
 
    1               		.file	"network.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
   24      552D 4469 
   24      6167 6E6F 
   25               		.section	.text.UdpFind,"ax",@progbits
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 2
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 2
 
 
   26               	.global	UdpFind
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
   80 0066 FC01      		movw r30,r24
   81 0068 0097      		sbiw r24,0
   82 006a 01F0      		breq .L24
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 3
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 3
 
 
   83 006c EA0D      		add r30,r10
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  137 00de 8C93      		st X,r24
  138 00e0 5797      		sbiw r26,23
  139 00e2 1196      		adiw r26,1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 4
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 4
 
 
  140 00e4 80E0      		ldi r24,hi8(confnet+16)
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  194 0166 EF28      		or r14,r15
  195 0168 01F0      		breq .L8
  196 016a 2981      		ldd r18,Y+1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 5
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 5
 
 
  197 016c 3A81      		ldd r19,Y+2
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  251 01d6 7FEF      		ldi r23,hhi8(-1)
  252 01d8 8501      		movw r16,r10
  253 01da B0E4      		ldi r27,lo8(64)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 6
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 6
 
 
  254 01dc EB2E      		mov r14,r27
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  308 0244 90E0      		ldi r25,hi8(.LC6)
  309 0246 EDB7      		in r30,__SP_L__
  310 0248 FEB7      		in r31,__SP_H__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 7
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 7
 
 
  311 024a 9283      		std Z+2,r25
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  365 02d6 B0E0      		ldi r27,hi8(confnet+16)
  366 02d8 FB06      		cpc r15,r27
  367 02da 01F4      		brne .L13
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 8
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 8
 
 
  368 02dc FB01      		movw r30,r22
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  420      7420 636F 
  420      6E6E 6563 
  420      7465 6420 
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 9
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 9
 
 
  421               	.LC9:
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  447               	/* prologue: function */
  448               	/* frame size = 4 */
  449 000c 88EE      		ldi r24,lo8(1000)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 10
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 10
 
 
  450 000e 93E0      		ldi r25,hi8(1000)
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  504 0088 2E93      		st -X,r18
  505 008a 1197      		sbiw r26,1
  506 008c 9383      		std Z+3,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 11
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 11
 
 
  507 008e 8283      		std Z+2,r24
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  561 0110 00D0      		rcall .
  562 0112 ADB7      		in r26,__SP_L__
  563 0114 BEB7      		in r27,__SP_H__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 12
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 12
 
 
  564 0116 1296      		adiw r26,1+1
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  618 0184 1197      		sbiw r26,1
  619 0186 0E94 0000 		call printf
  620 018a F601      		movw r30,r12
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 13
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 13
 
 
  621 018c B082      		st Z,r11
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  675 01fa F601      		movw r30,r12
  676 01fc 8181      		ldd r24,Z+1
  677 01fe 8831      		cpi r24,lo8(24)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 14
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 14
 
 
  678 0200 01F0      		breq .+2
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  732 0274 00C0      		rjmp .L32
  733 0276 1296      		adiw r26,2
  734 0278 8C91      		ld r24,X
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 15
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 15
 
 
  735 027a 1297      		sbiw r26,2
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  789 02ec 0E94 0000 		call display_show
  790 02f0 00C0      		rjmp .L40
  791               	.L41:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 16
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 16
 
 
  792 02f2 8091 0000 		lds r24,win_loaded
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  846 036a 01F0      		breq .+2
  847 036c 00C0      		rjmp .L32
  848               	.L60:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 17
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 17
 
 
  849 036e B082      		st Z,r11
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  903 03da 8281      		ldd r24,Z+2
  904 03dc 8833      		cpi r24,lo8(56)
  905 03de 01F0      		breq .+2
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 18
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 18
 
 
  906 03e0 00C0      		rjmp .L32
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  960 0458 24EF      		ldi r18,lo8(4340)
  961 045a 30E1      		ldi r19,hi8(4340)
  962 045c 1496      		adiw r26,3+1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 19
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 19
 
 
  963 045e 3C93      		st X,r19
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1017 04e0 8C01      		movw r16,r24
  1018 04e2 85E0      		ldi r24,lo8(5)
  1019               	.L59:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 20
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 20
 
 
  1020 04e4 60E0      		ldi r22,lo8(0)
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1053      6E74 5F63 
  1053      6861 6E6E 
  1054               	.LC26:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 21
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 21
 
 
  1055 0292 6F74 6175 		.string	"otau_set_channel %d\r\n"
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1075      2E25 640D 
  1075      0A00 
  1076               	.LC37:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 22
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 22
 
 
  1077 0352 6861 7665 		.string	"have_ext_rs323_plugged\r\n"
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1100               	.LC49:
  1101 03f4 6261 645F 		.string	"bad_work_enable\r\n"
  1101      776F 726B 
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 23
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 23
 
 
  1101      5F65 6E61 
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1121      2564 0D0A 
  1121      00
  1122               	.LC60:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 24
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 24
 
 
  1123 04c9 696E 695F 		.string	"ini_write\r\n"
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1166 003e 372E      		mov r3,r23
  1167 0040 60E0      		ldi r22,lo8(.LC42)
  1168 0042 662E      		mov r6,r22
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 25
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 25
 
 
  1169 0044 60E0      		ldi r22,hi8(.LC42)
@@ -1450,20 +1450,20 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1175               	.L142:
  1176 0050 0E94 0000 		call NutTcpCreateSocket
  1177 0054 4C01      		movw r8,r24
- 1178 0056 8CE3      		ldi r24,lo8(60)
- 1179 0058 90E0      		ldi r25,hi8(60)
- 1180 005a A0E0      		ldi r26,hlo8(60)
- 1181 005c B0E0      		ldi r27,hhi8(60)
- 1182 005e 888B      		std Y+16,r24
- 1183 0060 998B      		std Y+17,r25
- 1184 0062 AA8B      		std Y+18,r26
- 1185 0064 BB8B      		std Y+19,r27
+ 1178 0056 88E5      		ldi r24,lo8(600)
+ 1179 0058 92E0      		ldi r25,hi8(600)
+ 1180 005a A0E0      		ldi r26,hlo8(600)
+ 1181 005c B0E0      		ldi r27,hhi8(600)
+ 1182 005e 8C87      		std Y+12,r24
+ 1183 0060 9D87      		std Y+13,r25
+ 1184 0062 AE87      		std Y+14,r26
+ 1185 0064 BF87      		std Y+15,r27
  1186 0066 C401      		movw r24,r8
  1187 0068 66E0      		ldi r22,lo8(4102)
  1188 006a 70E1      		ldi r23,hi8(4102)
  1189 006c AE01      		movw r20,r28
- 1190 006e 405F      		subi r20,lo8(-(16))
- 1191 0070 5F4F      		sbci r21,hi8(-(16))
+ 1190 006e 445F      		subi r20,lo8(-(12))
+ 1191 0070 5F4F      		sbci r21,hi8(-(12))
  1192 0072 24E0      		ldi r18,lo8(4)
  1193 0074 30E0      		ldi r19,hi8(4)
  1194 0076 0E94 0000 		call NutTcpSetSockOpt
@@ -1471,94 +1471,94 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1196 007c 67E1      		ldi r22,lo8(23)
  1197 007e 70E0      		ldi r23,hi8(23)
  1198 0080 0E94 0000 		call NutTcpAccept
- 1199 0084 97FF      		sbrs r25,7
+ 1199 0084 97FD      		sbrc r25,7
  1200 0086 00C0      		rjmp .L62
- 1201 0088 C401      		movw r24,r8
- 1202 008a 0E94 0000 		call NutTcpCloseSocket
- 1203 008e 00C0      		rjmp .L142
- 1204               	.L62:
- 1205 0090 D401      		movw r26,r8
- 1206 0092 5A96      		adiw r26,26
- 1207 0094 6D91      		ld r22,X+
- 1208 0096 7D91      		ld r23,X+
- 1209 0098 8D91      		ld r24,X+
- 1210 009a 9C91      		ld r25,X
- 1211 009c 5D97      		sbiw r26,26+3
- 1212 009e 0E94 0000 		call inet_ntoa
- 1213 00a2 00D0      		rcall .
- 1214 00a4 00D0      		rcall .
- 1215 00a6 00D0      		rcall .
- 1216 00a8 EDB7      		in r30,__SP_L__
- 1217 00aa FEB7      		in r31,__SP_H__
- 1218 00ac 3196      		adiw r30,1
- 1219 00ae ADB7      		in r26,__SP_L__
- 1220 00b0 BEB7      		in r27,__SP_H__
- 1221 00b2 1296      		adiw r26,1+1
- 1222 00b4 3C92      		st X,r3
- 1223 00b6 2E92      		st -X,r2
- 1224 00b8 1197      		sbiw r26,1
- 1225 00ba 9383      		std Z+3,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 26
+ 1201 0088 80E5      		ldi r24,lo8(50000)
+ 1202 008a 93EC      		ldi r25,hi8(50000)
+ 1203 008c A0E0      		ldi r26,hlo8(50000)
+ 1204 008e B0E0      		ldi r27,hhi8(50000)
+ 1205 0090 888B      		std Y+16,r24
+ 1206 0092 998B      		std Y+17,r25
+ 1207 0094 AA8B      		std Y+18,r26
+ 1208 0096 BB8B      		std Y+19,r27
+ 1209 0098 C401      		movw r24,r8
+ 1210 009a 66E0      		ldi r22,lo8(4102)
+ 1211 009c 70E1      		ldi r23,hi8(4102)
+ 1212 009e AE01      		movw r20,r28
+ 1213 00a0 405F      		subi r20,lo8(-(16))
+ 1214 00a2 5F4F      		sbci r21,hi8(-(16))
+ 1215 00a4 24E0      		ldi r18,lo8(4)
+ 1216 00a6 30E0      		ldi r19,hi8(4)
+ 1217 00a8 0E94 0000 		call NutTcpSetSockOpt
+ 1218 00ac C401      		movw r24,r8
+ 1219 00ae 60E0      		ldi r22,lo8(.LC17)
+ 1220 00b0 70E0      		ldi r23,hi8(.LC17)
+ 1221 00b2 0E94 0000 		call _fdopen
+ 1222 00b6 9093 0000 		sts (ethTelnetFile)+1,r25
+ 1223 00ba 8093 0000 		sts ethTelnetFile,r24
+ 1224 00be 81E0      		ldi r24,lo8(1)
+ 1225 00c0 8093 0000 		sts haveConnectTelnet,r24
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 26
 
 
- 1226 00bc 8283      		std Z+2,r24
- 1227 00be 87E1      		ldi r24,lo8(23)
- 1228 00c0 90E0      		ldi r25,hi8(23)
- 1229 00c2 9583      		std Z+5,r25
- 1230 00c4 8483      		std Z+4,r24
- 1231 00c6 0E94 0000 		call printf
- 1232 00ca 88E8      		ldi r24,lo8(5000)
- 1233 00cc 93E1      		ldi r25,hi8(5000)
- 1234 00ce A0E0      		ldi r26,hlo8(5000)
- 1235 00d0 B0E0      		ldi r27,hhi8(5000)
- 1236 00d2 8C87      		std Y+12,r24
- 1237 00d4 9D87      		std Y+13,r25
- 1238 00d6 AE87      		std Y+14,r26
- 1239 00d8 BF87      		std Y+15,r27
- 1240 00da EDB7      		in r30,__SP_L__
- 1241 00dc FEB7      		in r31,__SP_H__
- 1242 00de 3696      		adiw r30,6
- 1243 00e0 0FB6      		in __tmp_reg__,__SREG__
- 1244 00e2 F894      		cli
- 1245 00e4 FEBF      		out __SP_H__,r31
- 1246 00e6 0FBE      		out __SREG__,__tmp_reg__
- 1247 00e8 EDBF      		out __SP_L__,r30
- 1248 00ea C401      		movw r24,r8
- 1249 00ec 66E0      		ldi r22,lo8(4102)
- 1250 00ee 70E1      		ldi r23,hi8(4102)
- 1251 00f0 AE01      		movw r20,r28
- 1252 00f2 445F      		subi r20,lo8(-(12))
- 1253 00f4 5F4F      		sbci r21,hi8(-(12))
- 1254 00f6 24E0      		ldi r18,lo8(4)
- 1255 00f8 30E0      		ldi r19,hi8(4)
- 1256 00fa 0E94 0000 		call NutTcpSetSockOpt
- 1257 00fe C401      		movw r24,r8
- 1258 0100 60E0      		ldi r22,lo8(.LC17)
- 1259 0102 70E0      		ldi r23,hi8(.LC17)
- 1260 0104 0E94 0000 		call _fdopen
- 1261 0108 9093 0000 		sts (ethTelnetFile)+1,r25
- 1262 010c 8093 0000 		sts ethTelnetFile,r24
- 1263 0110 81E0      		ldi r24,lo8(1)
- 1264 0112 8093 0000 		sts haveConnectTelnet,r24
- 1265 0116 80E0      		ldi r24,lo8(512)
- 1266 0118 92E0      		ldi r25,hi8(512)
- 1267 011a 0E94 0000 		call malloc
- 1268 011e 5C01      		movw r10,r24
- 1269 0120 00C0      		rjmp .L141
+ 1226 00c4 80E0      		ldi r24,lo8(1024)
+ 1227 00c6 94E0      		ldi r25,hi8(1024)
+ 1228 00c8 0E94 0000 		call malloc
+ 1229 00cc 5C01      		movw r10,r24
+ 1230 00ce D401      		movw r26,r8
+ 1231 00d0 5A96      		adiw r26,26
+ 1232 00d2 6D91      		ld r22,X+
+ 1233 00d4 7D91      		ld r23,X+
+ 1234 00d6 8D91      		ld r24,X+
+ 1235 00d8 9C91      		ld r25,X
+ 1236 00da 5D97      		sbiw r26,26+3
+ 1237 00dc 0E94 0000 		call inet_ntoa
+ 1238 00e0 00D0      		rcall .
+ 1239 00e2 00D0      		rcall .
+ 1240 00e4 00D0      		rcall .
+ 1241 00e6 EDB7      		in r30,__SP_L__
+ 1242 00e8 FEB7      		in r31,__SP_H__
+ 1243 00ea 3196      		adiw r30,1
+ 1244 00ec ADB7      		in r26,__SP_L__
+ 1245 00ee BEB7      		in r27,__SP_H__
+ 1246 00f0 1296      		adiw r26,1+1
+ 1247 00f2 3C92      		st X,r3
+ 1248 00f4 2E92      		st -X,r2
+ 1249 00f6 1197      		sbiw r26,1
+ 1250 00f8 9383      		std Z+3,r25
+ 1251 00fa 8283      		std Z+2,r24
+ 1252 00fc 87E1      		ldi r24,lo8(23)
+ 1253 00fe 90E0      		ldi r25,hi8(23)
+ 1254 0100 9583      		std Z+5,r25
+ 1255 0102 8483      		std Z+4,r24
+ 1256 0104 0E94 0000 		call printf
+ 1257 0108 EDB7      		in r30,__SP_L__
+ 1258 010a FEB7      		in r31,__SP_H__
+ 1259 010c 3696      		adiw r30,6
+ 1260 010e 0FB6      		in __tmp_reg__,__SREG__
+ 1261 0110 F894      		cli
+ 1262 0112 FEBF      		out __SP_H__,r31
+ 1263 0114 0FBE      		out __SREG__,__tmp_reg__
+ 1264 0116 EDBF      		out __SP_L__,r30
+ 1265 0118 00C0      		rjmp .L141
+ 1266               	.L62:
+ 1267 011a C401      		movw r24,r8
+ 1268 011c 0E94 0000 		call NutTcpCloseSocket
+ 1269 0120 00C0      		rjmp .L142
  1270               	.L136:
  1271 0122 2091 0000 		lds r18,ethTelnetFile
  1272 0126 3091 0000 		lds r19,(ethTelnetFile)+1
  1273 012a C501      		movw r24,r10
  1274 012c 61E0      		ldi r22,lo8(1)
  1275 012e 70E0      		ldi r23,hi8(1)
- 1276 0130 40E0      		ldi r20,lo8(512)
- 1277 0132 52E0      		ldi r21,hi8(512)
+ 1276 0130 40E0      		ldi r20,lo8(1024)
+ 1277 0132 54E0      		ldi r21,hi8(1024)
  1278 0134 0E94 0000 		call fread
  1279 0138 8C01      		movw r16,r24
  1280 013a 6C01      		movw r12,r24
  1281 013c 1816      		cp __zero_reg__,r24
  1282 013e 1906      		cpc __zero_reg__,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 27
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 27
 
 
  1283 0140 04F0      		brlt .+2
@@ -1618,7 +1618,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1337 01b6 8483      		std Z+4,r24
  1338 01b8 0E94 0000 		call sprintf
  1339 01bc 0F90      		pop __tmp_reg__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 28
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 28
 
 
  1340 01be 0F90      		pop __tmp_reg__
@@ -1678,7 +1678,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1394 022e 5382      		std Z+3,r5
  1395 0230 4282      		std Z+2,r4
  1396 0232 9583      		std Z+5,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 29
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 29
 
 
  1397 0234 8483      		std Z+4,r24
@@ -1738,7 +1738,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1451 02a4 8483      		std Z+4,r24
  1452 02a6 0E94 0000 		call sscanf
  1453 02aa 6DB7      		in r22,__SP_L__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 30
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 30
 
 
  1454 02ac 7EB7      		in r23,__SP_H__
@@ -1798,7 +1798,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1508 0322 EE93      		st -X,r30
  1509 0324 1197      		sbiw r26,1
  1510 0326 0E94 0000 		call printf
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 31
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 31
 
 
  1511 032a 0F90      		pop __tmp_reg__
@@ -1858,7 +1858,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1565 03ac 0E94 0000 		call otdr_reset
  1566 03b0 85E5      		ldi r24,lo8(85)
  1567 03b2 0E94 0000 		call SPI_write_byte
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 32
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 32
 
 
  1568 03b6 80E8      		ldi r24,lo8(-128)
@@ -1918,7 +1918,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1622 0420 9B87      		std Y+11,r25
  1623 0422 8A87      		std Y+10,r24
  1624 0424 2091 0000 		lds r18,ethTelnetFile
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 33
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 33
 
 
  1625 0428 3091 0000 		lds r19,(ethTelnetFile)+1
@@ -1978,7 +1978,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1679 048c 3197      		1: sbiw r30,1
  1680 048e 01F4      		brne 1b
  1681               	 ;  0 "" 2
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 34
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 34
 
 
  1682               	/* #NOAPP */
@@ -2038,7 +2038,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1736 04d4 8823      		tst r24
  1737 04d6 01F4      		brne .L98
  1738 04d8 85E0      		ldi r24,lo8(5)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 35
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 35
 
 
  1739 04da 90E0      		ldi r25,hi8(5)
@@ -2098,7 +2098,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1793 0544 01F4      		brne .L100
  1794 0546 8091 0000 		lds r24,otdr_rs232_manual
  1795 054a 2091 0000 		lds r18,ethTelnetFile
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 36
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 36
 
 
  1796 054e 3091 0000 		lds r19,(ethTelnetFile)+1
@@ -2158,7 +2158,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1850 05c8 0E94 0000 		call strncmp
  1851 05cc 0097      		sbiw r24,0
  1852 05ce 01F0      		breq .+2
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 37
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 37
 
 
  1853 05d0 00C0      		rjmp .L105
@@ -2218,7 +2218,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1907 063e 83E0      		ldi r24,lo8(3)
  1908 0640 EE24      		clr r14
  1909 0642 FF24      		clr r15
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 38
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 38
 
 
  1910 0644 8701      		movw r16,r14
@@ -2278,7 +2278,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  1964 06b6 CE01      		movw r24,r28
  1965 06b8 0696      		adiw r24,6
  1966 06ba 9187      		std Z+9,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 39
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 39
 
 
  1967 06bc 8087      		std Z+8,r24
@@ -2338,7 +2338,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2021 072a 8683      		std Z+6,r24
  2022 072c 9783      		std Z+7,r25
  2023 072e 0E94 0000 		call sprintf
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 40
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 40
 
 
  2024 0732 D501      		movw r26,r10
@@ -2398,7 +2398,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2078 07ae 01F4      		brne .L111
  2079 07b0 8091 0000 		lds r24,otdr_rs232_manual
  2080 07b4 2091 0000 		lds r18,ethTelnetFile
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 41
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 41
 
 
  2081 07b8 3091 0000 		lds r19,(ethTelnetFile)+1
@@ -2458,7 +2458,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2135 082e 8823      		tst r24
  2136 0830 01F0      		breq .L117
  2137 0832 0E94 0000 		call get_rtu_number
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 42
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 42
 
 
  2138 0836 7B01      		movw r14,r22
@@ -2518,7 +2518,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2192 08b0 0F90      		pop __tmp_reg__
  2193 08b2 0E94 0000 		call disable_int_key
  2194 08b6 0E94 0000 		call disable_timer1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 43
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 43
 
 
  2195 08ba 0E94 0000 		call otau_get_channel
@@ -2578,7 +2578,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2249               	.L123:
  2250 0930 8091 0000 		lds r24,win_loaded
  2251 0934 8823      		tst r24
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 44
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 44
 
 
  2252 0936 01F0      		breq .L124
@@ -2638,7 +2638,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2306 09a6 20E0      		ldi r18,lo8(.LC57)
  2307 09a8 30E0      		ldi r19,hi8(.LC57)
  2308 09aa 3383      		std Z+3,r19
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 45
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 45
 
 
  2309 09ac 2283      		std Z+2,r18
@@ -2698,7 +2698,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2363 0a1e F894      		cli
  2364 0a20 7EBF      		out __SP_H__,r23
  2365 0a22 0FBE      		out __SREG__,__tmp_reg__
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 46
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 46
 
 
  2366 0a24 6DBF      		out __SP_L__,r22
@@ -2758,7 +2758,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2420 0a98 A801      		movw r20,r16
  2421 0a9a 24E0      		ldi r18,lo8(4)
  2422 0a9c 30E0      		ldi r19,hi8(4)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 47
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 47
 
 
  2423 0a9e 0E94 0000 		call NutTcpSetSockOpt
@@ -2818,7 +2818,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2477               	.L133:
  2478 0b10 2091 0000 		lds r18,ethTelnetFile
  2479 0b14 3091 0000 		lds r19,(ethTelnetFile)+1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 48
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 48
 
 
  2480               	.L154:
@@ -2878,7 +2878,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2534 0b86 9091 0000 		lds r25,(ethTelnetFile)+1
  2535 0b8a 0E94 0000 		call fflush
  2536               	.L141:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 49
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 49
 
 
  2537 0b8e 8091 0000 		lds r24,haveConnectTelnet
@@ -2938,7 +2938,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2579 000c 0D92      		st X+,r0
  2580 000e 8150      		subi r24,lo8(-(-1))
  2581 0010 01F4      		brne .L166
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 50
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 50
 
 
  2582 0012 A0E0      		ldi r26,lo8(confnet+1)
@@ -2998,7 +2998,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2636 0008 892B      		or r24,r25
  2637 000a 01F0      		breq .L173
  2638 000c 0E94 0000 		call defaultNet
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 51
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 51
 
 
  2639               	.L173:
@@ -3053,30 +3053,30 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 1
  2688               		.comm ethTelnetFile,2,1
  2689               	.global __do_copy_data
  2690               	.global __do_clear_bss
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 52
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 52
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 network.c
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2      *ABS*:0000003f __SREG__
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:3      *ABS*:0000003e __SP_H__
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:4      *ABS*:0000003d __SP_L__
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:5      *ABS*:00000034 __CCP__
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:28     .text.UdpFind:00000000 UdpFind
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:440    .text.ReflectThread:00000000 ReflectThread
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2664   .bss:00000001 haveConnectReflect
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2      *ABS*:0000003f __SREG__
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:3      *ABS*:0000003e __SP_H__
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:4      *ABS*:0000003d __SP_L__
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:5      *ABS*:00000034 __CCP__
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:28     .text.UdpFind:00000000 UdpFind
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:440    .text.ReflectThread:00000000 ReflectThread
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2664   .bss:00000001 haveConnectReflect
                             *COM*:00000002 sockReflect
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2676   .bss:00000003 pc_loaded
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2682   .bss:00000004 bad_work_enable
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:1133   .text.loopNetwork:00000000 loopNetwork
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2658   .bss:00000000 haveConnectTelnet
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2676   .bss:00000003 pc_loaded
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2682   .bss:00000004 bad_work_enable
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:1133   .text.loopNetwork:00000000 loopNetwork
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2658   .bss:00000000 haveConnectTelnet
                             *COM*:00000002 ethTelnetFile
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2670   .bss:00000002 have_reset_command
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2569   .text.defaultNet:00000000 defaultNet
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2646   .data:0000056c mac
-C:\Users\hag\AppData\Local\Temp/ccYGDexX.s:2630   .text.initNetwork:00000000 initNetwork
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2670   .bss:00000002 have_reset_command
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2569   .text.defaultNet:00000000 defaultNet
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2646   .data:0000056c mac
+C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s:2630   .text.initNetwork:00000000 initNetwork
                             *COM*:00000004 ip_addr
                             *COM*:00000004 ip_mask
                             *COM*:00000004 ip_gateway
@@ -3113,7 +3113,7 @@ con_otdr
 win_loaded
 enable_timer1
 NutTcpSend
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccYGDexX.s 			page 53
+GAS LISTING C:\Users\hag\AppData\Local\Temp/cc8CsiA9.s 			page 53
 
 
 enable_int_key

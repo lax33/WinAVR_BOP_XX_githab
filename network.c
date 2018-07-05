@@ -101,8 +101,7 @@ void loopNetwork(void)
     TCPSOCKET *sockTelnet;		// сокет
 	unsigned char sign, d_temp, f_temp;
 	unsigned int d, f, port;
-	//int cnt, bt, tmp;
-	int bt, tmp;
+	int cnt, bt, tmp;	
 	char *buff;
 	
 	
@@ -118,11 +117,25 @@ void loopNetwork(void)
 			// создаём сокет
 			sockTelnet = NutTcpCreateSocket();
 
-			u_long timeoutrsv1 = 60; //    timeout установления соединения
+			u_long timeoutrsv1 = 600; //    timeout установления соединения
 			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv1, sizeof(u_long)); // установка timeout приема команды
 			
 			in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
-			if (in >= 0) break;
+			if (in >= 0)
+			{
+			
+			u_long timeoutrsv2 = 50000; //    timeout приема команды
+			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
+			
+			
+			// открываем файл сокета
+			ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+			haveConnectTelnet = 1;
+			
+			buff = malloc(ETH_BUFFERSIZE_TELNET);
+			
+			break;
+			}
 			
 			// закрываем сокет
 			NutTcpCloseSocket(sockTelnet);
@@ -132,21 +145,21 @@ void loopNetwork(void)
 			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
 			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
 			
-			u_long timeoutrsv2 = 5000; //    timeout приема команды
-			NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
+			//u_long timeoutrsv2 = 5000; //    timeout приема команды
+			//NutTcpSetSockOpt(sockTelnet, SO_RCVTIMEO, &timeoutrsv2, sizeof(u_long)); // установка timeout приема команды
 			
 			
 			// открываем файл сокета
-			ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
-			haveConnectTelnet = 1;
+			//ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+			//haveConnectTelnet = 1;
 			
-			int cnt; //////!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+			
 		
         /*
          * Call RS232 transmit routine. On return we will be
          * disconnected again.
          */
-		buff = malloc(ETH_BUFFERSIZE_TELNET);
+		
 		while (haveConnectTelnet) 
 		{
 					
