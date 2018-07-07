@@ -102,7 +102,7 @@ void loopNetwork(void)
 	FILE *ethTelnetFile;       // файл сокета
 	unsigned char sign, d_temp, f_temp;
 	unsigned int d, f, port;
-	int cnt, bt, tmp;	
+	int cnt, bt, tmp, in;	
 	char *buff;
 	
 	
@@ -111,10 +111,8 @@ void loopNetwork(void)
      while (1) 
 	{
 		
-		int in = -1; 
 		while (1)   // ожидание соединения
-		{
-			
+		{			
 			// создаём сокет
 			if((sockTelnet = NutTcpCreateSocket()) != 0)
 			
