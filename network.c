@@ -99,7 +99,7 @@ void initNetwork(void)
 void loopNetwork(void)
 {
     TCPSOCKET *sockTelnet;		// сокет
-	FILE *ethTelnetFile;       // файл сокета
+	
 	unsigned char sign, d_temp, f_temp;
 	unsigned int d, f, port;
 	int cnt, bt, tmp, in;	
@@ -120,10 +120,10 @@ void loopNetwork(void)
 				in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
 				if (in == 0)
 				{			
-						// открываем файл сокета
-						ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+					// открываем файл сокета
+					ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
 						
-						if (ethTelnetFile)
+					if (ethTelnetFile)
 						{
 						
 						uint32_t timeoutrsv1 = 5000;
