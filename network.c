@@ -111,7 +111,7 @@ void loopNetwork(void)
      while (1) 
 	{
 		
-		while (1)   // ожидание соединения
+		while (1)   // проверка корректнойсти создания сокета и файла сокета 
 		{			
 			// создаём сокет
 			if((sockTelnet = NutTcpCreateSocket()) != 0)

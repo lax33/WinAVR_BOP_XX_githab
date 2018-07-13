@@ -117,9 +117,7 @@ int main(void)
 	
 	printf("\r\nRunning ...\r\n");
 	
-	
-	_delay_ms(5000);
-	_delay_ms(5000);
+		
 	_delay_ms(5000);
 	_delay_ms(5000);
 	
