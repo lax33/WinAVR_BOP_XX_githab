@@ -112,18 +112,22 @@ void loopNetwork(void)
 	{
 		
 		while (1)   // ожидание соединения
-		{			
+		{		
+			in=0;
 			// создаём сокет
 			if((sockTelnet = NutTcpCreateSocket()) != 0)
 			
 			{			
-				in = NutTcpAccept(sockTelnet, TELNET_PORT); // ожидаем коннекта на 23 порту	
-				if (in == 0)
-				{			
-					// открываем файл сокета
-					ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
+				// ожидаем коннекта на 23 порту	
+				if ((NutTcpAccept(sockTelnet, TELNET_PORT)) == 0)
+				{	
+					
+					while(1)
+					{
+						// открываем файл сокета
+						ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
 						
-					if (ethTelnetFile)
+						if (ethTelnetFile)
 						{
 						
 						uint32_t timeoutrsv1 = 5000;
@@ -133,6 +137,7 @@ void loopNetwork(void)
 						
 						buff = malloc(ETH_BUFFERSIZE_TELNET);
 						
+						in=1;						
 						break;
 						}
 						
@@ -142,6 +147,10 @@ void loopNetwork(void)
 						// закрываем файл сокета
 						fclose(ethTelnetFile);
 						}
+					}
+					
+				if(in==1) break;
+				
 				}
 			}
 			
