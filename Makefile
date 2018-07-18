@@ -68,7 +68,7 @@ PROJ = rtu
 
 include c:\ethernut-5.1\nutapp\Makedefs
 
-SRCS =  $(PROJ).c uart.c network.c services.c dallas.c spi.c text_lcd_BOP_12_Rus.c
+SRCS =  $(PROJ).c uart.c network.c services.c dallas.c spi.c text_lcd_BOP_20_Rus.c
 OBJS =  $(SRCS:.c=.o)
 #LIBS =  $(LIBDIR)/nutinit.o -lnutpro -lnutfs -lnutos -lnutdev -lnutos -lnutnet -lnutcrt
 LIBS =  $(LIBDIR)/nutinit.o -lnutnet -lnutpro -lnutfs -lnutos -lnutarch -lnutdev -lnutnet -lnutcrt
