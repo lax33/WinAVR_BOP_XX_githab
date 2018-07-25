@@ -102,18 +102,18 @@ void loopNetwork(void)
 	
 	unsigned char sign, d_temp, f_temp;
 	unsigned int d, f, port;
-	int cnt, bt, tmp, in;	
+	int cnt, bt, tmp;	
 	char *buff;
 	
 	
 	
     haveConnectTelnet = 0;
-     while (1) 
+     for (;;) 
 	{
 		
-		while (1)   // ожидание соединения
+		for (;;)   // повтор создания соке при не удаче
 		{		
-			in=0;
+			//in=0;
 			// создаём сокет
 			if((sockTelnet = NutTcpCreateSocket()) != 0)
 			
@@ -123,7 +123,7 @@ void loopNetwork(void)
 				if ((NutTcpAccept(sockTelnet, TELNET_PORT)) == 0)
 				{	
 					
-					while(1)
+					for (;;)
 					{
 						// открываем файл сокета
 						ethTelnetFile = _fdopen((int)sockTelnet, "r+b");
@@ -138,7 +138,7 @@ void loopNetwork(void)
 						
 						buff = malloc(ETH_BUFFERSIZE_TELNET);
 						
-						in=1;						
+						//in=1;						
 						break;
 						}
 						
@@ -157,12 +157,11 @@ void loopNetwork(void)
 				
 			}
 			
-			else
-			{
-			printf("-- Socket error\r\n");			
-			// закрываем сокет
-			NutTcpCloseSocket(sockTelnet);
-			}
+			
+		printf("-- Socket error\r\n");			
+		// закрываем сокет
+		NutTcpCloseSocket(sockTelnet);
+			
 		}	
 			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
 			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
@@ -536,7 +535,7 @@ void loopNetwork(void)
 		}
 		haveConnectTelnet = 0;
 		free(buff);
-
+		
 		// закрываем файл сокета
         fclose(ethTelnetFile);
 		// закрываем сокет
