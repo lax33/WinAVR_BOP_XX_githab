@@ -117,7 +117,8 @@ void loopNetwork(void)
 			// создаём сокет
 			if((sockTelnet = NutTcpCreateSocket()) != 0)
 			
-			{			
+			{	
+					printf("-- OK Socket\r\n");
 				// ожидаем коннекта на 23 порту	
 				if ((NutTcpAccept(sockTelnet, TELNET_PORT)) == 0)
 				{	
@@ -153,6 +154,8 @@ void loopNetwork(void)
 				
 				}
 			}
+			
+			printf("-- Socket error\r\n");
 			
 			// закрываем сокет
 			NutTcpCloseSocket(sockTelnet);
