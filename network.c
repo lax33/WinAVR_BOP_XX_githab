@@ -144,7 +144,7 @@ void loopNetwork(void)
 						
 						else 
 						{
-						
+						printf("-- EthTelnetFile error\r\n");
 						// закрываем файл сокета
 						fclose(ethTelnetFile);
 						}
@@ -153,12 +153,16 @@ void loopNetwork(void)
 				if(in==1) break;
 				
 				}
+				
+				
 			}
 			
-			printf("-- Socket error\r\n");
-			
+			else
+			{
+			printf("-- Socket error\r\n");			
 			// закрываем сокет
 			NutTcpCloseSocket(sockTelnet);
+			}
 		}	
 			printf("-- Client connected (IP address = %s, Port = %d)\r\n", 
 			inet_ntoa(sockTelnet->so_remote_addr), TELNET_PORT);
