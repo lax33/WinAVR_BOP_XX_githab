@@ -150,7 +150,7 @@ void loopNetwork(void)
 						}
 					}
 					
-				if(in==1) break;
+				break;
 				
 				}
 				
