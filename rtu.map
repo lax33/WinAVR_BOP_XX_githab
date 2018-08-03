@@ -199,7 +199,7 @@ c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(str
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
                               network.o (strncmp)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(utoa.o)
-                              text_lcd_BOP_12_Rus.o (utoa)
+                              text_lcd_BOP_20_Rus.o (utoa)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_block_atmega128.o)
                               services.o (__eerd_block_m128)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(eerd_byte_atmega128.o)
@@ -283,17 +283,17 @@ Discarded input sections
  .text          0x00000000        0x0 spi.o
  .data          0x00000000        0x0 spi.o
  .bss           0x00000000        0x0 spi.o
- .text          0x00000000        0x0 text_lcd_BOP_12_Rus.o
+ .text          0x00000000        0x0 text_lcd_BOP_20_Rus.o
  .text.display_hide_cursor
-                0x00000000        0x0 text_lcd_BOP_12_Rus.o
+                0x00000000        0x0 text_lcd_BOP_20_Rus.o
  .text.display_show_cursor
-                0x00000000        0x0 text_lcd_BOP_12_Rus.o
+                0x00000000        0x0 text_lcd_BOP_20_Rus.o
  .text.display_can_write
-                0x00000000        0x0 text_lcd_BOP_12_Rus.o
+                0x00000000        0x0 text_lcd_BOP_20_Rus.o
  .text.display_can_read
-                0x00000000        0x0 text_lcd_BOP_12_Rus.o
+                0x00000000        0x0 text_lcd_BOP_20_Rus.o
  .text.display_wait_for_work
-                0x00000000        0x0 text_lcd_BOP_12_Rus.o
+                0x00000000        0x0 text_lcd_BOP_20_Rus.o
  .text          0x00000000        0x0 C:/ethernut-5.1/nutinit.o
  .bss           0x00000000        0x0 C:/ethernut-5.1/nutinit.o
  .text.NutThreadSetSleepMode
@@ -685,7 +685,7 @@ LOAD network.o
 LOAD services.o
 LOAD dallas.o
 LOAD spi.o
-LOAD text_lcd_BOP_12_Rus.o
+LOAD text_lcd_BOP_20_Rus.o
 Address of section .uartloader set to 0x1f000
 Address of section .bootloader set to 0x1f086
                 0x00000000                main = 0x0
@@ -1051,31 +1051,31 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
                 0x0000276e       0x42 spi.o
                 0x0000276e                SPI_Receiver
  .text.display_set_channel
-                0x000027b0        0x2 text_lcd_BOP_12_Rus.o
+                0x000027b0        0x2 text_lcd_BOP_20_Rus.o
                 0x000027b0                display_set_channel
  .text.display_write_byte
-                0x000027b2      0x130 text_lcd_BOP_12_Rus.o
+                0x000027b2      0x130 text_lcd_BOP_20_Rus.o
                 0x000027b2                display_write_byte
  .text.display_set_cursor_pos
-                0x000028e2       0x1e text_lcd_BOP_12_Rus.o
+                0x000028e2       0x1e text_lcd_BOP_20_Rus.o
                 0x000028e2                display_set_cursor_pos
  .text.display_clear_screen
-                0x00002900        0xa text_lcd_BOP_12_Rus.o
+                0x00002900        0xa text_lcd_BOP_20_Rus.o
                 0x00002900                display_clear_screen
  .text.display_show_string_BOP
-                0x0000290a       0x2c text_lcd_BOP_12_Rus.o
+                0x0000290a       0x2c text_lcd_BOP_20_Rus.o
                 0x0000290a                display_show_string_BOP
  .text.display_set_font
-                0x00002936       0x2c text_lcd_BOP_12_Rus.o
+                0x00002936       0x2c text_lcd_BOP_20_Rus.o
                 0x00002936                display_set_font
  .text.display_init
-                0x00002962       0xca text_lcd_BOP_12_Rus.o
+                0x00002962       0xca text_lcd_BOP_20_Rus.o
                 0x00002962                display_init
  .text.display_show_string
-                0x00002a2c       0x20 text_lcd_BOP_12_Rus.o
+                0x00002a2c       0x20 text_lcd_BOP_20_Rus.o
                 0x00002a2c                display_show_string
  .text.display_show
-                0x00002a4c      0x280 text_lcd_BOP_12_Rus.o
+                0x00002a4c      0x280 text_lcd_BOP_20_Rus.o
                 0x00002a4c                display_show
  .text.NutIdle  0x00002ccc       0x52 C:/ethernut-5.1/nutinit.o
                 0x00002ccc                NutIdle
@@ -1798,7 +1798,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
                 0x00800871                mac
  .data          0x00800877       0x37 services.o
                 0x008008ad                otau_count_channels
- .data          0x008008ae       0xe6 text_lcd_BOP_12_Rus.o
+ .data          0x008008ae       0xe6 text_lcd_BOP_20_Rus.o
                 0x008008b4                font
                 0x008008f4                displays
  .data          0x00800994        0xb C:/ethernut-5.1/nutinit.o
@@ -1858,7 +1858,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
                 0x00800bb9                power_led_flag
                 0x00800bb6                enable_timer1_flag
                 0x00800bb5                otdr_rs232_manual
- .bss           0x00800bc3        0x1 text_lcd_BOP_12_Rus.o
+ .bss           0x00800bc3        0x1 text_lcd_BOP_20_Rus.o
                 0x00800bc3                current_font
  .bss           0x00800bc4        0x5 C:/ethernut-5.1\libnutnet.a(tcpsock.o)
                 0x00800bc4                tcpSocketList
@@ -2463,7 +2463,7 @@ __do_clear_bss                                    c:/winavr-20100110/bin/../lib/
                                                   C:/ethernut-5.1\libnutnet.a(udpsock.o)
                                                   C:/ethernut-5.1\libnutnet.a(tcpsock.o)
                                                   C:/ethernut-5.1/nutinit.o
-                                                  text_lcd_BOP_12_Rus.o
+                                                  text_lcd_BOP_20_Rus.o
                                                   services.o
                                                   network.o
                                                   uart.o
@@ -2489,7 +2489,7 @@ __do_copy_data                                    c:/winavr-20100110/bin/../lib/
                                                   C:/ethernut-5.1\libnutnet.a(confnet.o)
                                                   C:/ethernut-5.1\libnutnet.a(inet.o)
                                                   C:/ethernut-5.1/nutinit.o
-                                                  text_lcd_BOP_12_Rus.o
+                                                  text_lcd_BOP_20_Rus.o
                                                   services.o
                                                   network.o
                                                   uart.o
@@ -2647,7 +2647,7 @@ confnet                                           C:/ethernut-5.1\libnutarch.a(n
                                                   uart.o
                                                   rtu.o
 confos                                            C:/ethernut-5.1\libnutos.a(confos.o)
-current_font                                      text_lcd_BOP_12_Rus.o
+current_font                                      text_lcd_BOP_20_Rus.o
 defaultNet                                        network.o
                                                   rtu.o
 devEth0                                           C:/ethernut-5.1\libnutarch.a(eth0rtl.o)
@@ -2661,29 +2661,29 @@ disable_int_key                                   services.o
 disable_int_power_sw                              services.o
 disable_timer1                                    services.o
                                                   network.o
-display_can_read                                  text_lcd_BOP_12_Rus.o
-display_can_write                                 text_lcd_BOP_12_Rus.o
-display_clear_screen                              text_lcd_BOP_12_Rus.o
+display_can_read                                  text_lcd_BOP_20_Rus.o
+display_can_write                                 text_lcd_BOP_20_Rus.o
+display_clear_screen                              text_lcd_BOP_20_Rus.o
                                                   rtu.o
-display_hide_cursor                               text_lcd_BOP_12_Rus.o
-display_init                                      text_lcd_BOP_12_Rus.o
+display_hide_cursor                               text_lcd_BOP_20_Rus.o
+display_init                                      text_lcd_BOP_20_Rus.o
                                                   rtu.o
-display_set_channel                               text_lcd_BOP_12_Rus.o
+display_set_channel                               text_lcd_BOP_20_Rus.o
                                                   network.o
-display_set_cursor_pos                            text_lcd_BOP_12_Rus.o
+display_set_cursor_pos                            text_lcd_BOP_20_Rus.o
                                                   network.o
-display_set_font                                  text_lcd_BOP_12_Rus.o
-display_show                                      text_lcd_BOP_12_Rus.o
+display_set_font                                  text_lcd_BOP_20_Rus.o
+display_show                                      text_lcd_BOP_20_Rus.o
                                                   services.o
                                                   network.o
                                                   rtu.o
-display_show_cursor                               text_lcd_BOP_12_Rus.o
-display_show_string                               text_lcd_BOP_12_Rus.o
-display_show_string_BOP                           text_lcd_BOP_12_Rus.o
-display_wait_for_work                             text_lcd_BOP_12_Rus.o
-display_write_byte                                text_lcd_BOP_12_Rus.o
+display_show_cursor                               text_lcd_BOP_20_Rus.o
+display_show_string                               text_lcd_BOP_20_Rus.o
+display_show_string_BOP                           text_lcd_BOP_20_Rus.o
+display_wait_for_work                             text_lcd_BOP_20_Rus.o
+display_write_byte                                text_lcd_BOP_20_Rus.o
                                                   network.o
-displays                                          text_lcd_BOP_12_Rus.o
+displays                                          text_lcd_BOP_20_Rus.o
 ds_convert_temperature_command                    dallas.o
                                                   network.o
 ds_read_rom_command                               dallas.o
@@ -2718,7 +2718,7 @@ fclose                                            C:/ethernut-5.1\libnutcrt.a(fc
 fflush                                            C:/ethernut-5.1\libnutcrt.a(fflush.o)
                                                   network.o
 flash_boot                                        services.o
-font                                              text_lcd_BOP_12_Rus.o
+font                                              text_lcd_BOP_20_Rus.o
 fopen                                             C:/ethernut-5.1\libnutcrt.a(fopen.o)
                                                   uart.o
 fprintf                                           C:/ethernut-5.1\libnutcrt.a(fprintf.o)
@@ -2919,7 +2919,7 @@ sig_UART1_RECV                                    C:/ethernut-5.1\libnutarch.a(i
 sockReflect                                       spi.o
                                                   network.o
 sprintf                                           C:/ethernut-5.1\libnutcrt.a(sprintf.o)
-                                                  text_lcd_BOP_12_Rus.o
+                                                  text_lcd_BOP_20_Rus.o
                                                   services.o
                                                   network.o
 sscanf                                            C:/ethernut-5.1\libnutcrt.a(sscanf.o)
@@ -2968,7 +2968,7 @@ uartFile1                                         uart.o
                                                   services.o
 udpSocketList                                     C:/ethernut-5.1\libnutnet.a(udpsock.o)
 utoa                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(utoa.o)
-                                                  text_lcd_BOP_12_Rus.o
+                                                  text_lcd_BOP_20_Rus.o
 vfprintf                                          C:/ethernut-5.1\libnutcrt.a(vfprintf.o)
                                                   C:/ethernut-5.1\libnutcrt.a(printf.o)
                                                   C:/ethernut-5.1\libnutcrt.a(fprintf.o)
