@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 1
 
 
    1               		.file	"rtu.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
   28      7465 7269 
   28      6E67 2065 
   28      7468 3020 
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 2
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 2
 
 
   29               	.LC10:
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
   65 0018 8E98      		cbi 49-32,6
   66 001a 969A      		sbi 50-32,6
   67 001c 8C98      		cbi 49-32,4
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 3
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 3
 
 
   68 001e 949A      		sbi 50-32,4
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
  122 0094 30E0      		ldi r19,hhi8(800)
  123 0096 0E94 0000 		call initUart
  124 009a 892B      		or r24,r25
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 4
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 4
 
 
  125 009c 01F0      		breq .L5
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
  179 0128 80E0      		ldi r24,lo8(.LC2)
  180 012a 90E0      		ldi r25,hi8(.LC2)
  181 012c 60E0      		ldi r22,lo8(.LC4)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 5
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 5
 
 
  182 012e 70E0      		ldi r23,hi8(.LC4)
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
  236 01aa 3091 0000 		lds r19,(confnet+16)+1
  237 01ae 4091 0000 		lds r20,(confnet+16)+2
  238 01b2 5091 0000 		lds r21,(confnet+16)+3
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 6
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 6
 
 
  239 01b6 E090 0000 		lds r14,confnet+20
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
  293 0240 40E0      		ldi r20,lo8(0)
  294 0242 50E0      		ldi r21,hi8(0)
  295 0244 20E0      		ldi r18,lo8(256)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 7
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 7
 
 
  296 0246 31E0      		ldi r19,hi8(256)
@@ -414,112 +414,81 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 1
  346 02b6 30E0      		ldi r19,hi8(128)
  347 02b8 0E94 0000 		call NutThreadCreate
  348               	.L9:
- 349 02bc 80E0      		ldi r24,lo8(.LC18)
- 350 02be 90E0      		ldi r25,hi8(.LC18)
- 351 02c0 0E94 0000 		call puts
- 352 02c4 80E5      		ldi r24,lo8(-15536)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 8
+ 349 02bc 80E5      		ldi r24,lo8(-15536)
+ 350 02be 93EC      		ldi r25,hi8(-15536)
+ 351 02c0 20E7      		ldi r18,lo8(368)
+ 352 02c2 31E0      		ldi r19,hi8(368)
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 8
 
 
- 353 02c6 93EC      		ldi r25,hi8(-15536)
- 354 02c8 20E7      		ldi r18,lo8(368)
- 355 02ca 31E0      		ldi r19,hi8(368)
- 356               	.L10:
- 357 02cc F901      		movw r30,r18
- 358               	/* #APP */
- 359               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 360 02ce 3197      		1: sbiw r30,1
- 361 02d0 01F4      		brne 1b
- 362               	 ;  0 "" 2
- 363               	/* #NOAPP */
- 364 02d2 0197      		sbiw r24,1
- 365 02d4 01F4      		brne .L10
- 366 02d6 80E5      		ldi r24,lo8(-15536)
- 367 02d8 93EC      		ldi r25,hi8(-15536)
- 368 02da 20E7      		ldi r18,lo8(368)
- 369 02dc 31E0      		ldi r19,hi8(368)
- 370               	.L11:
- 371 02de F901      		movw r30,r18
- 372               	/* #APP */
- 373               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 374 02e0 3197      		1: sbiw r30,1
- 375 02e2 01F4      		brne 1b
- 376               	 ;  0 "" 2
- 377               	/* #NOAPP */
- 378 02e4 0197      		sbiw r24,1
- 379 02e6 01F4      		brne .L11
- 380 02e8 80E5      		ldi r24,lo8(-15536)
- 381 02ea 93EC      		ldi r25,hi8(-15536)
- 382 02ec 20E7      		ldi r18,lo8(368)
- 383 02ee 31E0      		ldi r19,hi8(368)
- 384               	.L12:
- 385 02f0 F901      		movw r30,r18
- 386               	/* #APP */
- 387               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 388 02f2 3197      		1: sbiw r30,1
- 389 02f4 01F4      		brne 1b
- 390               	 ;  0 "" 2
- 391               	/* #NOAPP */
- 392 02f6 0197      		sbiw r24,1
- 393 02f8 01F4      		brne .L12
- 394 02fa 80E5      		ldi r24,lo8(-15536)
- 395 02fc 93EC      		ldi r25,hi8(-15536)
- 396 02fe 20E7      		ldi r18,lo8(368)
- 397 0300 31E0      		ldi r19,hi8(368)
- 398               	.L13:
- 399 0302 F901      		movw r30,r18
- 400               	/* #APP */
- 401               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
- 402 0304 3197      		1: sbiw r30,1
- 403 0306 01F4      		brne 1b
- 404               	 ;  0 "" 2
- 405               	/* #NOAPP */
- 406 0308 0197      		sbiw r24,1
- 407 030a 01F4      		brne .L13
- 408 030c 0E94 0000 		call get_rtu_number
- 409 0310 7B01      		movw r14,r22
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 9
-
-
- 410 0312 8C01      		movw r16,r24
- 411 0314 81E0      		ldi r24,lo8(1)
- 412 0316 60E0      		ldi r22,lo8(0)
- 413 0318 70E0      		ldi r23,hi8(0)
- 414 031a 40E0      		ldi r20,lo8(0)
- 415 031c 50E0      		ldi r21,hi8(0)
- 416 031e 20E0      		ldi r18,lo8(0)
- 417 0320 30E0      		ldi r19,hi8(0)
- 418 0322 0E94 0000 		call display_show
- 419 0326 0E94 0000 		call loopNetwork
- 420 032a 80E0      		ldi r24,lo8(0)
- 421 032c 90E0      		ldi r25,hi8(0)
- 422               	/* epilogue start */
- 423 032e 0F90      		pop __tmp_reg__
- 424 0330 0F90      		pop __tmp_reg__
- 425 0332 0F90      		pop __tmp_reg__
- 426 0334 CF91      		pop r28
- 427 0336 DF91      		pop r29
- 428 0338 1F91      		pop r17
- 429 033a 0F91      		pop r16
- 430 033c FF90      		pop r15
- 431 033e EF90      		pop r14
- 432 0340 DF90      		pop r13
- 433 0342 CF90      		pop r12
- 434 0344 0895      		ret
- 435               		.size	NutAppMain, .-NutAppMain
- 436               	.global __do_copy_data
-GAS LISTING C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s 			page 10
+ 353               	.L10:
+ 354 02c4 F901      		movw r30,r18
+ 355               	/* #APP */
+ 356               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 357 02c6 3197      		1: sbiw r30,1
+ 358 02c8 01F4      		brne 1b
+ 359               	 ;  0 "" 2
+ 360               	/* #NOAPP */
+ 361 02ca 0197      		sbiw r24,1
+ 362 02cc 01F4      		brne .L10
+ 363 02ce 80E5      		ldi r24,lo8(-15536)
+ 364 02d0 93EC      		ldi r25,hi8(-15536)
+ 365 02d2 20E7      		ldi r18,lo8(368)
+ 366 02d4 31E0      		ldi r19,hi8(368)
+ 367               	.L11:
+ 368 02d6 F901      		movw r30,r18
+ 369               	/* #APP */
+ 370               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 371 02d8 3197      		1: sbiw r30,1
+ 372 02da 01F4      		brne 1b
+ 373               	 ;  0 "" 2
+ 374               	/* #NOAPP */
+ 375 02dc 0197      		sbiw r24,1
+ 376 02de 01F4      		brne .L11
+ 377 02e0 80E0      		ldi r24,lo8(.LC18)
+ 378 02e2 90E0      		ldi r25,hi8(.LC18)
+ 379 02e4 0E94 0000 		call puts
+ 380 02e8 0E94 0000 		call get_rtu_number
+ 381 02ec 7B01      		movw r14,r22
+ 382 02ee 8C01      		movw r16,r24
+ 383 02f0 81E0      		ldi r24,lo8(1)
+ 384 02f2 60E0      		ldi r22,lo8(0)
+ 385 02f4 70E0      		ldi r23,hi8(0)
+ 386 02f6 40E0      		ldi r20,lo8(0)
+ 387 02f8 50E0      		ldi r21,hi8(0)
+ 388 02fa 20E0      		ldi r18,lo8(0)
+ 389 02fc 30E0      		ldi r19,hi8(0)
+ 390 02fe 0E94 0000 		call display_show
+ 391 0302 0E94 0000 		call loopNetwork
+ 392 0306 80E0      		ldi r24,lo8(0)
+ 393 0308 90E0      		ldi r25,hi8(0)
+ 394               	/* epilogue start */
+ 395 030a 0F90      		pop __tmp_reg__
+ 396 030c 0F90      		pop __tmp_reg__
+ 397 030e 0F90      		pop __tmp_reg__
+ 398 0310 CF91      		pop r28
+ 399 0312 DF91      		pop r29
+ 400 0314 1F91      		pop r17
+ 401 0316 0F91      		pop r16
+ 402 0318 FF90      		pop r15
+ 403 031a EF90      		pop r14
+ 404 031c DF90      		pop r13
+ 405 031e CF90      		pop r12
+ 406 0320 0895      		ret
+ 407               		.size	NutAppMain, .-NutAppMain
+ 408               	.global __do_copy_data
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 rtu.c
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:2      *ABS*:0000003f __SREG__
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:3      *ABS*:0000003e __SP_H__
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:4      *ABS*:0000003d __SP_L__
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:5      *ABS*:00000034 __CCP__
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\hag\AppData\Local\Temp/ccBHYkdk.s:50     .text.NutAppMain:00000000 NutAppMain
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:2      *ABS*:0000003f __SREG__
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:3      *ABS*:0000003e __SP_H__
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:4      *ABS*:0000003d __SP_L__
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:5      *ABS*:00000034 __CCP__
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\hag\AppData\Local\Temp/ccFzc2eL.s:50     .text.NutAppMain:00000000 NutAppMain
 
 UNDEFINED SYMBOLS
 set_power_sw
