@@ -113,7 +113,7 @@ void loopNetwork(void)
 		
 		for (;;)   // повтор создания сокета 
 		{		
-			//in=0;
+			
 			// создаём сокет
 			if((sockTelnet = NutTcpCreateSocket()) != 0)
 			
@@ -138,7 +138,7 @@ void loopNetwork(void)
 						
 						buff = malloc(ETH_BUFFERSIZE_TELNET);
 						
-						//in=1;						
+												
 						break;
 						}
 						
