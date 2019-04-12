@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 1
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccuTQCww.s 			page 1
 
 
    1               		.file	"spi.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 1
   55 0008 00C0      		rjmp .L6
   56               	/* #APP */
   57               	 ;  42 "spi.c" 1
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 2
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccuTQCww.s 			page 2
 
 
   58 000a 0000      		nop
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 1
  112 0032 3807      		cpc r19,r24
  113 0034 00F4      		brsh .L13
  114               	.L14:
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 3
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccuTQCww.s 			page 3
 
 
  115 0036 809B      		sbis 48-32,0
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 1
  169               	/* prologue: function */
  170               	/* frame size = 0 */
  171 0000 80E0      		ldi r24,lo8(512)
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 4
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccuTQCww.s 			page 4
 
 
  172 0002 92E0      		ldi r25,hi8(512)
@@ -207,24 +207,24 @@ GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 1
  195 003c 0E94 0000 		call NutThreadYield
  196 0040 00C0      		rjmp .L30
  197               		.size	SPI_Receiver, .-SPI_Receiver
-GAS LISTING C:\Users\hag\AppData\Local\Temp/cctBYBkc.s 			page 5
+GAS LISTING C:\Users\hag\AppData\Local\Temp/ccuTQCww.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:2      *ABS*:0000003f __SREG__
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:3      *ABS*:0000003e __SP_H__
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:4      *ABS*:0000003d __SP_L__
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:5      *ABS*:00000034 __CCP__
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:11     .text.SPI_init:00000000 SPI_init
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:31     .text.SPI_have_data:00000000 SPI_have_data
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:43     .text.SPI_write_byte:00000000 SPI_write_byte
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:68     .text.SPI_read_byte:00000000 SPI_read_byte
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:80     .text.SPI_read_buffer:00000000 SPI_read_buffer
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:135    .text.SPI_write_buffer:00000000 SPI_write_buffer
-C:\Users\hag\AppData\Local\Temp/cctBYBkc.s:168    .text.SPI_Receiver:00000000 SPI_Receiver
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:2      *ABS*:0000003f __SREG__
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:3      *ABS*:0000003e __SP_H__
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:4      *ABS*:0000003d __SP_L__
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:5      *ABS*:00000034 __CCP__
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:11     .text.SPI_init:00000000 SPI_init
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:31     .text.SPI_have_data:00000000 SPI_have_data
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:43     .text.SPI_write_byte:00000000 SPI_write_byte
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:68     .text.SPI_read_byte:00000000 SPI_read_byte
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:80     .text.SPI_read_buffer:00000000 SPI_read_buffer
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:135    .text.SPI_write_buffer:00000000 SPI_write_buffer
+C:\Users\hag\AppData\Local\Temp/ccuTQCww.s:168    .text.SPI_Receiver:00000000 SPI_Receiver
 
 UNDEFINED SYMBOLS
 malloc
